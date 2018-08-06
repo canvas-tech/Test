@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>New_Create New Connection</description>
-   <name>New WebService Connection</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2f2ad1ae-73cd-4b8b-813c-f9acd2005a2c</testCaseGuid>
-</TestCaseEntity>
