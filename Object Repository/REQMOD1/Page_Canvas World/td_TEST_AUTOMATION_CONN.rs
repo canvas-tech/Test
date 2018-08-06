@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_TEST_AUTOMATION_CONN</name>
+   <tag></tag>
+   <elementGuidId>e4db4dfe-7f93-47bd-96cb-a6c14b980138</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-data</name>
+      <type>Main</type>
+      <value>CONNECTION_NAME|0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-col-index</name>
+      <type>Main</type>
+      <value>CONNECTION_NAME|0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-id</name>
+      <type>Main</type>
+      <value>CONNECTION_NAME</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+               TEST_AUTOMATION_CONN
+            </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FOOTER_DIV&quot;)/div[@class=&quot;modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;ct-modal-content__container&quot;]/div[1]/div[@class=&quot;panel panel-default WGT_CONNECTIONAPP_LKP ct-app ct-app-tm&quot;]/div[@class=&quot;row panel-body  WGT_CONNECTIONAPP_LKP ct-app__content&quot;]/div[@class=&quot;col-md-12 panel-body  WGT_CONNECTIONAPP_LKP ct-app__content&quot;]/div[@class=&quot;col-md-12 yscroll-wrapper-container&quot;]/div[@class=&quot;col-sm-12 col-xs-12 col-lg-12 yscroll-wrapper-container&quot;]/div[@class=&quot;table-wrapper-container&quot;]/table[@class=&quot;table table-striped table-hover no-margin ct-listview ct-listview-tm&quot;]/tbody[@class=&quot;ct_pagingBody&quot;]/tr[1]/td[3]</value>
+   </webElementProperties>
+</WebElementEntity>

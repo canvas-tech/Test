@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Submit</name>
+   <tag></tag>
+   <elementGuidId>fbf8936f-c2a2-40ed-a445-0d8ce148c07f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-id</name>
+      <type>Main</type>
+      <value>VIEW_SUBMIT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-type</name>
+      <type>Main</type>
+      <value>formCont_button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default ct_btn ct-left-btn VIEW_SUBMIT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FOOTER_DIV&quot;)/div[@class=&quot;modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;ct-modal-content__container&quot;]/div[@class=&quot;panel panel-default ct-app ct-app-tm&quot;]/div[@class=&quot;panel-footer ct-model__panel-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-sm-6&quot;]/div[@class=&quot;ct-btnCont pull-left&quot;]/div[@class=&quot;ct-btnCont&quot;]/a[@class=&quot;btn btn-default ct_btn ct-left-btn VIEW_SUBMIT&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

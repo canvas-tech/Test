@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_clearfix_2</name>
+   <tag></tag>
+   <elementGuidId>2fca96aa-8371-4d0d-b988-3e2b572caeea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;div_2&quot;)/div[@class=&quot;panel panel-default AUTOMATION_GRID_APP ct-app ct-app-tm&quot;]/div[@class=&quot;panel-heading AUTOMATION_GRID_APP ct-app__header ct-app__header-tm ct-app__panel-header-bg&quot;]/div[@class=&quot;ct-app__header-container&quot;]/div[@class=&quot;clearfix&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>.//h3[@data-widgetid='AUTOMATION_GRID_APP']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>clearfix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;div_2&quot;)/div[@class=&quot;panel panel-default AUTOMATION_GRID_APP ct-app ct-app-tm&quot;]/div[@class=&quot;panel-heading AUTOMATION_GRID_APP ct-app__header ct-app__header-tm ct-app__panel-header-bg&quot;]/div[@class=&quot;ct-app__header-container&quot;]/div[@class=&quot;clearfix&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

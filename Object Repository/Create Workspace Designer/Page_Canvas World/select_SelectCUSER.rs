@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_SelectCUSER</name>
+   <tag></tag>
+   <elementGuidId>285155d6-a58c-4569-88d0-13bd96d2e4a5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>workspaceSubProduct</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			
+        SelectCUSER</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FOOTER_DIV&quot;)/div[@class=&quot;modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max wsdesigner-mainbndl in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;ct-modal-content__container&quot;]/div[@class=&quot;container-fluid ws-fullcntnt-bundle&quot;]/div[@class=&quot;ws-designer-bundle&quot;]/div[@class=&quot;ws-settings-bundle&quot;]/div[@class=&quot;ws-settings-section&quot;]/div[1]/div[@class=&quot;ws-settings-eachbndl chosechanel entitlementsd&quot;]/div[@class=&quot;entitlement-section&quot;]/select[@class=&quot;form-control&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

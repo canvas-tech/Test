@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebService_Suite" time="377" tests="0" failures="3" errors="0">
+   <testsuite name="WebService_Suite" tests="0" failures="3" errors="0" time="377" timestamp="2018-08-03 17:14:53" hostname="arokia.raj - N9449.intellectdesign.com" id="Test Suites/WebService_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450"/>
+         <property name="logFiles" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\execution0.log"/>
+         <property name="attachments" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533296748844.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533296862913.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533297041309.png"/>
+         <property name="hostName" value="arokia.raj - N9449.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.84"/>
+         <property name="hostAddress" value="172.29.25.83"/>
+         <property name="sessionId" value="158f437c26bfa0a907dc016d91724be5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/New WebService Connection" classname="Test Cases/Smoke Test/New WebService Connection" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found"/>
+         <system-out><![CDATA[2018-08-03 17:14:54 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService Connection: Test Cases/Smoke Test/New WebService Connection FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found
+
+2018-08-03 17:14:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-03 17:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-03 17:15:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-03 17:15:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-03 17:15:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:15:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:15:29 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-03 17:15:32 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:15:32 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:15:32 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:15:32 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:15:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:15:35 - [TEST_STEP][PASSED] - Statement - returnVal_View = delete(): null
+
+2018-08-03 17:15:35 - [TEST_STEP][PASSED] - Statement - selectconn = "(//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("Connection_Name", 3) + "')])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:15:36 - [TEST_STEP][PASSED] - Statement - println(selectconn): null
+
+2018-08-03 17:15:36 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectconn).addProperty("xpath", EQUALS, selectconn, true): null
+
+2018-08-03 17:15:36 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-08-03 17:15:44 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-08-03 17:15:44 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found
+
+2018-08-03 17:15:49 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533296748844.png]]
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "true"): null
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - Statement - println("No View exist"): null
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - Statement - println("View " + returnVal_View): null
+
+2018-08-03 17:15:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:15:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DB_Connectio/Page_Canvas World/span_Connection' is clicked on
+
+2018-08-03 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/DB_Connectio/Page_Canvas World/span_Connection' is clicked on
+
+2018-08-03 17:15:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DB_Connectio/Page_Canvas World/span_Create_Connection' is clicked on
+
+2018-08-03 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/DB_Connectio/Page_Canvas World/span_Create_Connection' is clicked on
+
+2018-08-03 17:15:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:15:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:15:59 - [TEST_STEP][PASSED] - setText: Text 'AUTO_WS' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/input_CONNECTION_NAME'
+
+2018-08-03 17:16:00 - [MESSAGE][PASSED] - Text 'AUTO_WS' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/input_CONNECTION_NAME'
+
+2018-08-03 17:16:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/click_webservice' is clicked on
+
+2018-08-03 17:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/click_webservice' is clicked on
+
+2018-08-03 17:16:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:16:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:16:03 - [TEST_STEP][PASSED] - setText: Text 'http://services.groupkt.com/' is set on object 'Object Repository/New_DataSource/enter_domain_name'
+
+2018-08-03 17:16:04 - [MESSAGE][PASSED] - Text 'http://services.groupkt.com/' is set on object 'Object Repository/New_DataSource/enter_domain_name'
+
+2018-08-03 17:16:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:06 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-08-03 17:16:06 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-08-03 17:16:06 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-03 17:16:06 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-03 17:16:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/click_save' is clicked on
+
+2018-08-03 17:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/click_save' is clicked on
+
+2018-08-03 17:16:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:16:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:16:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/click_ok' is clicked on
+
+2018-08-03 17:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/click_ok' is clicked on
+
+2018-08-03 17:16:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:16:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:16:12 - [TEST_STEP][PASSED] - Statement - dataSource = "(//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("Connection_Name", 3) + "')])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:16:12 - [TEST_STEP][PASSED] - Statement - println(dataSource): null
+
+2018-08-03 17:16:12 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(dataSource).addProperty("xpath", EQUALS, dataSource, true): null
+
+2018-08-03 17:16:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'AUTO_WS')])[1]' is visible
+
+2018-08-03 17:16:12 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'AUTO_WS')])[1]' is visible
+
+2018-08-03 17:16:12 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'AUTO_WS')])[1]' is right clicked on
+
+2018-08-03 17:16:13 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'AUTO_WS')])[1]' is right clicked on
+
+2018-08-03 17:16:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/manage_datasource' is clicked on
+
+2018-08-03 17:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/manage_datasource' is clicked on
+
+2018-08-03 17:16:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/create_datasource' is clicked on
+
+2018-08-03 17:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/create_datasource' is clicked on
+
+2018-08-03 17:16:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:17 - [TEST_STEP][PASSED] - setText: Text 'AUTO_DS' is set on object 'Object Repository/New_DataSource/enter_datasource_name'
+
+2018-08-03 17:16:18 - [MESSAGE][PASSED] - Text 'AUTO_DS' is set on object 'Object Repository/New_DataSource/enter_datasource_name'
+
+2018-08-03 17:16:18 - [TEST_STEP][PASSED] - setText: Text 'state/get/IND/all' is set on object 'Object Repository/New_DataSource/enter_table_name'
+
+2018-08-03 17:16:18 - [MESSAGE][PASSED] - Text 'state/get/IND/all' is set on object 'Object Repository/New_DataSource/enter_table_name'
+
+2018-08-03 17:16:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:20 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-08-03 17:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-08-03 17:16:20 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-03 17:16:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-03 17:16:20 - [TEST_STEP][PASSED] - setText: Text '$.RestResponse.result' is set on object 'Object Repository/New_DataSource/enter_root'
+
+2018-08-03 17:16:21 - [MESSAGE][PASSED] - Text '$.RestResponse.result' is set on object 'Object Repository/New_DataSource/enter_root'
+
+2018-08-03 17:16:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - j = 3: null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 3, (i++)]): null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - jsonDetail = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[" + i + "]": null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - println(jsonDetail): null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(jsonDetail).addProperty("xpath", EQUALS, jsonDetail, true): null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[1]' is visible
+
+2018-08-03 17:16:23 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[1]' is visible
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - setText: Text 'country' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[1]'
+
+2018-08-03 17:16:23 - [MESSAGE][PASSED] - Text 'country' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[1]'
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - jsonVal = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[" + i + "]": null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - println(jsonVal): null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(jsonVal).addProperty("xpath", EQUALS, jsonVal, true): null
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[1]' is visible
+
+2018-08-03 17:16:23 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[1]' is visible
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - setText: Text 'country' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[1]'
+
+2018-08-03 17:16:23 - [MESSAGE][PASSED] - Text 'country' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[1]'
+
+2018-08-03 17:16:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - (j++): null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - jsonDetail = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[" + i + "]": null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - println(jsonDetail): null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(jsonDetail).addProperty("xpath", EQUALS, jsonDetail, true): null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[2]' is visible
+
+2018-08-03 17:16:26 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[2]' is visible
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - setText: Text 'name' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[2]'
+
+2018-08-03 17:16:26 - [MESSAGE][PASSED] - Text 'name' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[2]'
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - jsonVal = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[" + i + "]": null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - println(jsonVal): null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(jsonVal).addProperty("xpath", EQUALS, jsonVal, true): null
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[2]' is visible
+
+2018-08-03 17:16:26 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[2]' is visible
+
+2018-08-03 17:16:26 - [TEST_STEP][PASSED] - setText: Text 'name' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[2]'
+
+2018-08-03 17:16:27 - [MESSAGE][PASSED] - Text 'name' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[2]'
+
+2018-08-03 17:16:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - (j++): null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - jsonDetail = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[" + i + "]": null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - println(jsonDetail): null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(jsonDetail).addProperty("xpath", EQUALS, jsonDetail, true): null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[3]' is visible
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[3]' is visible
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - setText: Text 'abbr' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[3]'
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Text 'abbr' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_EXPRESSION'])[3]'
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - jsonVal = "(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[" + i + "]": null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - println(jsonVal): null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(jsonVal).addProperty("xpath", EQUALS, jsonVal, true): null
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[3]' is visible
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[3]' is visible
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - setText: Text 'abbr' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[3]'
+
+2018-08-03 17:16:29 - [MESSAGE][PASSED] - Text 'abbr' is set on object '(//input[@id='DS_COL_MAP_MULTIFORM-WS_COLUMN_ID'])[3]'
+
+2018-08-03 17:16:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:16:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:16:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/add_button' is clicked on
+
+2018-08-03 17:16:32 - [TEST_STEP][PASSED] - Statement - (j++): null
+
+2018-08-03 17:16:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:16:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:16:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/click_save' is clicked on
+
+2018-08-03 17:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/click_save' is clicked on
+
+2018-08-03 17:16:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:16:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:16:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/click_ok' is clicked on
+
+2018-08-03 17:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/click_ok' is clicked on
+
+2018-08-03 17:16:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:16:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:16:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_DataSource/close_button' is clicked on
+
+2018-08-03 17:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New_DataSource/close_button' is clicked on]]></system-out>
+         <system-err><![CDATA[2018-08-03 17:14:54 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService Connection: Test Cases/Smoke Test/New WebService Connection FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New WebService AppDesigner" classname="Test Cases/Smoke Test/New WebService AppDesigner" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//div[contains(text(),'AUTO_APP')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_APP')])[1]' not found"/>
+         <system-out><![CDATA[2018-08-03 17:16:48 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService AppDesigner: Test Cases/Smoke Test/New WebService AppDesigner FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//div[contains(text(),'AUTO_APP')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_APP')])[1]' not found
+
+2018-08-03 17:16:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-03 17:16:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-03 17:16:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-03 17:16:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-03 17:16:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-03 17:16:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:17:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:17:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-03 17:17:23 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:17:23 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:17:23 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:17:23 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:17:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:17:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:17:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:17:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/click_appDesigner' is clicked on
+
+2018-08-03 17:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_appDesigner' is clicked on
+
+2018-08-03 17:17:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:17:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:17:32 - [TEST_STEP][PASSED] - Statement - appDel = delete(): null
+
+2018-08-03 17:17:32 - [TEST_STEP][PASSED] - Statement - selectconn = "(//div[contains(text(),'AUTO_APP')])[1]": null
+
+2018-08-03 17:17:32 - [TEST_STEP][PASSED] - Statement - println(selectconn): null
+
+2018-08-03 17:17:32 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectconn).addProperty("xpath", EQUALS, selectconn, true): null
+
+2018-08-03 17:17:32 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-08-03 17:17:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-08-03 17:17:38 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//div[contains(text(),'AUTO_APP')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_APP')])[1]' not found
+
+2018-08-03 17:17:43 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//div[contains(text(),'AUTO_APP')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_APP')])[1]' not found
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533296862913.png]]
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "true"): null
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - Statement - println("No View exist"): null
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - Statement - println("Delete " + appDel): null
+
+2018-08-03 17:17:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:17:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/click_newApp' is clicked on
+
+2018-08-03 17:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_newApp' is clicked on
+
+2018-08-03 17:17:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:17:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:17:53 - [TEST_STEP][PASSED] - setText: Text 'AUTO_APP' is set on object 'Object Repository/New_AppDesigner/enter_appName'
+
+2018-08-03 17:17:54 - [MESSAGE][PASSED] - Text 'AUTO_APP' is set on object 'Object Repository/New_AppDesigner/enter_appName'
+
+2018-08-03 17:17:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:17:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:17:56 - [TEST_STEP][PASSED] - setText: Text 'AUTO_APP' is set on object 'Object Repository/New_AppDesigner/enter_appId'
+
+2018-08-03 17:17:57 - [MESSAGE][PASSED] - Text 'AUTO_APP' is set on object 'Object Repository/New_AppDesigner/enter_appId'
+
+2018-08-03 17:17:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:17:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:17:59 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/New_AppDesigner/enter_bundleKey'
+
+2018-08-03 17:17:59 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/New_AppDesigner/enter_bundleKey'
+
+2018-08-03 17:17:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:01 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/New_AppDesigner/select_prdt'
+
+2018-08-03 17:18:02 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/New_AppDesigner/select_prdt'
+
+2018-08-03 17:18:02 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-08-03 17:18:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-08-03 17:18:06 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [0] are selected on object 'Object Repository/New_AppDesigner/select_subPrdt'
+
+2018-08-03 17:18:06 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/New_AppDesigner/select_subPrdt'
+
+2018-08-03 17:18:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/select_funcCode' is clicked on
+
+2018-08-03 17:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/select_funcCode' is clicked on
+
+2018-08-03 17:18:08 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/New_AppDesigner/select_funcCode'
+
+2018-08-03 17:18:09 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/New_AppDesigner/select_funcCode'
+
+2018-08-03 17:18:09 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/New_AppDesigner/click_gridType' successfully
+
+2018-08-03 17:18:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/New_AppDesigner/click_gridType' successfully
+
+2018-08-03 17:18:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:11 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_AppDesigner/click_classicGrid)): Object 'Object Repository/New_AppDesigner/click_classicGrid' is visible
+
+2018-08-03 17:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/New_AppDesigner/click_classicGrid' is visible
+
+2018-08-03 17:18:11 - [TEST_STEP][PASSED] - Statement - println(result): null
+
+2018-08-03 17:18:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:14 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/New_AppDesigner/click_classicGrid' is double clicked on
+
+2018-08-03 17:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_classicGrid' is double clicked on
+
+2018-08-03 17:18:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/click_datasource' is clicked on
+
+2018-08-03 17:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_datasource' is clicked on
+
+2018-08-03 17:18:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - Statement - webService = "(//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("datasource_name", 3) + "')])[3]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - Statement - println(webService): null
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(webService).addProperty("xpath", EQUALS, webService, true): null
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'AUTO_WS')])[3]' is visible
+
+2018-08-03 17:18:21 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'AUTO_WS')])[3]' is visible
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - click: Object: '(//span[contains(text(),'AUTO_WS')])[3]' is clicked on
+
+2018-08-03 17:18:21 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'AUTO_WS')])[3]' is clicked on
+
+2018-08-03 17:18:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/proceed_button' is clicked on
+
+2018-08-03 17:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/proceed_button' is clicked on
+
+2018-08-03 17:18:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/click_columns' is clicked on
+
+2018-08-03 17:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_columns' is clicked on
+
+2018-08-03 17:18:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - Statement - For ([i = 3, i <= 5, (i++)]): Delayed 2 second(s)
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - Statement - source = "(//div[@column-id='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("Json_val", i) + "'])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - Statement - println(source): null
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - Statement - drag = new com.kms.katalon.core.testobject.TestObject(source).addProperty("xpath", EQUALS, source, true): null
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - doubleClick: Object: '(//div[@column-id='country'])[1]' is double clicked on
+
+2018-08-03 17:18:31 - [MESSAGE][PASSED] - Object: '(//div[@column-id='country'])[1]' is double clicked on
+
+2018-08-03 17:18:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:33 - [TEST_STEP][PASSED] - Statement - source = "(//div[@column-id='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("Json_val", i) + "'])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:18:33 - [TEST_STEP][PASSED] - Statement - println(source): null
+
+2018-08-03 17:18:33 - [TEST_STEP][PASSED] - Statement - drag = new com.kms.katalon.core.testobject.TestObject(source).addProperty("xpath", EQUALS, source, true): null
+
+2018-08-03 17:18:33 - [TEST_STEP][PASSED] - doubleClick: Object: '(//div[@column-id='name'])[1]' is double clicked on
+
+2018-08-03 17:18:33 - [MESSAGE][PASSED] - Object: '(//div[@column-id='name'])[1]' is double clicked on
+
+2018-08-03 17:18:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:35 - [TEST_STEP][PASSED] - Statement - source = "(//div[@column-id='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Database).getValue("Json_val", i) + "'])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Database.xls' and sheet name 'Login'
+
+2018-08-03 17:18:35 - [TEST_STEP][PASSED] - Statement - println(source): null
+
+2018-08-03 17:18:35 - [TEST_STEP][PASSED] - Statement - drag = new com.kms.katalon.core.testobject.TestObject(source).addProperty("xpath", EQUALS, source, true): null
+
+2018-08-03 17:18:35 - [TEST_STEP][PASSED] - doubleClick: Object: '(//div[@column-id='abbr'])[1]' is double clicked on
+
+2018-08-03 17:18:35 - [MESSAGE][PASSED] - Object: '(//div[@column-id='abbr'])[1]' is double clicked on
+
+2018-08-03 17:18:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:18:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:18:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/save_app' is clicked on
+
+2018-08-03 17:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/save_app' is clicked on
+
+2018-08-03 17:18:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/click_ok' is clicked on
+
+2018-08-03 17:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/click_ok' is clicked on
+
+2018-08-03 17:18:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:18:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:18:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_AppDesigner/close_appDesigner' is clicked on
+
+2018-08-03 17:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_AppDesigner/close_appDesigner' is clicked on]]></system-out>
+         <system-err><![CDATA[2018-08-03 17:16:48 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService AppDesigner: Test Cases/Smoke Test/New WebService AppDesigner FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//div[contains(text(),'AUTO_APP')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_APP')])[1]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New WebService Worksapce Designer" classname="Test Cases/Smoke Test/New WebService Worksapce Designer" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by index '1' of object 'Object Repository/New_WS_Designer/select_appSC' (Root cause: java.lang.IllegalArgumentException: Index '1' is invalid (valid indexes are: [0..0]))"/>
+         <system-out><![CDATA[2018-08-03 17:18:47 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService Worksapce Designer: Test Cases/Smoke Test/New WebService Worksapce Designer FAILED because (of) Unable to select option by index '1' of object 'Object Repository/New_WS_Designer/select_appSC' (Root cause: java.lang.IllegalArgumentException: Index '1' is invalid (valid indexes are: [0..0]))
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - menu = generateRandomInt(999999999): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - menuId = "M" + java.lang.String.valueOf(menu): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - println(menuId): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - submenuId = "SM" + java.lang.String.valueOf(menu): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - Statement - println(submenuId): null
+
+2018-08-03 17:18:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-03 17:18:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-03 17:18:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-03 17:18:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-03 17:18:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-03 17:18:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:19:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-08-03 17:19:17 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-08-03 17:19:20 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:19:20 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginID'
+
+2018-08-03 17:19:20 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:19:20 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_loginPSW'
+
+2018-08-03 17:19:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DB_Connectio/Page_Canvas World/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-08-03 17:19:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:19:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:19:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/click_WS_Designer' is clicked on
+
+2018-08-03 17:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/click_WS_Designer' is clicked on
+
+2018-08-03 17:19:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:19:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:19:28 - [TEST_STEP][PASSED] - Statement - appDel = delete(): null
+
+2018-08-03 17:19:28 - [TEST_STEP][PASSED] - Statement - selectconn = "(//div[contains(text(),'AUTO_WS')])[1]": null
+
+2018-08-03 17:19:28 - [TEST_STEP][PASSED] - Statement - println(selectconn): null
+
+2018-08-03 17:19:28 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectconn).addProperty("xpath", EQUALS, selectconn, true): null
+
+2018-08-03 17:19:28 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-08-03 17:19:34 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//div[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_WS')])[1]' is not present after '4' second(s)
+
+2018-08-03 17:19:34 - [MESSAGE][PASSED] - Web element with id: '(//div[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//div[contains(text(),'AUTO_WS')])[1]' is not present after '4' second(s)
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - println("No View exist"): null
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - Statement - println("Delete " + appDel): null
+
+2018-08-03 17:19:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:19:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/add_WS' is clicked on
+
+2018-08-03 17:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/add_WS' is clicked on
+
+2018-08-03 17:19:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:19:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:19:44 - [TEST_STEP][PASSED] - setText: Text 'AUTO_WS' is set on object 'Object Repository/New_WS_Designer/WS_Title'
+
+2018-08-03 17:19:45 - [MESSAGE][PASSED] - Text 'AUTO_WS' is set on object 'Object Repository/New_WS_Designer/WS_Title'
+
+2018-08-03 17:19:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:19:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:19:47 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/New_WS_Designer/WS_bundle'
+
+2018-08-03 17:19:47 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/New_WS_Designer/WS_bundle'
+
+2018-08-03 17:19:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:19:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:19:49 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-03 17:19:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-03 17:19:49 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-03 17:19:49 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-03 17:19:49 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/select_prdt'
+
+2018-08-03 17:19:49 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/select_prdt'
+
+2018-08-03 17:19:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:19:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:19:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/New_WS_Designer/select_subPrdt'
+
+2018-08-03 17:19:52 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/New_WS_Designer/select_subPrdt'
+
+2018-08-03 17:19:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:19:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:19:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:19:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/proceed_button' is clicked on
+
+2018-08-03 17:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/proceed_button' is clicked on
+
+2018-08-03 17:19:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:20:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:20:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/add_subws' is clicked on
+
+2018-08-03 17:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/add_subws' is clicked on
+
+2018-08-03 17:20:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:02 - [TEST_STEP][PASSED] - setText: Text 'AUTO_SUBWS' is set on object 'Object Repository/New_WS_Designer/enter_subws_name'
+
+2018-08-03 17:20:02 - [MESSAGE][PASSED] - Text 'AUTO_SUBWS' is set on object 'Object Repository/New_WS_Designer/enter_subws_name'
+
+2018-08-03 17:20:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:04 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-08-03 17:20:04 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-08-03 17:20:04 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-08-03 17:20:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-08-03 17:20:04 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/subws_prdt'
+
+2018-08-03 17:20:05 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/subws_prdt'
+
+2018-08-03 17:20:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/proceed_button' is clicked on
+
+2018-08-03 17:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/proceed_button' is clicked on
+
+2018-08-03 17:20:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:20:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/add_app' is clicked on
+
+2018-08-03 17:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/add_app' is clicked on
+
+2018-08-03 17:20:10 - [TEST_STEP][PASSED] - Statement - addApp = "//label[@data-widget-id='AUTO_APP']": null
+
+2018-08-03 17:20:10 - [TEST_STEP][PASSED] - Statement - println(addApp): null
+
+2018-08-03 17:20:10 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(addApp).addProperty("xpath", EQUALS, addApp, true): null
+
+2018-08-03 17:20:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//label[@data-widget-id='AUTO_APP']' is visible
+
+2018-08-03 17:20:11 - [MESSAGE][PASSED] - Object '//label[@data-widget-id='AUTO_APP']' is visible
+
+2018-08-03 17:20:11 - [TEST_STEP][PASSED] - click: Object: '//label[@data-widget-id='AUTO_APP']' is clicked on
+
+2018-08-03 17:20:11 - [MESSAGE][PASSED] - Object: '//label[@data-widget-id='AUTO_APP']' is clicked on
+
+2018-08-03 17:20:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/addApp_submitButton' is clicked on
+
+2018-08-03 17:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/addApp_submitButton' is clicked on
+
+2018-08-03 17:20:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/button_WS_Menu' is clicked on
+
+2018-08-03 17:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/button_WS_Menu' is clicked on
+
+2018-08-03 17:20:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/add_LMenu' is clicked on
+
+2018-08-03 17:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/add_LMenu' is clicked on
+
+2018-08-03 17:20:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-03 17:20:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-03 17:20:19 - [TEST_STEP][PASSED] - setText: Text 'CREATE' is set on object 'Object Repository/New_WS_Designer/LMenu_name'
+
+2018-08-03 17:20:19 - [MESSAGE][PASSED] - Text 'CREATE' is set on object 'Object Repository/New_WS_Designer/LMenu_name'
+
+2018-08-03 17:20:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:21 - [TEST_STEP][PASSED] - setText: Text 'M372628649' is set on object 'Object Repository/New_WS_Designer/LMenu_id'
+
+2018-08-03 17:20:22 - [MESSAGE][PASSED] - Text 'M372628649' is set on object 'Object Repository/New_WS_Designer/LMenu_id'
+
+2018-08-03 17:20:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/LMenu_prdt'
+
+2018-08-03 17:20:24 - [MESSAGE][PASSED] - All options with index in [5] are selected on object 'Object Repository/New_WS_Designer/LMenu_prdt'
+
+2018-08-03 17:20:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/New_WS_Designer/LMenu_subPrdt'
+
+2018-08-03 17:20:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/New_WS_Designer/LMenu_subPrdt'
+
+2018-08-03 17:20:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:26 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/New_WS_Designer/LMenu_funcCode'
+
+2018-08-03 17:20:27 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/New_WS_Designer/LMenu_funcCode'
+
+2018-08-03 17:20:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/LMenu-create' is clicked on
+
+2018-08-03 17:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/LMenu-create' is clicked on
+
+2018-08-03 17:20:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/add_subMenu' is clicked on
+
+2018-08-03 17:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/add_subMenu' is clicked on
+
+2018-08-03 17:20:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-03 17:20:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-03 17:20:30 - [TEST_STEP][PASSED] - setText: Text 'SUB_CREATE' is set on object 'Object Repository/New_WS_Designer/LMenu_name'
+
+2018-08-03 17:20:31 - [MESSAGE][PASSED] - Text 'SUB_CREATE' is set on object 'Object Repository/New_WS_Designer/LMenu_name'
+
+2018-08-03 17:20:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:33 - [TEST_STEP][PASSED] - setText: Text 'SM372628649' is set on object 'Object Repository/New_WS_Designer/LMenu_id'
+
+2018-08-03 17:20:33 - [MESSAGE][PASSED] - Text 'SM372628649' is set on object 'Object Repository/New_WS_Designer/LMenu_id'
+
+2018-08-03 17:20:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:20:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - flag = true: null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - i = 0: null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - While (java.lang.String.valueOf(flag) == "true" && i <= 5): null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - appShortcut = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_WS_Designer/appshortcut_on)): Object 'Object Repository/New_WS_Designer/appshortcut_on' is visible
+
+2018-08-03 17:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/New_WS_Designer/appshortcut_on' is visible
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - println(appShortcut): null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(appShortcut) == "true"): null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - flag = false: null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - Statement - (i++): null
+
+2018-08-03 17:20:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/appshortcut_on' is clicked on
+
+2018-08-03 17:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/appshortcut_on' is clicked on
+
+2018-08-03 17:20:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:41 - [TEST_STEP][FAILED] - selectOptionByIndex: Unable to select option by index '1' of object 'Object Repository/New_WS_Designer/select_appSC' (Root cause: java.lang.IllegalArgumentException: Index '1' is invalid (valid indexes are: [0..0]))
+
+2018-08-03 17:20:41 - [MESSAGE][FAILED] - Unable to select option by index '1' of object 'Object Repository/New_WS_Designer/select_appSC' (Root cause: java.lang.IllegalArgumentException: Index '1' is invalid (valid indexes are: [0..0]))
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\WebService_Suite\\20180803_171450\\1533297041309.png]]
+
+2018-08-03 17:20:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:43 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/New_WS_Designer/LMenu_funcCode'
+
+2018-08-03 17:20:44 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/New_WS_Designer/LMenu_funcCode'
+
+2018-08-03 17:20:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-03 17:20:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/LMenu-create' is clicked on
+
+2018-08-03 17:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/LMenu-create' is clicked on
+
+2018-08-03 17:20:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:20:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:20:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/LMenu_submit' is clicked on
+
+2018-08-03 17:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/LMenu_submit' is clicked on
+
+2018-08-03 17:20:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:20:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:20:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/WS_Save' is clicked on
+
+2018-08-03 17:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/WS_Save' is clicked on
+
+2018-08-03 17:20:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:21:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:21:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/click_ok' is clicked on
+
+2018-08-03 17:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/click_ok' is clicked on
+
+2018-08-03 17:21:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-03 17:21:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-03 17:21:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_WS_Designer/close_WS' is clicked on
+
+2018-08-03 17:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_WS_Designer/close_WS' is clicked on
+
+2018-08-03 17:21:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-03 17:21:09 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[2018-08-03 17:18:47 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/New WebService Worksapce Designer: Test Cases/Smoke Test/New WebService Worksapce Designer FAILED because (of) Unable to select option by index '1' of object 'Object Repository/New_WS_Designer/select_appSC' (Root cause: java.lang.IllegalArgumentException: Index '1' is invalid (valid indexes are: [0..0]))]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-03 17:14:53 - [TEST_SUITE][FAILED] - WebService_Suite: Test Cases/Smoke Test/New WebService Connection FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found]]></system-out>
+      <system-err><![CDATA[2018-08-03 17:14:53 - [TEST_SUITE][FAILED] - WebService_Suite: Test Cases/Smoke Test/New WebService Connection FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//span[contains(text(),'AUTO_WS')])[1]' located by 'By.xpath: (//span[contains(text(),'AUTO_WS')])[1]' not found]]></system-err>
+   </testsuite>
+</testsuites>

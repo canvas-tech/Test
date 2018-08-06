@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Req_Mod_Demo" time="523" tests="5" failures="0" errors="0">
+   <testsuite name="Req_Mod_Demo" tests="5" failures="0" errors="0" time="523" timestamp="2018-07-11 10:08:40" hostname="arokia.raj - N9449.intellectdesign.com" id="Test Suites/Req_Mod_Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180711_100836"/>
+         <property name="logFiles" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180711_100836\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arokia.raj - N9449.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.29.24.220"/>
+         <property name="sessionId" value="8154d6627e906e70b6b43ec9ed089535"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Common Functions" classname="Test Cases/Smoke Test/Common Functions" status="PASSED">
+         <system-out><![CDATA[2018-07-11 10:08:41 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Common Functions: Test Cases/Smoke Test/Common Functions
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - digi = generateRandomInt(9999999): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - acc = generateRandomInt(999999999): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - accNo = java.lang.String.valueOf(acc): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(accNo): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - form_id = "F" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - view_id = "AV" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - app_id = "AA" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(app_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - subWS_id = "ASUB" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(subWS_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - WS_id = "AWS" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(WS_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - req_id = "AR" + digi: null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - filePath = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - file = new java.io.File(filePath): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(file): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - fileOut = new java.io.FileOutputStream(filePath): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(): null
+
+2018-07-11 10:08:42 - [TEST_STEP][PASSED] - Statement - st = workbook.createSheet("POI Worksheet"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - row = st.createRow(0): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell0 = row.createCell(0): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell0.setCellValue("FormID"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell1 = row.createCell(1): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell1.setCellValue("ViewID"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell2 = row.createCell(2): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell2.setCellValue("AppID"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell3 = row.createCell(3): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell3.setCellValue("SubWSID"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell4 = row.createCell(4): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell4.setCellValue("WSID"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell5 = row.createCell(5): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell5.setCellValue("ReqMod_id"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell6 = row.createCell(6): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell6.setCellValue("Acc_No"): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - row1 = st.createRow(1): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell01 = row1.createCell(0): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell01.setCellValue(form_id): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell11 = row1.createCell(1): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell11.setCellValue(view_id): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell21 = row1.createCell(2): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell21.setCellValue(app_id): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell31 = row1.createCell(3): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell31.setCellValue(subWS_id): null
+
+2018-07-11 10:08:43 - [TEST_STEP][PASSED] - Statement - cell41 = row1.createCell(4): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - cell41.setCellValue(WS_id): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - cell51 = row1.createCell(5): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - cell51.setCellValue(req_id): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - cell61 = row1.createCell(6): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - cell61.setCellValue(accNo): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - workbook.write(fileOut): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - f_id = row1.getCell(0): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - println(f_id): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1 = [:]: null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("formID", f_id): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("viewID", row1.getCell(1)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("appID", row1.getCell(2)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("subWSID", row1.getCell(3)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("WSID", row1.getCell(4)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("REQID", row1.getCell(5)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("AccNo", row1.getCell(6)): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - fileOut.flush(): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - fileOut.close(): null
+
+2018-07-11 10:08:44 - [TEST_STEP][PASSED] - Statement - return Map_TC1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/ReadExcel" classname="Test Cases/Smoke Test/ReadExcel" status="PASSED">
+         <system-out><![CDATA[2018-07-11 10:08:45 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ReadExcel: Test Cases/Smoke Test/ReadExcel
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-11 10:08:45 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-11 10:08:46 - [TEST_STEP][PASSED] - Statement - return map: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New Test Request Moduler DEMO" classname="Test Cases/Smoke Test/New Test Request Moduler DEMO" status="PASSED">
+         <system-out><![CDATA[2018-07-11 10:08:46 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New Test Request Moduler DEMO: Test Cases/Smoke Test/New Test Request Moduler DEMO
+
+2018-07-11 10:08:47 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:08:47 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-11 10:08:48 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-11 10:08:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-11 10:08:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:09:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:09:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:09:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:09:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-11 10:09:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-11 10:09:33 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-07-11 10:09:36 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-11 10:09:37 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-11 10:09:37 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-11 10:09:37 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-11 10:09:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-11 10:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-11 10:09:43 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:09:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:09:44 - [TEST_STEP][NOT_RUN] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): NOT_RUN: Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header))
+
+2018-07-11 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header))
+
+2018-07-11 10:09:44 - [TEST_STEP][NOT_RUN] - Statement - println(pageHeader): NOT_RUN: Statement - println(pageHeader)
+
+2018-07-11 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println(pageHeader)
+
+2018-07-11 10:09:44 - [TEST_STEP][NOT_RUN] - Statement - assert pageHeader == "WORKSPACE CANVAS LIST": NOT_RUN: Statement - assert pageHeader == "WORKSPACE CANVAS LIST"
+
+2018-07-11 10:09:44 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - assert pageHeader == "WORKSPACE CANVAS LIST"
+
+2018-07-11 10:09:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Create' is clicked on
+
+2018-07-11 10:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Create' is clicked on
+
+2018-07-11 10:09:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Request_Modular' is clicked on
+
+2018-07-11 10:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Request_Modular' is clicked on
+
+2018-07-11 10:09:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:09:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:09:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id' is clicked on
+
+2018-07-11 10:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id' is clicked on
+
+2018-07-11 10:09:51 - [TEST_STEP][PASSED] - setText: Text 'AR4761815' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id'
+
+2018-07-11 10:09:53 - [MESSAGE][PASSED] - Text 'AR4761815' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id'
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name' is clicked on
+
+2018-07-11 10:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name' is clicked on
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - setText: Text 'AR4761815' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name'
+
+2018-07-11 10:09:53 - [MESSAGE][PASSED] - Text 'AR4761815' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name'
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - service_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Service_Type", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - If (service_type == "HAL"): null
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - Else If (service_type == "Web Service"): null
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - println("Service Type is DATABASE"): null
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - request_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_type", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - Statement - If (request_type == "Admin"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-11 10:09:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-11 10:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - Statement - request_mode = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_mode", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - Statement - If (request_mode == "Private"): null
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - Statement - Else If (request_mode == "Public"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-11 10:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key' is clicked on
+
+2018-07-11 10:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key' is clicked on
+
+2018-07-11 10:09:54 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key'
+
+2018-07-11 10:09:55 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key'
+
+2018-07-11 10:09:55 - [TEST_STEP][PASSED] - Statement - req_category = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_category", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:09:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LIBRARY' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_category' 
+
+2018-07-11 10:09:55 - [MESSAGE][PASSED] - All options with value 'LIBRARY' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_category' 
+
+2018-07-11 10:09:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc' is clicked on
+
+2018-07-11 10:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc' is clicked on
+
+2018-07-11 10:09:55 - [TEST_STEP][PASSED] - setText: Text 'This is a new request' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc'
+
+2018-07-11 10:09:55 - [MESSAGE][PASSED] - Text 'This is a new request' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc'
+
+2018-07-11 10:09:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/search_connection' is clicked on
+
+2018-07-11 10:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/search_connection' is clicked on
+
+2018-07-11 10:09:56 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:10:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - Statement - selectDB = "(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("DB_Name", 3) + "')])[2]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - Statement - println(selectDB): null
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectDB).addProperty("xpath", EQUALS, selectDB, true): null
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is visible
+
+2018-07-11 10:10:00 - [MESSAGE][PASSED] - Object '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is visible
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - doubleClick: Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-11 10:10:00 - [MESSAGE][PASSED] - Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - doubleClick: Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-11 10:10:00 - [MESSAGE][PASSED] - Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-11 10:10:00 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-11 10:10:06 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 3, (i++)]): All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' is visible
+
+2018-07-11 10:10:06 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' is visible
+
+2018-07-11 10:10:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' 
+
+2018-07-11 10:10:07 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' 
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' is visible
+
+2018-07-11 10:10:07 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' is visible
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' 
+
+2018-07-11 10:10:07 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' 
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' is visible
+
+2018-07-11 10:10:07 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' is visible
+
+2018-07-11 10:10:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-11 10:10:08 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= 3, (j++)]): All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' is visible
+
+2018-07-11 10:10:08 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' is visible
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' 
+
+2018-07-11 10:10:08 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' 
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' is visible
+
+2018-07-11 10:10:08 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' is visible
+
+2018-07-11 10:10:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' 
+
+2018-07-11 10:10:09 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' 
+
+2018-07-11 10:10:09 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-11 10:10:09 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-11 10:10:09 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-11 10:10:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' is visible
+
+2018-07-11 10:10:09 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' is visible
+
+2018-07-11 10:10:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-11 10:10:10 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-11 10:10:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'INIT' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_initiate' 
+
+2018-07-11 10:10:10 - [MESSAGE][PASSED] - All options with value 'INIT' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_initiate' 
+
+2018-07-11 10:10:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'APPROVE' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_approve' 
+
+2018-07-11 10:10:11 - [MESSAGE][PASSED] - All options with value 'APPROVE' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_approve' 
+
+2018-07-11 10:10:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VIEW' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_enquiry' 
+
+2018-07-11 10:10:11 - [MESSAGE][PASSED] - All options with value 'VIEW' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_enquiry' 
+
+2018-07-11 10:10:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/addTable_button' is clicked on
+
+2018-07-11 10:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/addTable_button' is clicked on
+
+2018-07-11 10:10:12 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-11 10:10:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-11 10:10:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/select_Table' is clicked on
+
+2018-07-11 10:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/select_Table' is clicked on
+
+2018-07-11 10:10:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-11 10:10:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-11 10:10:27 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_tableName' is hovered
+
+2018-07-11 10:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_tableName' is hovered
+
+2018-07-11 10:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_contains' is clicked on
+
+2018-07-11 10:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_contains' is clicked on
+
+2018-07-11 10:10:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:10:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:10:29 - [TEST_STEP][PASSED] - setText: Text 'user_online_registration' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/input_tableName_contains'
+
+2018-07-11 10:10:30 - [MESSAGE][PASSED] - Text 'user_online_registration' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/input_tableName_contains'
+
+2018-07-11 10:10:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/table_search' is clicked on
+
+2018-07-11 10:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/table_search' is clicked on
+
+2018-07-11 10:10:31 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:10:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - Statement - resultTable = "(//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Table_Name", 3) + "')])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - Statement - println(resultTable): null
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - Statement - dynamicObject3 = new com.kms.katalon.core.testobject.TestObject(resultTable).addProperty("xpath", EQUALS, resultTable, true): null
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'user_online_registration')])[1]' is visible
+
+2018-07-11 10:10:35 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'user_online_registration')])[1]' is visible
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - doubleClick: Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-11 10:10:35 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - doubleClick: Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-11 10:10:35 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-11 10:10:35 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-11 10:10:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-07-11 10:10:50 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-07-11 10:10:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-07-11 10:10:50 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-07-11 10:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-07-11 10:10:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'ACCOUNT_ID' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:51 - [MESSAGE][PASSED] - Keys 'ACCOUNT_ID' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:51 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:10:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:55 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - Statement - If (request_mode == "Private"): null
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key' is focused
+
+2018-07-11 10:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key' is focused
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ACCOUNT_ID' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:10:55 - [MESSAGE][PASSED] - Keys 'ACCOUNT_ID' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:10:55 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:10:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:10:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:10:59 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:10:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:11:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:11:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:11:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-11 10:11:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:11:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:11:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_save' is clicked on
+
+2018-07-11 10:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_save' is clicked on
+
+2018-07-11 10:11:04 - [TEST_STEP][PASSED] - setText: Text '{}' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/json_textarea'
+
+2018-07-11 10:11:05 - [MESSAGE][PASSED] - Text '{}' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/json_textarea'
+
+2018-07-11 10:11:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:11:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:11:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/reqMod_save' is clicked on
+
+2018-07-11 10:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/reqMod_save' is clicked on
+
+2018-07-11 10:11:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:11:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:11:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId' is clicked on
+
+2018-07-11 10:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId' is clicked on
+
+2018-07-11 10:11:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-11 10:11:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-11 10:11:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pay' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:34 - [MESSAGE][PASSED] - Keys 'Pay' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:11:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:11:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:36 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:11:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:11:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:38 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-11 10:11:38 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/getLable' is: 'Workspace Id'
+
+2018-07-11 10:11:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/getLable' is: 'Workspace Id'
+
+2018-07-11 10:11:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:11:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_Save' is clicked on
+
+2018-07-11 10:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_Save' is clicked on
+
+2018-07-11 10:11:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:11:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_dialog' is clicked on
+
+2018-07-11 10:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_dialog' is clicked on
+
+2018-07-11 10:11:45 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-11 10:11:53 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-11 10:11:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_for_widget' is clicked on
+
+2018-07-11 10:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_for_widget' is clicked on
+
+2018-07-11 10:11:53 - [TEST_STEP][PASSED] - Statement - selectReqWS = "//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Edit_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:11:53 - [TEST_STEP][PASSED] - Statement - println(selectReqWS): null
+
+2018-07-11 10:11:53 - [TEST_STEP][PASSED] - Statement - wdgt = new com.kms.katalon.core.testobject.TestObject(selectReqWS).addProperty("xpath", EQUALS, selectReqWS, true): null
+
+2018-07-11 10:11:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[contains(text(),'PAYMENT_WS')]' is visible
+
+2018-07-11 10:11:54 - [MESSAGE][PASSED] - Object '//span[contains(text(),'PAYMENT_WS')]' is visible
+
+2018-07-11 10:11:54 - [TEST_STEP][PASSED] - rightClick: Object: '//span[contains(text(),'PAYMENT_WS')]' is right clicked on
+
+2018-07-11 10:11:54 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'PAYMENT_WS')]' is right clicked on
+
+2018-07-11 10:11:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:11:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:11:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/edit_sub_WS' is clicked on
+
+2018-07-11 10:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/edit_sub_WS' is clicked on
+
+2018-07-11 10:11:57 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_childApp' is clicked on
+
+2018-07-11 10:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_childApp' is clicked on
+
+2018-07-11 10:12:01 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_filter' is clicked on
+
+2018-07-11 10:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_filter' is clicked on
+
+2018-07-11 10:12:05 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:09 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_appId' is hovered
+
+2018-07-11 10:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_appId' is hovered
+
+2018-07-11 10:12:09 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/RM_wdgt_contains' is clicked on
+
+2018-07-11 10:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/RM_wdgt_contains' is clicked on
+
+2018-07-11 10:12:14 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:18 - [TEST_STEP][PASSED] - setText: Text 'RM_ACTSUM_APP' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_search'
+
+2018-07-11 10:12:18 - [MESSAGE][PASSED] - Text 'RM_ACTSUM_APP' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_search'
+
+2018-07-11 10:12:18 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_search' is clicked on
+
+2018-07-11 10:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_search' is clicked on
+
+2018-07-11 10:12:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-11 10:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-11 10:12:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-11 10:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-11 10:12:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:29 - [TEST_STEP][PASSED] - Statement - error_msg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Request Moduler/Page_Canvas World/error_msg), 5): Object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_msg' is present
+
+2018-07-11 10:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_msg' is present
+
+2018-07-11 10:12:29 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(error_msg) == "true"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-11 10:12:29 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-11 10:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-11 10:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_submit' is clicked on
+
+2018-07-11 10:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_submit' is clicked on
+
+2018-07-11 10:12:33 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/layout_dialog_ok' is clicked on
+
+2018-07-11 10:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/layout_dialog_ok' is clicked on
+
+2018-07-11 10:12:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:12:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:12:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Form_Def' is clicked on
+
+2018-07-11 10:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Form_Def' is clicked on
+
+2018-07-11 10:12:41 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + req_id + "_FORM')])[1]": null
+
+2018-07-11 10:12:41 - [TEST_STEP][PASSED] - Statement - println(selectReqWS): null
+
+2018-07-11 10:12:41 - [TEST_STEP][PASSED] - Statement - edit = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-11 10:12:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'AR4761815_FORM')])[1]' is visible
+
+2018-07-11 10:12:42 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'AR4761815_FORM')])[1]' is visible
+
+2018-07-11 10:12:42 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'AR4761815_FORM')])[1]' is right clicked on
+
+2018-07-11 10:12:42 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'AR4761815_FORM')])[1]' is right clicked on
+
+2018-07-11 10:12:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/edit_form' is clicked on
+
+2018-07-11 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/edit_form' is clicked on
+
+2018-07-11 10:12:45 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-11 10:12:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-11 10:12:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/delete_subMenu' is clicked on
+
+2018-07-11 10:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/delete_subMenu' is clicked on
+
+2018-07-11 10:12:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-11 10:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-11 10:12:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/delete_form' is clicked on
+
+2018-07-11 10:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/delete_form' is clicked on
+
+2018-07-11 10:12:54 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-07-11 10:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-07-11 10:12:54 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-11 10:12:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-11 10:12:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_Form_Wiz' is clicked on
+
+2018-07-11 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_Form_Wiz' is clicked on
+
+2018-07-11 10:12:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:12:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:12:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Login_Form' is clicked on
+
+2018-07-11 10:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Login_Form' is clicked on
+
+2018-07-11 10:12:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Pers_detail' is clicked on
+
+2018-07-11 10:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Pers_detail' is clicked on
+
+2018-07-11 10:12:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Bank_details' is clicked on
+
+2018-07-11 10:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Bank_details' is clicked on
+
+2018-07-11 10:12:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:13:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/save_Wiz' is clicked on
+
+2018-07-11 10:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/save_Wiz' is clicked on
+
+2018-07-11 10:13:01 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-11 10:13:07 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-11 10:13:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/step_click' is clicked on
+
+2018-07-11 10:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/step_click' is clicked on
+
+2018-07-11 10:13:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:13:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/back_nav' is clicked on
+
+2018-07-11 10:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/back_nav' is clicked on
+
+2018-07-11 10:13:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:13:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:13:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/fwd_Nav' is clicked on
+
+2018-07-11 10:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/fwd_Nav' is clicked on
+
+2018-07-11 10:13:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:13:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:13:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/newForm_save' is clicked on
+
+2018-07-11 10:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/newForm_save' is clicked on
+
+2018-07-11 10:13:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:13:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:13:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-11 10:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Model House Req Mod Demo" classname="Test Cases/Smoke Test/Model House Req Mod Demo" status="PASSED">
+         <system-out><![CDATA[2018-07-11 10:13:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Model House Req Mod Demo: Test Cases/Smoke Test/Model House Req Mod Demo
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:13:23 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-11 10:13:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - acc_No = common["AccNo"]: null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - Statement - println(acc_No): null
+
+2018-07-11 10:13:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:13:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-11 10:13:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:13:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:13:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:13:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-07-11 10:13:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-07-11 10:13:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 10:13:32 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-11 10:13:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:13:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:13:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:13:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:13:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:13:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:13:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:13:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:13:59 - [TEST_STEP][PASSED] - setText: Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-11 10:14:00 - [MESSAGE][PASSED] - Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-11 10:14:00 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-11 10:14:00 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-11 10:14:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-11 10:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:14:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), "title"): Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-11 10:14:04 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "Canvas Technology": null
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - selectWS = "//div[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_Mod_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-07-11 10:14:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-11 10:14:05 - [MESSAGE][PASSED] - Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-11 10:14:05 - [TEST_STEP][PASSED] - click: Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-11 10:14:05 - [MESSAGE][PASSED] - Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-11 10:14:05 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-11 10:14:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - Statement - selectRM = "//span[starts-with(@class,'workspace_label workspace_label-" + req_id + "')]": null
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - Statement - println(selectRM): null
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(selectRM).addProperty("xpath", EQUALS, selectRM, true): null
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(@class,'workspace_label workspace_label-AR4761815')]' is visible
+
+2018-07-11 10:14:15 - [MESSAGE][PASSED] - Object '//span[starts-with(@class,'workspace_label workspace_label-AR4761815')]' is visible
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - click: Object: '//span[starts-with(@class,'workspace_label workspace_label-AR4761815')]' is clicked on
+
+2018-07-11 10:14:15 - [MESSAGE][PASSED] - Object: '//span[starts-with(@class,'workspace_label workspace_label-AR4761815')]' is clicked on
+
+2018-07-11 10:14:15 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-11 10:14:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-11 10:14:25 - [TEST_STEP][PASSED] - setText: Text '496037099' is set on object 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id'
+
+2018-07-11 10:14:26 - [MESSAGE][PASSED] - Text '496037099' is set on object 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id'
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - For ([i = 17, i <= 19, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='USERNAME']' is visible
+
+2018-07-11 10:14:26 - [MESSAGE][PASSED] - Object '//input[@name='USERNAME']' is visible
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - setText: Text 'Sheepa' is set on object '//input[@name='USERNAME']'
+
+2018-07-11 10:14:26 - [MESSAGE][PASSED] - Text 'Sheepa' is set on object '//input[@name='USERNAME']'
+
+2018-07-11 10:14:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='PASSWORD1']' is visible
+
+2018-07-11 10:14:27 - [MESSAGE][PASSED] - Object '//input[@name='PASSWORD1']' is visible
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:27 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object '//input[@name='PASSWORD1']'
+
+2018-07-11 10:14:28 - [MESSAGE][PASSED] - Text '12345' is set on object '//input[@name='PASSWORD1']'
+
+2018-07-11 10:14:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='CONFIRM_PASSWORD']' is visible
+
+2018-07-11 10:14:29 - [MESSAGE][PASSED] - Object '//input[@name='CONFIRM_PASSWORD']' is visible
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object '//input[@name='CONFIRM_PASSWORD']'
+
+2018-07-11 10:14:29 - [MESSAGE][PASSED] - Text '12345' is set on object '//input[@name='CONFIRM_PASSWORD']'
+
+2018-07-11 10:14:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:14:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - For ([i = 20, i <= 26, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='NAME']' is visible
+
+2018-07-11 10:14:33 - [MESSAGE][PASSED] - Object '//input[@name='NAME']' is visible
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - setText: Text 'Sheepa' is set on object '//input[@name='NAME']'
+
+2018-07-11 10:14:33 - [MESSAGE][PASSED] - Text 'Sheepa' is set on object '//input[@name='NAME']'
+
+2018-07-11 10:14:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='EMAIL']' is visible
+
+2018-07-11 10:14:34 - [MESSAGE][PASSED] - Object '//input[@name='EMAIL']' is visible
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:34 - [TEST_STEP][PASSED] - setText: Text 'sheepa@gmail.com' is set on object '//input[@name='EMAIL']'
+
+2018-07-11 10:14:35 - [MESSAGE][PASSED] - Text 'sheepa@gmail.com' is set on object '//input[@name='EMAIL']'
+
+2018-07-11 10:14:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='PHONE']' is visible
+
+2018-07-11 10:14:36 - [MESSAGE][PASSED] - Object '//input[@name='PHONE']' is visible
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - setText: Text '12345678989' is set on object '//input[@name='PHONE']'
+
+2018-07-11 10:14:36 - [MESSAGE][PASSED] - Text '12345678989' is set on object '//input[@name='PHONE']'
+
+2018-07-11 10:14:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='GENDER']' is visible
+
+2018-07-11 10:14:37 - [MESSAGE][PASSED] - Object '//input[@name='GENDER']' is visible
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:37 - [TEST_STEP][PASSED] - setText: Text 'Female' is set on object '//input[@name='GENDER']'
+
+2018-07-11 10:14:38 - [MESSAGE][PASSED] - Text 'Female' is set on object '//input[@name='GENDER']'
+
+2018-07-11 10:14:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='ADDRESS']' is visible
+
+2018-07-11 10:14:39 - [MESSAGE][PASSED] - Object '//input[@name='ADDRESS']' is visible
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - setText: Text 'Chennai' is set on object '//input[@name='ADDRESS']'
+
+2018-07-11 10:14:39 - [MESSAGE][PASSED] - Text 'Chennai' is set on object '//input[@name='ADDRESS']'
+
+2018-07-11 10:14:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='ZIP_CODE']' is visible
+
+2018-07-11 10:14:40 - [MESSAGE][PASSED] - Object '//input[@name='ZIP_CODE']' is visible
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object '//input[@name='ZIP_CODE']'
+
+2018-07-11 10:14:40 - [MESSAGE][PASSED] - Text '123456' is set on object '//input[@name='ZIP_CODE']'
+
+2018-07-11 10:14:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:41 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:41 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:41 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='COUNTRY']' is visible
+
+2018-07-11 10:14:42 - [MESSAGE][PASSED] - Object '//input[@name='COUNTRY']' is visible
+
+2018-07-11 10:14:42 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:42 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:42 - [TEST_STEP][PASSED] - setText: Text 'India' is set on object '//input[@name='COUNTRY']'
+
+2018-07-11 10:14:42 - [MESSAGE][PASSED] - Text 'India' is set on object '//input[@name='COUNTRY']'
+
+2018-07-11 10:14:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:14:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - For ([i = 27, i <= 36, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='BANK_NAME']' is visible
+
+2018-07-11 10:14:45 - [MESSAGE][PASSED] - Object '//input[@name='BANK_NAME']' is visible
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:45 - [TEST_STEP][PASSED] - setText: Text 'HDFC' is set on object '//input[@name='BANK_NAME']'
+
+2018-07-11 10:14:46 - [MESSAGE][PASSED] - Text 'HDFC' is set on object '//input[@name='BANK_NAME']'
+
+2018-07-11 10:14:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='BRANCH_NAME']' is visible
+
+2018-07-11 10:14:47 - [MESSAGE][PASSED] - Object '//input[@name='BRANCH_NAME']' is visible
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - setText: Text 'Chennai' is set on object '//input[@name='BRANCH_NAME']'
+
+2018-07-11 10:14:47 - [MESSAGE][PASSED] - Text 'Chennai' is set on object '//input[@name='BRANCH_NAME']'
+
+2018-07-11 10:14:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='IFSC_CODE']' is visible
+
+2018-07-11 10:14:48 - [MESSAGE][PASSED] - Object '//input[@name='IFSC_CODE']' is visible
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - setText: Text 'HDFC12345' is set on object '//input[@name='IFSC_CODE']'
+
+2018-07-11 10:14:48 - [MESSAGE][PASSED] - Text 'HDFC12345' is set on object '//input[@name='IFSC_CODE']'
+
+2018-07-11 10:14:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='ADD_NOMINEE']' is visible
+
+2018-07-11 10:14:49 - [MESSAGE][PASSED] - Object '//input[@name='ADD_NOMINEE']' is visible
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:49 - [TEST_STEP][PASSED] - setText: Text 'Y' is set on object '//input[@name='ADD_NOMINEE']'
+
+2018-07-11 10:14:50 - [MESSAGE][PASSED] - Text 'Y' is set on object '//input[@name='ADD_NOMINEE']'
+
+2018-07-11 10:14:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='NOMINEE_NAME']' is visible
+
+2018-07-11 10:14:51 - [MESSAGE][PASSED] - Object '//input[@name='NOMINEE_NAME']' is visible
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - setText: Text 'Vishe' is set on object '//input[@name='NOMINEE_NAME']'
+
+2018-07-11 10:14:51 - [MESSAGE][PASSED] - Text 'Vishe' is set on object '//input[@name='NOMINEE_NAME']'
+
+2018-07-11 10:14:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='IS_NOMINEE_MINOR']' is visible
+
+2018-07-11 10:14:52 - [MESSAGE][PASSED] - Object '//input[@name='IS_NOMINEE_MINOR']' is visible
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - setText: Text 'N' is set on object '//input[@name='IS_NOMINEE_MINOR']'
+
+2018-07-11 10:14:52 - [MESSAGE][PASSED] - Text 'N' is set on object '//input[@name='IS_NOMINEE_MINOR']'
+
+2018-07-11 10:14:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='RELATIONSHIP']' is visible
+
+2018-07-11 10:14:53 - [MESSAGE][PASSED] - Object '//input[@name='RELATIONSHIP']' is visible
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:53 - [TEST_STEP][PASSED] - setText: Text 'az' is set on object '//input[@name='RELATIONSHIP']'
+
+2018-07-11 10:14:54 - [MESSAGE][PASSED] - Text 'az' is set on object '//input[@name='RELATIONSHIP']'
+
+2018-07-11 10:14:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='NOMINEE_ADDRESS']' is visible
+
+2018-07-11 10:14:55 - [MESSAGE][PASSED] - Object '//input[@name='NOMINEE_ADDRESS']' is visible
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - setText: Text 'Chennai' is set on object '//input[@name='NOMINEE_ADDRESS']'
+
+2018-07-11 10:14:55 - [MESSAGE][PASSED] - Text 'Chennai' is set on object '//input[@name='NOMINEE_ADDRESS']'
+
+2018-07-11 10:14:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='PANCARD']' is visible
+
+2018-07-11 10:14:56 - [MESSAGE][PASSED] - Object '//input[@name='PANCARD']' is visible
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - setText: Text '123344566' is set on object '//input[@name='PANCARD']'
+
+2018-07-11 10:14:56 - [MESSAGE][PASSED] - Text '123344566' is set on object '//input[@name='PANCARD']'
+
+2018-07-11 10:14:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//input[@name='SSN']' is visible
+
+2018-07-11 10:14:57 - [MESSAGE][PASSED] - Object '//input[@name='SSN']' is visible
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-11 10:14:57 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object '//input[@name='SSN']'
+
+2018-07-11 10:14:58 - [MESSAGE][PASSED] - Text '1234' is set on object '//input[@name='SSN']'
+
+2018-07-11 10:14:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:14:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:15:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:15:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' is clicked on
+
+2018-07-11 10:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' is clicked on
+
+2018-07-11 10:15:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:15:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:15:05 - [TEST_STEP][PASSED] - Statement - readAccNo = "//span[@name='ACCOUNT_ID']": null
+
+2018-07-11 10:15:05 - [TEST_STEP][PASSED] - Statement - println(readAccNo): null
+
+2018-07-11 10:15:05 - [TEST_STEP][PASSED] - Statement - dO = new com.kms.katalon.core.testobject.TestObject(readAccNo).addProperty("xpath", EQUALS, readAccNo, true): null
+
+2018-07-11 10:15:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='ACCOUNT_ID']' is visible
+
+2018-07-11 10:15:05 - [MESSAGE][PASSED] - Object '//span[@name='ACCOUNT_ID']' is visible
+
+2018-07-11 10:15:05 - [TEST_STEP][PASSED] - Statement - accNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO): Text of object '//span[@name='ACCOUNT_ID']' is: '496037099'
+
+2018-07-11 10:15:06 - [MESSAGE][PASSED] - Text of object '//span[@name='ACCOUNT_ID']' is: '496037099'
+
+2018-07-11 10:15:06 - [TEST_STEP][PASSED] - Statement - println(accNo): null
+
+2018-07-11 10:15:06 - [TEST_STEP][PASSED] - Statement - assert accNo == acc_No: null
+
+2018-07-11 10:15:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - For ([i = 17, i <= 19, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='USERNAME']' is visible
+
+2018-07-11 10:15:08 - [MESSAGE][PASSED] - Object '//span[@name='USERNAME']' is visible
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='USERNAME']' is: 'Sheepa'
+
+2018-07-11 10:15:08 - [MESSAGE][PASSED] - Text of object '//span[@name='USERNAME']' is: 'Sheepa'
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='PASSWORD1']' is visible
+
+2018-07-11 10:15:09 - [MESSAGE][PASSED] - Object '//span[@name='PASSWORD1']' is visible
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='PASSWORD1']' is: '12345'
+
+2018-07-11 10:15:09 - [MESSAGE][PASSED] - Text of object '//span[@name='PASSWORD1']' is: '12345'
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='CONFIRM_PASSWORD']' is visible
+
+2018-07-11 10:15:10 - [MESSAGE][PASSED] - Object '//span[@name='CONFIRM_PASSWORD']' is visible
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='CONFIRM_PASSWORD']' is: '12345'
+
+2018-07-11 10:15:10 - [MESSAGE][PASSED] - Text of object '//span[@name='CONFIRM_PASSWORD']' is: '12345'
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:15:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:13 - [TEST_STEP][PASSED] - Statement - For ([i = 20, i <= 26, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:15:13 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='NAME']' is visible
+
+2018-07-11 10:15:14 - [MESSAGE][PASSED] - Object '//span[@name='NAME']' is visible
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='NAME']' is: 'Sheepa'
+
+2018-07-11 10:15:14 - [MESSAGE][PASSED] - Text of object '//span[@name='NAME']' is: 'Sheepa'
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='EMAIL']' is visible
+
+2018-07-11 10:15:15 - [MESSAGE][PASSED] - Object '//span[@name='EMAIL']' is visible
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='EMAIL']' is: 'sheepa@gmail.com'
+
+2018-07-11 10:15:15 - [MESSAGE][PASSED] - Text of object '//span[@name='EMAIL']' is: 'sheepa@gmail.com'
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='PHONE']' is visible
+
+2018-07-11 10:15:16 - [MESSAGE][PASSED] - Object '//span[@name='PHONE']' is visible
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='PHONE']' is: '12345678989'
+
+2018-07-11 10:15:16 - [MESSAGE][PASSED] - Text of object '//span[@name='PHONE']' is: '12345678989'
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='GENDER']' is visible
+
+2018-07-11 10:15:17 - [MESSAGE][PASSED] - Object '//span[@name='GENDER']' is visible
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='GENDER']' is: 'Female'
+
+2018-07-11 10:15:17 - [MESSAGE][PASSED] - Text of object '//span[@name='GENDER']' is: 'Female'
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='ADDRESS']' is visible
+
+2018-07-11 10:15:18 - [MESSAGE][PASSED] - Object '//span[@name='ADDRESS']' is visible
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='ADDRESS']' is: 'Chennai'
+
+2018-07-11 10:15:18 - [MESSAGE][PASSED] - Text of object '//span[@name='ADDRESS']' is: 'Chennai'
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:19 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:19 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:19 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='ZIP_CODE']' is visible
+
+2018-07-11 10:15:20 - [MESSAGE][PASSED] - Object '//span[@name='ZIP_CODE']' is visible
+
+2018-07-11 10:15:20 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='ZIP_CODE']' is: '123456'
+
+2018-07-11 10:15:20 - [MESSAGE][PASSED] - Text of object '//span[@name='ZIP_CODE']' is: '123456'
+
+2018-07-11 10:15:20 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:20 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='COUNTRY']' is visible
+
+2018-07-11 10:15:21 - [MESSAGE][PASSED] - Object '//span[@name='COUNTRY']' is visible
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='COUNTRY']' is: 'India'
+
+2018-07-11 10:15:21 - [MESSAGE][PASSED] - Text of object '//span[@name='COUNTRY']' is: 'India'
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/mod_next' is clicked on
+
+2018-07-11 10:15:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - For ([i = 27, i <= 36, (i++)]): Delayed 1 second(s)
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='BANK_NAME']' is visible
+
+2018-07-11 10:15:24 - [MESSAGE][PASSED] - Object '//span[@name='BANK_NAME']' is visible
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='BANK_NAME']' is: 'HDFC'
+
+2018-07-11 10:15:24 - [MESSAGE][PASSED] - Text of object '//span[@name='BANK_NAME']' is: 'HDFC'
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:25 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:25 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:25 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='BRANCH_NAME']' is visible
+
+2018-07-11 10:15:26 - [MESSAGE][PASSED] - Object '//span[@name='BRANCH_NAME']' is visible
+
+2018-07-11 10:15:26 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='BRANCH_NAME']' is: 'Chennai'
+
+2018-07-11 10:15:26 - [MESSAGE][PASSED] - Text of object '//span[@name='BRANCH_NAME']' is: 'Chennai'
+
+2018-07-11 10:15:26 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:26 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='IFSC_CODE']' is visible
+
+2018-07-11 10:15:27 - [MESSAGE][PASSED] - Object '//span[@name='IFSC_CODE']' is visible
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='IFSC_CODE']' is: 'HDFC12345'
+
+2018-07-11 10:15:27 - [MESSAGE][PASSED] - Text of object '//span[@name='IFSC_CODE']' is: 'HDFC12345'
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='ADD_NOMINEE']' is visible
+
+2018-07-11 10:15:28 - [MESSAGE][PASSED] - Object '//span[@name='ADD_NOMINEE']' is visible
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='ADD_NOMINEE']' is: 'Y'
+
+2018-07-11 10:15:28 - [MESSAGE][PASSED] - Text of object '//span[@name='ADD_NOMINEE']' is: 'Y'
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='NOMINEE_NAME']' is visible
+
+2018-07-11 10:15:29 - [MESSAGE][PASSED] - Object '//span[@name='NOMINEE_NAME']' is visible
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='NOMINEE_NAME']' is: 'Vishe'
+
+2018-07-11 10:15:29 - [MESSAGE][PASSED] - Text of object '//span[@name='NOMINEE_NAME']' is: 'Vishe'
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='IS_NOMINEE_MINOR']' is visible
+
+2018-07-11 10:15:30 - [MESSAGE][PASSED] - Object '//span[@name='IS_NOMINEE_MINOR']' is visible
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='IS_NOMINEE_MINOR']' is: 'N'
+
+2018-07-11 10:15:30 - [MESSAGE][PASSED] - Text of object '//span[@name='IS_NOMINEE_MINOR']' is: 'N'
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:31 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:31 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:31 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='RELATIONSHIP']' is visible
+
+2018-07-11 10:15:32 - [MESSAGE][PASSED] - Object '//span[@name='RELATIONSHIP']' is visible
+
+2018-07-11 10:15:32 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='RELATIONSHIP']' is: 'az'
+
+2018-07-11 10:15:32 - [MESSAGE][PASSED] - Text of object '//span[@name='RELATIONSHIP']' is: 'az'
+
+2018-07-11 10:15:32 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:32 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='NOMINEE_ADDRESS']' is visible
+
+2018-07-11 10:15:33 - [MESSAGE][PASSED] - Object '//span[@name='NOMINEE_ADDRESS']' is visible
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='NOMINEE_ADDRESS']' is: 'Chennai'
+
+2018-07-11 10:15:33 - [MESSAGE][PASSED] - Text of object '//span[@name='NOMINEE_ADDRESS']' is: 'Chennai'
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='PANCARD']' is visible
+
+2018-07-11 10:15:34 - [MESSAGE][PASSED] - Object '//span[@name='PANCARD']' is visible
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='PANCARD']' is: '123344566'
+
+2018-07-11 10:15:34 - [MESSAGE][PASSED] - Text of object '//span[@name='PANCARD']' is: '123344566'
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - readStatus = "//span[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - println(readStatus): null
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - getVal = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty("xpath", EQUALS, readStatus, true): null
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[@name='SSN']' is visible
+
+2018-07-11 10:15:35 - [MESSAGE][PASSED] - Object '//span[@name='SSN']' is visible
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(getVal): Text of object '//span[@name='SSN']' is: '1234'
+
+2018-07-11 10:15:35 - [MESSAGE][PASSED] - Text of object '//span[@name='SSN']' is: '1234'
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - println(value): null
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - Statement - assert value == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:15:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-11 10:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-11 10:15:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-11 10:15:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-11 10:15:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Demo/Page_Canvas World/validation_submit' is clicked on
+
+2018-07-11 10:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Demo/Page_Canvas World/validation_submit' is clicked on
+
+2018-07-11 10:15:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:15:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/success_ok' is clicked on
+
+2018-07-11 10:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/success_ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Model House Req Mod Approve" classname="Test Cases/Smoke Test/Model House Req Mod Approve" status="PASSED">
+         <system-out><![CDATA[2018-07-11 10:15:42 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Model House Req Mod Approve: Test Cases/Smoke Test/Model House Req Mod Approve
+
+2018-07-11 10:15:42 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:15:43 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-11 10:15:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - acc_No = common["AccNo"]: null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - Statement - println(acc_No): null
+
+2018-07-11 10:15:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:15:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-11 10:15:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:15:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:15:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:15:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:16:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:16:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-11 10:16:13 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-11 10:16:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:16:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:16:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:16:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:16:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:16:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-11 10:16:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:16:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:16:40 - [TEST_STEP][PASSED] - setText: Text 'john' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-11 10:16:40 - [MESSAGE][PASSED] - Text 'john' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-11 10:16:40 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-11 10:16:40 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-11 10:16:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-11 10:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-11 10:16:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:16:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:16:42 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), "title"): Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-11 10:16:43 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "Canvas Technology": null
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - Statement - selectWS = "//div[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_Mod_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-11 10:16:43 - [MESSAGE][PASSED] - Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - click: Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-11 10:16:43 - [MESSAGE][PASSED] - Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-11 10:16:43 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-11 10:16:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-07-11 10:16:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' successfully
+
+2018-07-11 10:16:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' successfully
+
+2018-07-11 10:16:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' is clicked on
+
+2018-07-11 10:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' is clicked on
+
+2018-07-11 10:16:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-11 10:17:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - Statement - listAcc = "//h4[contains(text(),'" + acc_No + "')]": null
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - Statement - println(listAcc): null
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - Statement - selectList = new com.kms.katalon.core.testobject.TestObject(listAcc).addProperty("xpath", EQUALS, listAcc, true): null
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//h4[contains(text(),'496037099')]' is visible
+
+2018-07-11 10:17:03 - [MESSAGE][PASSED] - Object '//h4[contains(text(),'496037099')]' is visible
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object '//h4[contains(text(),'496037099')]' successfully
+
+2018-07-11 10:17:03 - [MESSAGE][PASSED] - Scroll to object '//h4[contains(text(),'496037099')]' successfully
+
+2018-07-11 10:17:03 - [TEST_STEP][PASSED] - mouseOver: Object: '//h4[contains(text(),'496037099')]' is hovered
+
+2018-07-11 10:17:04 - [MESSAGE][PASSED] - Object: '//h4[contains(text(),'496037099')]' is hovered
+
+2018-07-11 10:17:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - approve = "(//h4[contains(text(),'" + acc_No + "')]/following::div[@class='pull-right buttons-action'])[1]": null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - appButton = new com.kms.katalon.core.testobject.TestObject(approve).addProperty("xpath", EQUALS, approve, true): null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is visible
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is visible
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - rmApprove = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(appButton, 5): Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is present
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is present
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - println(rmApprove): null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - mouseOver: Object: '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is hovered
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object: '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]' is hovered
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - approveButton = "(//h4[contains(text(),'" + acc_No + "')]/following::div[@class='pull-right buttons-action'])[1]/button": null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - authButton = new com.kms.katalon.core.testobject.TestObject(approveButton).addProperty("xpath", EQUALS, approveButton, true): null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is visible
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is visible
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - auth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(authButton, 5): Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is present
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is present
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - Statement - println(auth): null
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - click: Object: '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is clicked on
+
+2018-07-11 10:17:07 - [MESSAGE][PASSED] - Object: '(//h4[contains(text(),'496037099')]/following::div[@class='pull-right buttons-action'])[1]/button' is clicked on
+
+2018-07-11 10:17:07 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-11 10:17:13 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-11 10:17:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' is clicked on
+
+2018-07-11 10:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' is clicked on
+
+2018-07-11 10:17:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:17:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:17:16 - [TEST_STEP][PASSED] - setText: Text 'Approved' is set on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments'
+
+2018-07-11 10:17:17 - [MESSAGE][PASSED] - Text 'Approved' is set on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments'
+
+2018-07-11 10:17:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:17:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:17:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' is clicked on
+
+2018-07-11 10:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' is clicked on
+
+2018-07-11 10:17:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-11 10:17:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-11 10:17:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' is clicked on
+
+2018-07-11 10:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 10:08:40 - [TEST_SUITE][PASSED] - Req_Mod_Demo: Test Cases/Smoke Test/Model House Req Mod Approve]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

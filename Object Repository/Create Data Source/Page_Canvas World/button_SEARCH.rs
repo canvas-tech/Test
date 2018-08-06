@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SEARCH</name>
+   <tag></tag>
+   <elementGuidId>dd4dc495-f5ff-4541-aa19-228718f84e32</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn ct_btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEARCH</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;div_0&quot;)/div[@class=&quot;panel panel-default WGT_CONNECTIONAPP ct-app ct-app-tm&quot;]/div[@class=&quot;row panel-body  WGT_CONNECTIONAPP ct-app__content&quot;]/div[@class=&quot;col-md-12 panel-body  WGT_CONNECTIONAPP ct-app__content&quot;]/div[@class=&quot;col-md-12 yscroll-wrapper-container&quot;]/div[1]/div[@class=&quot;col-sm-12 col-xs-12 col-lg-12 ct-padding-filter-container&quot;]/div[1]/div[@class=&quot;form-inline pull-left&quot;]/button[@class=&quot;btn ct_btn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

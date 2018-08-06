@@ -1,0 +1,313 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Request_Moduler,Chrome 67.0.3396.99,,2018-07-03 09:48:36,2018-07-03 09:53:12,4m - 35.999s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/Common Functions,Chrome 67.0.3396.99,,2018-07-03 09:48:37,2018-07-03 09:48:41,3.908s,PASSED
+Statement - digi = generateRandomInt(9999999),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.002s,PASSED
+Statement - random = new java.util.Random(),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.005s,PASSED
+Statement - return random.nextInt(upperRange),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.005s,PASSED
+Statement - acc = generateRandomInt(999999999),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.005s,PASSED
+Statement - random = new java.util.Random(),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - return random.nextInt(upperRange),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - accNo = java.lang.String.valueOf(acc),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(accNo),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.016s,PASSED
+"Statement - form_id = ""F"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - view_id = ""AV"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.015s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - app_id = ""AA"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(app_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - subWS_id = ""ASUB"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(subWS_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.016s,PASSED
+"Statement - WS_id = ""AWS"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(WS_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - req_id = ""AR"" + digi",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - println(req_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - filePath = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls""",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - file = new java.io.File(filePath),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.016s,PASSED
+Statement - fis = new java.io.FileInputStream(file),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.016s,PASSED
+Statement - fileOut = new java.io.FileOutputStream(filePath),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.116s,PASSED
+"Statement - st = workbook.createSheet(""POI Worksheet"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.312s,PASSED
+Statement - row = st.createRow(0),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.071s,PASSED
+Statement - cell0 = row.createCell(0),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.015s,PASSED
+"Statement - cell0.setCellValue(""FormID"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.017s,PASSED
+Statement - cell1 = row.createCell(1),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.015s,PASSED
+"Statement - cell1.setCellValue(""ViewID"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell2 = row.createCell(2),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - cell2.setCellValue(""AppID"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell3 = row.createCell(3),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - cell3.setCellValue(""SubWSID"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell4 = row.createCell(4),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - cell4.setCellValue(""WSID"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell5 = row.createCell(5),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - cell5.setCellValue(""ReqMod_id"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell6 = row.createCell(6),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+"Statement - cell6.setCellValue(""Acc_No"")",Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - row1 = st.createRow(1),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.016s,PASSED
+Statement - cell01 = row1.createCell(0),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.000s,PASSED
+Statement - cell01.setCellValue(form_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.018s,PASSED
+Statement - cell11 = row1.createCell(1),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.002s,PASSED
+Statement - cell11.setCellValue(view_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.002s,PASSED
+Statement - cell21 = row1.createCell(2),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.002s,PASSED
+Statement - cell21.setCellValue(app_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.002s,PASSED
+Statement - cell31 = row1.createCell(3),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:38,0.003s,PASSED
+Statement - cell31.setCellValue(subWS_id),Chrome 67.0.3396.99,,2018-07-03 09:48:38,2018-07-03 09:48:39,0.664s,PASSED
+Statement - cell41 = row1.createCell(4),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - cell41.setCellValue(WS_id),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - cell51 = row1.createCell(5),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - cell51.setCellValue(req_id),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - cell61 = row1.createCell(6),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - cell61.setCellValue(accNo),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - workbook.write(fileOut),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.066s,PASSED
+Statement - f_id = row1.getCell(0),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - println(f_id),Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:39,0.000s,PASSED
+Statement - Map_TC1 = [:],Chrome 67.0.3396.99,,2018-07-03 09:48:39,2018-07-03 09:48:40,0.813s,PASSED
+"Statement - Map_TC1.put(""formID"", f_id)",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""viewID"", row1.getCell(1))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""appID"", row1.getCell(2))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""subWSID"", row1.getCell(3))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""WSID"", row1.getCell(4))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""REQID"", row1.getCell(5))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+"Statement - Map_TC1.put(""AccNo"", row1.getCell(6))",Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+Statement - fileOut.flush(),Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.016s,PASSED
+Statement - fileOut.close(),Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:40,0.000s,PASSED
+Statement - return Map_TC1,Chrome 67.0.3396.99,,2018-07-03 09:48:40,2018-07-03 09:48:41,0.844s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/ReadExcel,Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:43,1.986s,PASSED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls""",Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.016s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.000s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.094s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.000s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.000s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.000s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:41,0.000s,PASSED
+Statement - fid = hssfRow.getCell(0),Chrome 67.0.3396.99,,2018-07-03 09:48:41,2018-07-03 09:48:42,0.917s,PASSED
+Statement - vid = hssfRow.getCell(1),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - aid = hssfRow.getCell(2),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - subid = hssfRow.getCell(3),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - wsid = hssfRow.getCell(4),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - reqid = hssfRow.getCell(5),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - accNo = hssfRow.getCell(6),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - println(vid),Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+Statement - map = [:],Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+"Statement - map.put(""formID"", fid)",Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:42,0.000s,PASSED
+"Statement - map.put(""viewID"", vid)",Chrome 67.0.3396.99,,2018-07-03 09:48:42,2018-07-03 09:48:43,0.833s,PASSED
+"Statement - map.put(""appID"", aid)",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+"Statement - map.put(""subWSID"", subid)",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+"Statement - map.put(""WSID"", wsid)",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+"Statement - map.put(""REQID"", reqid)",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+"Statement - map.put(""AccNo"", accNo)",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+Statement - return map,Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:43,0.000s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New Test Request Moduler,Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:51:50,3m - 7.441s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-07-03 09:48:43,2018-07-03 09:48:45,2.070s,PASSED
+"Statement - req_id = common[""REQID""]",Chrome 67.0.3396.99,,2018-07-03 09:48:45,2018-07-03 09:48:45,0.000s,PASSED
+Statement - println(req_id),Chrome 67.0.3396.99,,2018-07-03 09:48:45,2018-07-03 09:48:45,0.000s,PASSED
+"Statement - ws_id = common[""WSID""]",Chrome 67.0.3396.99,,2018-07-03 09:48:45,2018-07-03 09:48:45,0.000s,PASSED
+Statement - println(ws_id),Chrome 67.0.3396.99,,2018-07-03 09:48:46,2018-07-03 09:48:46,0.000s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 09:48:46,2018-07-03 09:48:53,6.431s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-07-03 09:48:53,2018-07-03 09:48:54,1.173s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 09:48:54,2018-07-03 09:49:15,21.599s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.99,,2018-07-03 09:49:15,2018-07-03 09:49:18,3.007s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:18,2018-07-03 09:49:19,0.328s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:19,2018-07-03 09:49:19,0.296s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:19,2018-07-03 09:49:21,2.405s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-03 09:49:21,2018-07-03 09:49:21,0.079s,PASSED
+Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)),Chrome 67.0.3396.99,,2018-07-03 09:49:21,2018-07-03 09:49:21,0.000s,NOT_RUN
+Statement - println(pageHeader),Chrome 67.0.3396.99,,2018-07-03 09:49:21,2018-07-03 09:49:21,0.000s,NOT_RUN
+"Statement - assert pageHeader == ""WORKSPACE CANVAS LIST""",Chrome 67.0.3396.99,,2018-07-03 09:49:21,2018-07-03 09:49:21,0.000s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:21,2018-07-03 09:49:22,0.881s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:22,2018-07-03 09:49:23,0.308s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-03 09:49:23,2018-07-03 09:49:23,0.183s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:23,2018-07-03 09:49:25,2.334s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:25,2018-07-03 09:49:25,0.248s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:25,2018-07-03 09:49:26,0.201s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.363s,PASSED
+"Statement - service_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Service_Type"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.011s,PASSED
+"Statement - If (service_type == ""HAL"")",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.001s,PASSED
+"Statement - Else If (service_type == ""Web Service"")",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.001s,PASSED
+Statement - Else,Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.002s,PASSED
+"Statement - request_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Req_type"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.017s,PASSED
+"Statement - If (request_type == ""Admin"")",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.155s,PASSED
+"Statement - request_mode = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Req_mode"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.010s,PASSED
+"Statement - If (request_mode == ""Private"")",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.001s,PASSED
+"Statement - Else If (request_mode == ""Public"")",Chrome 67.0.3396.99,,2018-07-03 09:49:26,2018-07-03 09:49:26,0.144s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:27,2018-07-03 09:49:27,0.140s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:27,2018-07-03 09:49:27,0.268s,PASSED
+"Statement - req_category = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Req_category"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:49:28,2018-07-03 09:49:28,0.000s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-03 09:49:28,2018-07-03 09:49:28,0.271s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:28,2018-07-03 09:49:29,0.904s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:49:29,2018-07-03 09:49:30,0.870s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:30,2018-07-03 09:49:30,0.152s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:49:30,2018-07-03 09:49:34,4.011s,PASSED
+"Statement - selectDB = ""//span[starts-with(text(), '"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""DB_Name"", 1) + ""')]""",Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.015s,PASSED
+Statement - println(selectDB),Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectDB).addProperty(""xpath"", EQUALS, selectDB, true)",Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.016s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.080s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.268s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:34,0.143s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:49:34,2018-07-03 09:49:40,6.004s,PASSED
+"Statement - For ([i = 1, i <= 3, (i++)])",Chrome 67.0.3396.99,,2018-07-03 09:49:40,2018-07-03 09:49:41,0.999s,PASSED
+"Statement - For ([j = 1, j <= 3, (j++)])",Chrome 67.0.3396.99,,2018-07-03 09:49:41,2018-07-03 09:49:45,3.702s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-03 09:49:45,2018-07-03 09:49:46,0.804s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-03 09:49:46,2018-07-03 09:49:47,1.002s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-07-03 09:49:47,2018-07-03 09:49:47,0.231s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:49:47,2018-07-03 09:49:48,0.667s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:49:48,2018-07-03 09:50:08,20.016s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:08,2018-07-03 09:50:08,0.206s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:08,2018-07-03 09:50:08,0.275s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:08,2018-07-03 09:50:10,2.005s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:50:10,2018-07-03 09:50:12,1.168s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:12,2018-07-03 09:50:12,0.626s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:12,2018-07-03 09:50:16,4.002s,PASSED
+"Statement - resultTable = ""(//span[contains(text(),'"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Table_Name"", 1) + ""')])[1]""",Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.001s,PASSED
+Statement - println(resultTable),Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.000s,PASSED
+"Statement - dynamicObject3 = new com.kms.katalon.core.testobject.TestObject(resultTable).addProperty(""xpath"", EQUALS, resultTable, true)",Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.096s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.101s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:16,0.074s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:16,2018-07-03 09:50:31,15.002s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-03 09:50:31,2018-07-03 09:50:32,0.088s,PASSED
+focus,Chrome 67.0.3396.99,,2018-07-03 09:50:32,2018-07-03 09:50:32,0.142s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:32,2018-07-03 09:50:32,0.350s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:32,2018-07-03 09:50:36,4.003s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:36,2018-07-03 09:50:36,0.104s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:36,2018-07-03 09:50:36,0.152s,PASSED
+"Statement - If (request_mode == ""Private"")",Chrome 67.0.3396.99,,2018-07-03 09:50:36,2018-07-03 09:50:36,0.001s,PASSED
+focus,Chrome 67.0.3396.99,,2018-07-03 09:50:36,2018-07-03 09:50:36,0.177s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:36,2018-07-03 09:50:37,0.395s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:37,2018-07-03 09:50:41,4.004s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:41,2018-07-03 09:50:41,0.098s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:41,2018-07-03 09:50:42,1.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:50:42,2018-07-03 09:50:42,0.075s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:42,2018-07-03 09:50:45,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:45,2018-07-03 09:50:45,0.318s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:50:45,2018-07-03 09:50:46,0.249s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:46,2018-07-03 09:50:49,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:49,2018-07-03 09:50:49,0.162s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:50:49,2018-07-03 09:50:52,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:50:52,2018-07-03 09:51:03,11.678s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:03,2018-07-03 09:51:08,5.003s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:51:08,2018-07-03 09:51:09,0.141s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:09,2018-07-03 09:51:11,2.002s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:51:11,2018-07-03 09:51:11,0.096s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:11,2018-07-03 09:51:13,2.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-03 09:51:13,2018-07-03 09:51:13,0.098s,PASSED
+getText,Chrome 67.0.3396.99,,2018-07-03 09:51:13,2018-07-03 09:51:13,0.109s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:13,2018-07-03 09:51:16,3.005s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:16,2018-07-03 09:51:16,0.170s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:16,2018-07-03 09:51:19,3.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:19,2018-07-03 09:51:19,0.158s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:19,2018-07-03 09:51:27,8.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:27,2018-07-03 09:51:28,0.225s,PASSED
+"Statement - selectReqWS = ""//span[contains(text(),'"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Edit_WS"", 1) + ""')]""",Chrome 67.0.3396.99,,2018-07-03 09:51:28,2018-07-03 09:51:28,0.016s,PASSED
+Statement - println(selectReqWS),Chrome 67.0.3396.99,,2018-07-03 09:51:28,2018-07-03 09:51:28,0.001s,PASSED
+"Statement - wdgt = new com.kms.katalon.core.testobject.TestObject(selectReqWS).addProperty(""xpath"", EQUALS, selectReqWS, true)",Chrome 67.0.3396.99,,2018-07-03 09:51:28,2018-07-03 09:51:28,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:51:28,2018-07-03 09:51:29,1.127s,PASSED
+rightClick,Chrome 67.0.3396.99,,2018-07-03 09:51:29,2018-07-03 09:51:29,0.130s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:29,2018-07-03 09:51:31,2.004s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:31,2018-07-03 09:51:31,0.183s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:31,2018-07-03 09:51:35,4.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:35,2018-07-03 09:51:35,0.301s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:35,2018-07-03 09:51:39,4.004s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:51:39,2018-07-03 09:51:39,0.213s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-07-03 09:51:39,2018-07-03 09:51:40,0.118s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:40,2018-07-03 09:51:42,2.003s,PASSED
+"Statement - error_msg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Request Moduler/Page_Canvas World/error_msg), 5)",Chrome 67.0.3396.99,,2018-07-03 09:51:42,2018-07-03 09:51:42,0.045s,PASSED
+"Statement - If (java.lang.String.valueOf(error_msg) == ""true"")",Chrome 67.0.3396.99,,2018-07-03 09:51:42,2018-07-03 09:51:46,4.168s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:46,2018-07-03 09:51:46,0.233s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:51:46,2018-07-03 09:51:50,4.004s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:51:50,2018-07-03 09:51:50,0.179s,PASSED
+,,,,,,
+Test Cases/Smoke Test/Model House Req Mod Test,Chrome 67.0.3396.99,,2018-07-03 09:51:50,2018-07-03 09:53:12,1m - 21.343s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.233s,PASSED
+"Statement - ws_id = common[""WSID""]",Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.001s,PASSED
+Statement - println(ws_id),Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.000s,PASSED
+"Statement - req_id = common[""REQID""]",Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.001s,PASSED
+Statement - println(req_id),Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.001s,PASSED
+"Statement - acc_No = common[""AccNo""]",Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.000s,PASSED
+Statement - println(acc_No),Chrome 67.0.3396.99,,2018-07-03 09:51:51,2018-07-03 09:51:51,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.99,Opening the Browser.,2018-07-03 09:51:51,2018-07-03 09:51:57,6.175s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,Maximize the browser.,2018-07-03 09:51:57,2018-07-03 09:51:58,1.176s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 09:51:58,2018-07-03 09:51:59,0.463s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-03 09:51:59,2018-07-03 09:52:00,0.738s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 09:52:00,2018-07-03 09:52:03,3.257s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,Maximize the browser.,2018-07-03 09:52:03,2018-07-03 09:52:04,1.162s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Verifiy that user able to launch Application.,2018-07-03 09:52:04,2018-07-03 09:52:26,21.609s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-03 09:52:26,2018-07-03 09:52:26,0.052s,PASSED
+setText,Chrome 67.0.3396.99,Verify that user able to enter the user name.,2018-07-03 09:52:26,2018-07-03 09:52:26,0.207s,PASSED
+setText,Chrome 67.0.3396.99,Verify that user able to enter the password.,2018-07-03 09:52:26,2018-07-03 09:52:26,0.200s,PASSED
+click,Chrome 67.0.3396.99,Verify that user able to click on the Login and able to open the application.,2018-07-03 09:52:26,2018-07-03 09:52:28,1.826s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.141s,PASSED
+"Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), ""title"")",Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.261s,PASSED
+Statement - println(pageHeader),Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.001s,PASSED
+"Statement - assert pageHeader == ""Canvas Technology""",Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.002s,PASSED
+"Statement - selectWS = ""//div[contains(text(),'"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Req_Mod_WS"", 1) + ""')]""",Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.009s,PASSED
+Statement - println(selectWS),Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty(""xpath"", EQUALS, selectWS, true)",Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:28,0.108s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:52:28,2018-07-03 09:52:29,0.219s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:52:29,2018-07-03 09:52:39,10.003s,PASSED
+"Statement - selectRM = ""//span[starts-with(@class,'workspace_label workspace_label-"" + req_id + ""')]""",Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:39,0.001s,PASSED
+Statement - println(selectRM),Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:39,0.001s,PASSED
+"Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(selectRM).addProperty(""xpath"", EQUALS, selectRM, true)",Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:39,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:39,0.092s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:39,0.096s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:52:39,2018-07-03 09:52:49,10.003s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:49,2018-07-03 09:52:49,0.322s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:49,2018-07-03 09:52:49,0.328s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:49,2018-07-03 09:52:50,0.306s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:50,2018-07-03 09:52:50,0.233s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:50,2018-07-03 09:52:50,0.375s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:50,2018-07-03 09:52:51,0.262s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:51,2018-07-03 09:52:51,0.285s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 09:52:51,2018-07-03 09:52:52,0.775s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:52:52,2018-07-03 09:52:55,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:52:55,2018-07-03 09:52:55,0.141s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:52:55,2018-07-03 09:52:58,3.004s,PASSED
+"Statement - readAccNo = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_1"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:52:58,2018-07-03 09:52:58,0.023s,PASSED
+Statement - println(readAccNo),Chrome 67.0.3396.99,,2018-07-03 09:52:58,2018-07-03 09:52:58,0.000s,PASSED
+"Statement - dO = new com.kms.katalon.core.testobject.TestObject(readAccNo).addProperty(""xpath"", EQUALS, readAccNo, true)",Chrome 67.0.3396.99,,2018-07-03 09:52:58,2018-07-03 09:52:58,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:52:58,2018-07-03 09:52:58,0.084s,PASSED
+Statement - accNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO),Chrome 67.0.3396.99,,2018-07-03 09:52:58,2018-07-03 09:52:59,0.053s,PASSED
+Statement - println(accNo),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.000s,PASSED
+Statement - assert accNo == acc_No,Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.000s,PASSED
+"Statement - readStatus = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_2"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.006s,PASSED
+Statement - println(readStatus),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.001s,PASSED
+"Statement - dO1 = new com.kms.katalon.core.testobject.TestObject(readStatus).addProperty(""xpath"", EQUALS, readStatus, true)",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.054s,PASSED
+Statement - status = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO1),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.045s,PASSED
+Statement - println(status),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.001s,PASSED
+"Statement - assert status == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Status"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.005s,PASSED
+"Statement - readUnclrFund = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_3"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.006s,PASSED
+Statement - println(readUnclrFund),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.001s,PASSED
+"Statement - dO2 = new com.kms.katalon.core.testobject.TestObject(readUnclrFund).addProperty(""xpath"", EQUALS, readUnclrFund, true)",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.600s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.062s,PASSED
+Statement - unClrFund = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO2),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.047s,PASSED
+Statement - println(unClrFund),Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:52:59,0.001s,PASSED
+"Statement - assert unClrFund == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Uncleared_Fund"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:52:59,2018-07-03 09:53:00,0.763s,PASSED
+"Statement - readOvrDft = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_4"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:53:00,2018-07-03 09:53:00,0.007s,PASSED
+Statement - println(readOvrDft),Chrome 67.0.3396.99,,2018-07-03 09:53:00,2018-07-03 09:53:00,0.001s,PASSED
+"Statement - dO3 = new com.kms.katalon.core.testobject.TestObject(readOvrDft).addProperty(""xpath"", EQUALS, readOvrDft, true)",Chrome 67.0.3396.99,,2018-07-03 09:53:00,2018-07-03 09:53:00,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:53:00,2018-07-03 09:53:01,0.967s,PASSED
+Statement - ovrDft = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO3),Chrome 67.0.3396.99,,2018-07-03 09:53:01,2018-07-03 09:53:01,0.042s,PASSED
+Statement - println(ovrDft),Chrome 67.0.3396.99,,2018-07-03 09:53:01,2018-07-03 09:53:01,0.000s,PASSED
+"Statement - assert ovrDft == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Overdraft_limit"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:53:01,2018-07-03 09:53:01,0.007s,PASSED
+"Statement - readCurrency = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_5"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:53:01,2018-07-03 09:53:02,0.904s,PASSED
+Statement - println(readCurrency),Chrome 67.0.3396.99,,2018-07-03 09:53:02,2018-07-03 09:53:02,0.001s,PASSED
+"Statement - dO4 = new com.kms.katalon.core.testobject.TestObject(readCurrency).addProperty(""xpath"", EQUALS, readCurrency, true)",Chrome 67.0.3396.99,,2018-07-03 09:53:02,2018-07-03 09:53:02,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:53:02,2018-07-03 09:53:02,0.057s,PASSED
+Statement - currency = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO4),Chrome 67.0.3396.99,,2018-07-03 09:53:02,2018-07-03 09:53:03,0.950s,PASSED
+Statement - println(currency),Chrome 67.0.3396.99,,2018-07-03 09:53:03,2018-07-03 09:53:03,0.001s,PASSED
+"Statement - assert currency == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Currency"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:53:03,2018-07-03 09:53:03,0.006s,PASSED
+"Statement - readAccName = ""//span[@name='"" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Col_6"", 1) + ""']""",Chrome 67.0.3396.99,,2018-07-03 09:53:03,2018-07-03 09:53:03,0.005s,PASSED
+Statement - println(readAccName),Chrome 67.0.3396.99,,2018-07-03 09:53:03,2018-07-03 09:53:04,0.917s,PASSED
+"Statement - dO5 = new com.kms.katalon.core.testobject.TestObject(readAccName).addProperty(""xpath"", EQUALS, readAccName, true)",Chrome 67.0.3396.99,,2018-07-03 09:53:04,2018-07-03 09:53:04,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-03 09:53:04,2018-07-03 09:53:04,0.067s,PASSED
+Statement - accName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO5),Chrome 67.0.3396.99,,2018-07-03 09:53:04,2018-07-03 09:53:04,0.070s,PASSED
+Statement - println(accName),Chrome 67.0.3396.99,,2018-07-03 09:53:05,2018-07-03 09:53:05,0.046s,PASSED
+"Statement - assert accName == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(""Acc_Name"", 1)",Chrome 67.0.3396.99,,2018-07-03 09:53:05,2018-07-03 09:53:05,0.018s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:53:05,2018-07-03 09:53:08,3.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:53:08,2018-07-03 09:53:08,0.222s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-03 09:53:08,2018-07-03 09:53:11,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 09:53:11,2018-07-03 09:53:12,0.274s,PASSED

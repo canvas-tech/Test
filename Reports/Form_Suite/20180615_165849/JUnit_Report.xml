@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Form_Suite" time="214" tests="5" failures="1" errors="0">
+   <testsuite name="Form_Suite" tests="5" failures="1" errors="0" time="214" timestamp="2018-06-15 16:58:51" hostname="arokia.raj - N9449.intellectdesign.com" id="Test Suites/Form_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Form_Suite\\20180615_165849"/>
+         <property name="logFiles" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Form_Suite\\20180615_165849\\execution0.log"/>
+         <property name="attachments" value="D:\\Sheepa\\Katalon\\screenshot.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Form_Suite\\20180615_165849\\1529062343807.png"/>
+         <property name="hostName" value="arokia.raj - N9449.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.29.24.231"/>
+         <property name="sessionId" value="8d004e37e26522b6bf63cfa58628a8e7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Common Functions" classname="Test Cases/Studio Smoke Test Cases/Common Functions" status="PASSED">
+         <system-out><![CDATA[2018-06-15 16:58:52 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Common Functions: Test Cases/Studio Smoke Test Cases/Common Functions
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - digi = generateRandomInt(9999999): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - form_id = "F" + digi: null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - view_id = "AV" + digi: null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - app_id = "AA" + digi: null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - println(app_id): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - subWS_id = "ASUB" + digi: null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - println(subWS_id): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - WS_id = "AWS" + digi: null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - println(WS_id): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - filePath = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - file = new java.io.File(filePath): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(file): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - fileOut = new java.io.FileOutputStream(filePath): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(): null
+
+2018-06-15 16:58:52 - [TEST_STEP][PASSED] - Statement - st = workbook.createSheet("POI Worksheet"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - row = st.createRow(0): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell0 = row.createCell(0): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell0.setCellValue("FormID"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell1 = row.createCell(1): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell1.setCellValue("ViewID"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell2 = row.createCell(2): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell2.setCellValue("AppID"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell3 = row.createCell(3): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell3.setCellValue("SubWSID"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell4 = row.createCell(4): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell4.setCellValue("WSID"): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - row1 = st.createRow(1): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell01 = row1.createCell(0): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell01.setCellValue(form_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell11 = row1.createCell(1): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell11.setCellValue(view_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell21 = row1.createCell(2): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell21.setCellValue(app_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell31 = row1.createCell(3): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell31.setCellValue(subWS_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell41 = row1.createCell(4): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - cell41.setCellValue(WS_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - workbook.write(fileOut): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - f_id = row1.getCell(0): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - println(f_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1 = [:]: null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("formID", f_id): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("viewID", row1.getCell(1)): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("appID", row1.getCell(2)): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("subWSID", row1.getCell(3)): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("WSID", row1.getCell(4)): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - fileOut.flush(): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - fileOut.close(): null
+
+2018-06-15 16:58:53 - [TEST_STEP][PASSED] - Statement - return Map_TC1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/New_Create_Form" classname="Test Cases/Studio Smoke Test Cases/New_Create_Form" status="PASSED">
+         <system-out><![CDATA[2018-06-15 16:58:53 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/New_Create_Form: Test Cases/Studio Smoke Test Cases/New_Create_Form
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 16:58:54 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-06-15 16:58:54 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-06-15 16:58:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-06-15 16:58:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 16:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 16:59:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 16:59:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 16:59:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.19.29.253:8082/expertctstudio/' successfully
+
+2018-06-15 16:59:23 - [MESSAGE][PASSED] - Navigate to 'http://172.19.29.253:8082/expertctstudio/' successfully
+
+2018-06-15 16:59:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - folder = "D:\Sheepa\AutoIt\": null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - exe = "KAuth.exe": null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - p = new java.lang.ProcessBuilder(cmd.exe, /C, start): null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - p.command(folder + exe): null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - p.start(): null
+
+2018-06-15 16:59:26 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-06-15 16:59:28 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-06-15 16:59:29 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-06-15 16:59:29 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-06-15 16:59:29 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-06-15 16:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-06-15 16:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-06-15 16:59:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 16:59:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 16:59:35 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 16:59:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 16:59:37 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-06-15 16:59:37 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "WORKSPACE CANVAS LIST": null
+
+2018-06-15 16:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 16:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 16:59:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Form' is clicked on
+
+2018-06-15 16:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Form' is clicked on
+
+2018-06-15 16:59:38 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-06-15 16:59:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-06-15 16:59:46 - [TEST_STEP][PASSED] - Statement - formHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/form_Title)): Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_Title' is: 'CREATE / EDIT FORM'
+
+2018-06-15 16:59:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_Title' is: 'CREATE / EDIT FORM'
+
+2018-06-15 16:59:46 - [TEST_STEP][PASSED] - Statement - println(formHeader): null
+
+2018-06-15 16:59:46 - [TEST_STEP][PASSED] - Statement - assert formHeader == "CREATE / EDIT FORM": null
+
+2018-06-15 16:59:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ID' is clicked on
+
+2018-06-15 16:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ID' is clicked on
+
+2018-06-15 16:59:46 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-06-15 16:59:46 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-06-15 16:59:46 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-06-15 16:59:46 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-06-15 16:59:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 16:59:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 16:59:51 - [TEST_STEP][PASSED] - setText: Text 'F7323501' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/input_input-text'
+
+2018-06-15 16:59:52 - [MESSAGE][PASSED] - Text 'F7323501' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/input_input-text'
+
+2018-06-15 16:59:52 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-06-15 16:59:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-06-15 16:59:56 - [TEST_STEP][NOT_RUN] - switchToWindowIndex: NOT_RUN: switchToWindowIndex
+
+2018-06-15 16:59:56 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowIndex
+
+2018-06-15 16:59:56 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/error_PopUp), 10)): Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_TextField' is clicked on
+
+2018-06-15 16:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_Form/Page_Canvas World/error_PopUp' is present
+
+2018-06-15 16:59:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/error_OK' is clicked on
+
+2018-06-15 16:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/error_OK' is clicked on
+
+2018-06-15 16:59:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 17:00:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 17:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_TextField' is clicked on
+
+2018-06-15 17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_TextField' is clicked on
+
+2018-06-15 17:00:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_Edit' is clicked on
+
+2018-06-15 17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_Edit' is clicked on
+
+2018-06-15 17:00:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:02 - [TEST_STEP][PASSED] - setText: Text 'Text_Label_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:02 - [MESSAGE][PASSED] - Text 'Text_Label_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/LAlign_Inline' is clicked on
+
+2018-06-15 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/LAlign_Inline' is clicked on
+
+2018-06-15 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_Number' is clicked on
+
+2018-06-15 17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_Number' is clicked on
+
+2018-06-15 17:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/mandatory_Field' is clicked on
+
+2018-06-15 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/mandatory_Field' is clicked on
+
+2018-06-15 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Min' is clicked on
+
+2018-06-15 17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Min' is clicked on
+
+2018-06-15 17:00:05 - [TEST_STEP][PASSED] - setText: Text '6' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MinLength'
+
+2018-06-15 17:00:05 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MinLength'
+
+2018-06-15 17:00:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textField_Click' is clicked on
+
+2018-06-15 17:00:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Max' is clicked on
+
+2018-06-15 17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Max' is clicked on
+
+2018-06-15 17:00:05 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MaxLength'
+
+2018-06-15 17:00:06 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MaxLength'
+
+2018-06-15 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_TextArea' is clicked on
+
+2018-06-15 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_TextArea' is clicked on
+
+2018-06-15 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textArea_Click' is clicked on
+
+2018-06-15 17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/textArea_Click' is clicked on
+
+2018-06-15 17:00:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_AlphaNumeric' is clicked on
+
+2018-06-15 17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_AlphaNumeric' is clicked on
+
+2018-06-15 17:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Click' is clicked on
+
+2018-06-15 17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Click' is clicked on
+
+2018-06-15 17:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/mandatory_Field' is clicked on
+
+2018-06-15 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/mandatory_Field' is clicked on
+
+2018-06-15 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Min' is clicked on
+
+2018-06-15 17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Min' is clicked on
+
+2018-06-15 17:00:08 - [TEST_STEP][PASSED] - setText: Text '6' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MinLength'
+
+2018-06-15 17:00:08 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MinLength'
+
+2018-06-15 17:00:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Max' is clicked on
+
+2018-06-15 17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/inputSize_Max' is clicked on
+
+2018-06-15 17:00:09 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MaxLength'
+
+2018-06-15 17:00:09 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/set_MaxLength'
+
+2018-06-15 17:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/password_Area' is clicked on
+
+2018-06-15 17:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_AlphaNumeric' is clicked on
+
+2018-06-15 17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/validation_AlphaNumeric' is clicked on
+
+2018-06-15 17:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ChkBox' is clicked on
+
+2018-06-15 17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ChkBox' is clicked on
+
+2018-06-15 17:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settings' is clicked on
+
+2018-06-15 17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settings' is clicked on
+
+2018-06-15 17:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settingsArea' is clicked on
+
+2018-06-15 17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settingsArea' is clicked on
+
+2018-06-15 17:00:11 - [TEST_STEP][PASSED] - setText: Text 'Ok : OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settingsArea'
+
+2018-06-15 17:00:11 - [MESSAGE][PASSED] - Text 'Ok : OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbx_settingsArea'
+
+2018-06-15 17:00:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Chkbox_grp' is clicked on
+
+2018-06-15 17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Chkbox_grp' is clicked on
+
+2018-06-15 17:00:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settings' is clicked on
+
+2018-06-15 17:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settings' is clicked on
+
+2018-06-15 17:00:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settingsArea' is clicked on
+
+2018-06-15 17:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settingsArea' is clicked on
+
+2018-06-15 17:00:12 - [TEST_STEP][PASSED] - setText: Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settingsArea'
+
+2018-06-15 17:00:13 - [MESSAGE][PASSED] - Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/chkbxGrp_settingsArea'
+
+2018-06-15 17:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_RadioGrp' is clicked on
+
+2018-06-15 17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_RadioGrp' is clicked on
+
+2018-06-15 17:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settings' is clicked on
+
+2018-06-15 17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settings' is clicked on
+
+2018-06-15 17:00:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settingsArea' is clicked on
+
+2018-06-15 17:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settingsArea' is clicked on
+
+2018-06-15 17:00:14 - [TEST_STEP][PASSED] - setText: Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settingsArea'
+
+2018-06-15 17:00:14 - [MESSAGE][PASSED] - Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/radioGrp_settingsArea'
+
+2018-06-15 17:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ComboBox' is clicked on
+
+2018-06-15 17:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_ComboBox' is clicked on
+
+2018-06-15 17:00:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settings' is clicked on
+
+2018-06-15 17:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settings' is clicked on
+
+2018-06-15 17:00:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settingsArea' is clicked on
+
+2018-06-15 17:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settingsArea' is clicked on
+
+2018-06-15 17:00:15 - [TEST_STEP][PASSED] - setText: Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settingsArea'
+
+2018-06-15 17:00:16 - [MESSAGE][PASSED] - Text 'Ok : OK, NotOK : NOT OK' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/comboField_settingsArea'
+
+2018-06-15 17:00:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Title' is clicked on
+
+2018-06-15 17:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Title' is clicked on
+
+2018-06-15 17:00:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/title_area' is clicked on
+
+2018-06-15 17:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/title_area' is clicked on
+
+2018-06-15 17:00:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:17 - [TEST_STEP][PASSED] - setText: Text 'Title_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:17 - [MESSAGE][PASSED] - Text 'Title_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Date' is clicked on
+
+2018-06-15 17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Date' is clicked on
+
+2018-06-15 17:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/date_area' is clicked on
+
+2018-06-15 17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/date_area' is clicked on
+
+2018-06-15 17:00:18 - [TEST_STEP][PASSED] - setText: Text '30/12/2020' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/date_area'
+
+2018-06-15 17:00:19 - [MESSAGE][PASSED] - Text '30/12/2020' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/date_area'
+
+2018-06-15 17:00:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Label' is clicked on
+
+2018-06-15 17:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Label' is clicked on
+
+2018-06-15 17:00:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_area' is clicked on
+
+2018-06-15 17:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_area' is clicked on
+
+2018-06-15 17:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:20 - [TEST_STEP][PASSED] - setText: Text 'Label_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:20 - [MESSAGE][PASSED] - Text 'Label_01' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_button' is clicked on
+
+2018-06-15 17:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_button' is clicked on
+
+2018-06-15 17:00:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/click_ButtonArea' is clicked on
+
+2018-06-15 17:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/click_ButtonArea' is clicked on
+
+2018-06-15 17:00:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_PlainLabel' is clicked on
+
+2018-06-15 17:00:22 - [TEST_STEP][PASSED] - setText: Text 'Submit' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:22 - [MESSAGE][PASSED] - Text 'Submit' is set on object 'Object Repository/New_Test_Create_Form/Page_Canvas World/label_EnterText'
+
+2018-06-15 17:00:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 17:00:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 17:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_save' is clicked on
+
+2018-06-15 17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/form_save' is clicked on
+
+2018-06-15 17:00:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/formSave_dialogBox' is clicked on
+
+2018-06-15 17:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/formSave_dialogBox' is clicked on
+
+2018-06-15 17:00:30 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-06-15 17:00:30 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/New_Create_View" classname="Test Cases/Studio Smoke Test Cases/New_Create_View" status="PASSED">
+         <system-out><![CDATA[2018-06-15 17:00:30 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/New_Create_View: Test Cases/Studio Smoke Test Cases/New_Create_View
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:00:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:00:30 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-06-15 17:00:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:00:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - println(homePageHeader): null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - Statement - assert homePageHeader == "WORKSPACE CANVAS LIST": null
+
+2018-06-15 17:00:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:00:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-06-15 17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-06-15 17:00:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:00:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:00:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-06-15 17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-06-15 17:00:34 - [TEST_STEP][PASSED] - setText: Text 'AV7323501' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-06-15 17:00:34 - [MESSAGE][PASSED] - Text 'AV7323501' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-06-15 17:00:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-06-15 17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-06-15 17:00:34 - [TEST_STEP][PASSED] - setText: Text 'AV7323501' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-06-15 17:00:35 - [MESSAGE][PASSED] - Text 'AV7323501' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-06-15 17:00:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FORM' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-06-15 17:00:36 - [MESSAGE][PASSED] - All options with value 'FORM' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-06-15 17:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-06-15 17:00:36 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/click_selectForm' is clicked on
+
+2018-06-15 17:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/click_selectForm' is clicked on
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + form_id + "')]": null
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-06-15 17:00:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'F7323501')]' is visible
+
+2018-06-15 17:00:38 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'F7323501')]' is visible
+
+2018-06-15 17:00:38 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'F7323501')]' is double clicked on
+
+2018-06-15 17:00:38 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'F7323501')]' is double clicked on
+
+2018-06-15 17:00:38 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'F7323501')]' is double clicked on
+
+2018-06-15 17:00:38 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'F7323501')]' is double clicked on
+
+2018-06-15 17:00:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 17:00:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 17:00:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-06-15 17:00:41 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-06-15 17:00:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-06-15 17:00:42 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-06-15 17:00:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-06-15 17:00:42 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-06-15 17:00:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 17:00:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 17:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-06-15 17:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-06-15 17:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-06-15 17:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/New_Create_App" classname="Test Cases/Studio Smoke Test Cases/New_Create_App" status="PASSED">
+         <system-out><![CDATA[2018-06-15 17:00:47 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/New_Create_App: Test Cases/Studio Smoke Test Cases/New_Create_App
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:00:47 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-06-15 17:00:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - app_id = common["appID"]: null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - println(app_id): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:00:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:00:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - println(homePageHeader): null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - Statement - assert homePageHeader == "WORKSPACE CANVAS LIST": null
+
+2018-06-15 17:00:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-06-15 17:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-06-15 17:00:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:00:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId' is clicked on
+
+2018-06-15 17:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId' is clicked on
+
+2018-06-15 17:00:50 - [TEST_STEP][PASSED] - setText: Text 'AA7323501' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-06-15 17:00:50 - [MESSAGE][PASSED] - Text 'AA7323501' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-06-15 17:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-06-15 17:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-06-15 17:00:51 - [TEST_STEP][PASSED] - setText: Text 'AA7323501' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-06-15 17:00:51 - [MESSAGE][PASSED] - Text 'AA7323501' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-06-15 17:00:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-06-15 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-06-15 17:00:52 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-06-15 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + view_id + "')]": null
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-06-15 17:00:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'AV7323501')]' is visible
+
+2018-06-15 17:00:53 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'AV7323501')]' is visible
+
+2018-06-15 17:00:53 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'AV7323501')]' is double clicked on
+
+2018-06-15 17:00:54 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'AV7323501')]' is double clicked on
+
+2018-06-15 17:00:54 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'AV7323501')]' is double clicked on
+
+2018-06-15 17:00:54 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'AV7323501')]' is double clicked on
+
+2018-06-15 17:00:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 17:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 17:00:57 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-06-15 17:00:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-06-15 17:00:57 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-06-15 17:00:57 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-06-15 17:00:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 17:01:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 17:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-06-15 17:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-06-15 17:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-06-15 17:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/New_Create_WS" classname="Test Cases/Studio Smoke Test Cases/New_Create_WS" status="PASSED">
+         <system-out><![CDATA[2018-06-15 17:01:02 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/New_Create_WS: Test Cases/Studio Smoke Test Cases/New_Create_WS
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:01:02 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-06-15 17:01:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - app_id = common["appID"]: null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(app_id): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - subws_id = common["subWSID"]: null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(subws_id): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:01:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:01:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Form/Page_Canvas World/get_HomePage_Header' is: 'WORKSPACE CANVAS LIST'
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - println(homePageHeader): null
+
+2018-06-15 17:01:02 - [TEST_STEP][PASSED] - Statement - assert homePageHeader == "WORKSPACE CANVAS LIST": null
+
+2018-06-15 17:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-06-15 17:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/span_Workspace' is clicked on
+
+2018-06-15 17:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/span_Workspace' is clicked on
+
+2018-06-15 17:01:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:01:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:01:04 - [TEST_STEP][NOT_RUN] - Statement - wsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/WS_PageHeader)): NOT_RUN: Statement - wsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/WS_PageHeader))
+
+2018-06-15 17:01:04 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - wsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/WS_PageHeader))
+
+2018-06-15 17:01:04 - [TEST_STEP][NOT_RUN] - Statement - println(wsPageHeader): NOT_RUN: Statement - println(wsPageHeader)
+
+2018-06-15 17:01:04 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println(wsPageHeader)
+
+2018-06-15 17:01:04 - [TEST_STEP][NOT_RUN] - Statement - assert wsPageHeader == "WORKSPACE DEFINITION": NOT_RUN: Statement - assert wsPageHeader == "WORKSPACE DEFINITION"
+
+2018-06-15 17:01:04 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - assert wsPageHeader == "WORKSPACE DEFINITION"
+
+2018-06-15 17:01:04 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-15 17:01:04 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-15 17:01:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId' is clicked on
+
+2018-06-15 17:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId' is clicked on
+
+2018-06-15 17:01:04 - [TEST_STEP][PASSED] - setText: Text 'AWS7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId'
+
+2018-06-15 17:01:04 - [MESSAGE][PASSED] - Text 'AWS7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId'
+
+2018-06-15 17:01:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name' is clicked on
+
+2018-06-15 17:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name' is clicked on
+
+2018-06-15 17:01:04 - [TEST_STEP][PASSED] - setText: Text 'AWS7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name'
+
+2018-06-15 17:01:05 - [MESSAGE][PASSED] - Text 'AWS7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name'
+
+2018-06-15 17:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle' is clicked on
+
+2018-06-15 17:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle' is clicked on
+
+2018-06-15 17:01:05 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle'
+
+2018-06-15 17:01:05 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle'
+
+2018-06-15 17:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position' is clicked on
+
+2018-06-15 17:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position' is clicked on
+
+2018-06-15 17:01:05 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position'
+
+2018-06-15 17:01:06 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position'
+
+2018-06-15 17:01:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_ProductCode' 
+
+2018-06-15 17:01:06 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_ProductCode' 
+
+2018-06-15 17:01:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Prdt_SubCode' 
+
+2018-06-15 17:01:06 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Prdt_SubCode' 
+
+2018-06-15 17:01:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_Layout' 
+
+2018-06-15 17:01:07 - [MESSAGE][PASSED] - All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_Layout' 
+
+2018-06-15 17:01:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/create_SubWS' is clicked on
+
+2018-06-15 17:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/create_SubWS' is clicked on
+
+2018-06-15 17:01:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:01:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:01:07 - [TEST_STEP][NOT_RUN] - Statement - subwsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/subWS_PageHeader)): NOT_RUN: Statement - subwsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/subWS_PageHeader))
+
+2018-06-15 17:01:07 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - subwsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/subWS_PageHeader))
+
+2018-06-15 17:01:07 - [TEST_STEP][NOT_RUN] - Statement - println(subwsPageHeader): NOT_RUN: Statement - println(subwsPageHeader)
+
+2018-06-15 17:01:07 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println(subwsPageHeader)
+
+2018-06-15 17:01:07 - [TEST_STEP][NOT_RUN] - Statement - assert subwsPageHeader == "SUB WORKSPACE DEFINITION": NOT_RUN: Statement - assert subwsPageHeader == "SUB WORKSPACE DEFINITION"
+
+2018-06-15 17:01:07 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - assert subwsPageHeader == "SUB WORKSPACE DEFINITION"
+
+2018-06-15 17:01:07 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-15 17:01:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-15 17:01:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID' is clicked on
+
+2018-06-15 17:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID' is clicked on
+
+2018-06-15 17:01:08 - [TEST_STEP][PASSED] - setText: Text 'ASUB7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID'
+
+2018-06-15 17:01:09 - [MESSAGE][PASSED] - Text 'ASUB7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID'
+
+2018-06-15 17:01:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name' is clicked on
+
+2018-06-15 17:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name' is clicked on
+
+2018-06-15 17:01:09 - [TEST_STEP][PASSED] - setText: Text 'ASUB7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name'
+
+2018-06-15 17:01:09 - [MESSAGE][PASSED] - Text 'ASUB7323501' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name'
+
+2018-06-15 17:01:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB' is clicked on
+
+2018-06-15 17:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB' is clicked on
+
+2018-06-15 17:01:09 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB'
+
+2018-06-15 17:01:10 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB'
+
+2018-06-15 17:01:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_ProductCode' 
+
+2018-06-15 17:01:10 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_ProductCode' 
+
+2018-06-15 17:01:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_subPrdtCode' 
+
+2018-06-15 17:01:10 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_subPrdtCode' 
+
+2018-06-15 17:01:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_Layout' 
+
+2018-06-15 17:01:10 - [MESSAGE][PASSED] - All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_Layout' 
+
+2018-06-15 17:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-06-15 17:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-06-15 17:01:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:01:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:01:11 - [TEST_STEP][NOT_RUN] - Statement - appLookPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/App_LookUp)): NOT_RUN: Statement - appLookPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/App_LookUp))
+
+2018-06-15 17:01:11 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - appLookPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/App_LookUp))
+
+2018-06-15 17:01:11 - [TEST_STEP][NOT_RUN] - Statement - println(appLookPageHeader): NOT_RUN: Statement - println(appLookPageHeader)
+
+2018-06-15 17:01:11 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println(appLookPageHeader)
+
+2018-06-15 17:01:11 - [TEST_STEP][NOT_RUN] - Statement - assert appLookPageHeader == "APP LOOKUP": NOT_RUN: Statement - assert appLookPageHeader == "APP LOOKUP"
+
+2018-06-15 17:01:11 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - assert appLookPageHeader == "APP LOOKUP"
+
+2018-06-15 17:01:11 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-06-15 17:01:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + app_id + "')]": null
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'AA7323501')]' is visible
+
+2018-06-15 17:01:21 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'AA7323501')]' is visible
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'AA7323501')]' is double clicked on
+
+2018-06-15 17:01:21 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'AA7323501')]' is double clicked on
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'AA7323501')]' is double clicked on
+
+2018-06-15 17:01:21 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'AA7323501')]' is double clicked on
+
+2018-06-15 17:01:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 17:01:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 17:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Submit' is clicked on
+
+2018-06-15 17:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Submit' is clicked on
+
+2018-06-15 17:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-06-15 17:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-06-15 17:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submission' is clicked on
+
+2018-06-15 17:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Model House Form App Test" classname="Test Cases/Studio Smoke Test Cases/Model House Form App Test" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button id=&quot;F7323501-BUTTON_FIELD181&quot; type=&quot;button&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;auto&quot; data-original-title=&quot;&quot; class=&quot;btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn&quot; name=&quot;BUTTON_FIELD181&quot;>...&lt;/button> is not clickable at point (85, 601). Other element would receive the click: &lt;div class=&quot;copyright-content&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)"/>
+         <system-out><![CDATA[2018-06-15 17:01:30 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/Model House Form App Test: Test Cases/Studio Smoke Test Cases/Model House Form App Test FAILED because (of) Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:01:30 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-06-15 17:01:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-06-15 17:01:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 17:01:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-15 17:01:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 17:01:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 17:01:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 17:01:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.19.29.253:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-06-15 17:01:37 - [MESSAGE][PASSED] - Navigate to 'http://172.19.29.253:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-06-15 17:01:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-15 17:01:37 - [MESSAGE][PASSED] - Browser is closed
+
+2018-06-15 17:01:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 17:01:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 17:01:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 17:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 17:01:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://172.19.29.253:8082/ctmodelhouse/' successfully
+
+2018-06-15 17:02:03 - [MESSAGE][PASSED] - Navigate to 'http://172.19.29.253:8082/ctmodelhouse/' successfully
+
+2018-06-15 17:02:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:02:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:02:03 - [TEST_STEP][PASSED] - setText: Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-06-15 17:02:04 - [MESSAGE][PASSED] - Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-06-15 17:02:04 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-06-15 17:02:04 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-06-15 17:02:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-06-15 17:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-06-15 17:02:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:02:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:02:06 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), "title"): Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-06-15 17:02:07 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "Canvas Technology": null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - selectWS = "//div[contains(text(),'" + ws_id + "')]": null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//div[contains(text(),'AWS7323501')]' is visible
+
+2018-06-15 17:02:07 - [MESSAGE][PASSED] - Object '//div[contains(text(),'AWS7323501')]' is visible
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - click: Object: '//div[contains(text(),'AWS7323501')]' is clicked on
+
+2018-06-15 17:02:07 - [MESSAGE][PASSED] - Object: '//div[contains(text(),'AWS7323501')]' is clicked on
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-15 17:02:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - selectview = "//h3[contains(text(),'" + view_id + "')]": null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-06-15 17:02:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//h3[contains(text(),'AV7323501')]' is visible
+
+2018-06-15 17:02:08 - [MESSAGE][PASSED] - Object '//h3[contains(text(),'AV7323501')]' is visible
+
+2018-06-15 17:02:08 - [TEST_STEP][PASSED] - Statement - viewHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dynamicObject1): Text of object '//h3[contains(text(),'AV7323501')]' is: 'AV7323501'
+
+2018-06-15 17:02:09 - [MESSAGE][PASSED] - Text of object '//h3[contains(text(),'AV7323501')]' is: 'AV7323501'
+
+2018-06-15 17:02:09 - [TEST_STEP][PASSED] - Statement - println(viewHeader): null
+
+2018-06-15 17:02:09 - [TEST_STEP][PASSED] - Statement - assert viewHeader == view_id: null
+
+2018-06-15 17:02:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 17:02:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 17:02:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-15 17:02:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\screenshot.png]]
+
+2018-06-15 17:02:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:14 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:14 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - errormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), 5): Object 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' is present
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' is present
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - println(errormsg): null
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(errormsg) == "true": null
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - errormsg_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), "data-original-title"): Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' is: 'A minimum of 6 characters is required for Text_Label_01.'
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' is: 'A minimum of 6 characters is required for Text_Label_01.'
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - println(errormsg_text): null
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - Statement - assert errormsg_text == "A minimum of 6 characters is required for " + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test Data).getValue("Text_Label", 1) + ".": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Test_Data.xls' and sheet name 'Login'
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - setText: Text '1234567890123' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:15 - [MESSAGE][PASSED] - Text '1234567890123' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - errormsgMax = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), 5): Object 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' is present
+
+2018-06-15 17:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' is present
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - println(errormsgMax): null
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(errormsgMax) == "true": null
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - errormsgMax_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), "data-original-title"): Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' is: 'Text_Label_01 must not be greater than 12 characters.'
+
+2018-06-15 17:02:16 - [MESSAGE][PASSED] - Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' is: 'Text_Label_01 must not be greater than 12 characters.'
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - println(errormsgMax_text): null
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - Statement - assert errormsgMax_text == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test Data).getValue("Text_Label", 1) + " must not be greater than 12 characters.": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Test_Data.xls' and sheet name 'Login'
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:17 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:17 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:17 - [TEST_STEP][PASSED] - Statement - errormsgmin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), 3): Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' located by 'By.xpath: (//input[starts-with(@name,'TEXT_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/min_error_msg' located by 'By.xpath: (//input[starts-with(@name,'TEXT_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:18 - [TEST_STEP][PASSED] - Statement - println(errormsgmin): null
+
+2018-06-15 17:02:18 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(errormsgmin) == "true": null
+
+2018-06-15 17:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click' is clicked on
+
+2018-06-15 17:02:18 - [TEST_STEP][PASSED] - setText: Text '123456789012' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:19 - [MESSAGE][PASSED] - Text '123456789012' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_field_Click'
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - Statement - noerrormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), 3): Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' located by 'By.xpath: (//input[starts-with(@name,'TEXT_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/max_error_msg' located by 'By.xpath: (//input[starts-with(@name,'TEXT_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - Statement - println(noerrormsg): null
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(noerrormsg) == "true": null
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:19 - [TEST_STEP][PASSED] - setText: Text 'This field is editable_alphanumeric validation878785' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click'
+
+2018-06-15 17:02:20 - [MESSAGE][PASSED] - Text 'This field is editable_alphanumeric validation878785' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click'
+
+2018-06-15 17:02:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click' is clicked on
+
+2018-06-15 17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click' is clicked on
+
+2018-06-15 17:02:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - mandateField = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), 5): Object 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' is present
+
+2018-06-15 17:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' is present
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - println(mandateField): null
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(mandateField) == "true": null
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - mandateField_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), "data-original-title"): Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' is: 'Please enter the password.'
+
+2018-06-15 17:02:21 - [MESSAGE][PASSED] - Attribute 'data-original-title' of object 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' is: 'Please enter the password.'
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - println(mandateField_text): null
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - Statement - assert mandateField_text == "Please enter the password.": null
+
+2018-06-15 17:02:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click' is clicked on
+
+2018-06-15 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click' is clicked on
+
+2018-06-15 17:02:22 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click'
+
+2018-06-15 17:02:22 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Model House Form App Test/Page_Canvas World/password_area_click'
+
+2018-06-15 17:02:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Form App Test/Page_Canvas World/text_area_click' is clicked on
+
+2018-06-15 17:02:23 - [TEST_STEP][PASSED] - Statement - noPasserror = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), 3): Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' located by 'By.xpath: (//input[starts-with(@name,'PASSWORD_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Model House Form App Test/Page_Canvas World/password_field_error' located by 'By.xpath: (//input[starts-with(@name,'PASSWORD_FIELD')]/following::span[@class='ct-form__err show'])[1]' is not present after '3' second(s)
+
+2018-06-15 17:02:23 - [TEST_STEP][PASSED] - Statement - println(noPasserror): null
+
+2018-06-15 17:02:23 - [TEST_STEP][PASSED] - Statement - assert java.lang.String.valueOf(noPasserror) == "true": null
+
+2018-06-15 17:02:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)
+
+2018-06-15 17:02:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Form_Suite\\20180615_165849\\1529062343807.png]]
+
+2018-06-15 17:02:24 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-06-15 17:02:24 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[2018-06-15 17:01:30 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/Model House Form App Test: Test Cases/Studio Smoke Test Cases/Model House Form App Test FAILED because (of) Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-15 16:58:51 - [TEST_SUITE][FAILED] - Form_Suite: Test Cases/Studio Smoke Test Cases/Model House Form App Test FAILED because (of) Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)]]></system-out>
+      <system-err><![CDATA[2018-06-15 16:58:51 - [TEST_SUITE][FAILED] - Form_Suite: Test Cases/Studio Smoke Test Cases/Model House Form App Test FAILED because (of) Unable to click on object 'Object Repository/Model House Form App Test/Page_Canvas World/submit_button' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button id="F7323501-BUTTON_FIELD181" type="button" data-toggle="tooltip" data-placement="auto" data-original-title="" class="btn ct_btn ct-form__ip ct-form__ip-button  BUTTON_FIELD181_btn" name="BUTTON_FIELD181">...</button> is not clickable at point (85, 601). Other element would receive the click: <div class="copyright-content">...</div>
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9449', ip: '172.29.24.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\arokia.raj\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 8d004e37e26522b6bf63cfa58628a8e7)]]></system-err>
+   </testsuite>
+</testsuites>

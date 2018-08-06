@@ -1,0 +1,371 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Grid_Suite,Chrome 67.0.3396.99,,2018-06-29 11:52:18,2018-06-29 12:04:19,12m - 1.304s,FAILED
+,,,,,,
+Test Cases/Smoke Test/Delete Grid Views,Chrome 67.0.3396.99,,2018-06-29 11:52:19,2018-06-29 11:56:13,3m - 54.715s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-06-29 11:52:19,2018-06-29 11:52:24,4.774s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-06-29 11:52:24,2018-06-29 11:52:25,1.198s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-06-29 11:52:25,2018-06-29 11:52:47,21.675s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:52:47,2018-06-29 11:52:47,0.335s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:52:47,2018-06-29 11:52:48,0.193s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:52:48,2018-06-29 11:52:50,2.318s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:52:50,2018-06-29 11:52:50,0.149s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:52:50,2018-06-29 11:52:51,0.830s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.018s,PASSED
+Statement - returnVal_View = delete(5),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.001s,PASSED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls""",Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.001s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.012s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.372s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.003s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.003s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.002s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:52:51,0.017s,PASSED
+"Statement - For ([i = 0, i <= j, (i++)])",Chrome 67.0.3396.99,,2018-06-29 11:52:51,2018-06-29 11:54:39,1m - 47.891s,FAILED
+Statement - return done,Chrome 67.0.3396.99,,2018-06-29 11:54:39,2018-06-29 11:54:39,0.002s,PASSED
+"Statement - println(""View "" + returnVal_View)",Chrome 67.0.3396.99,,2018-06-29 11:54:39,2018-06-29 11:54:39,0.005s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:54:39,2018-06-29 11:54:44,5.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:54:44,2018-06-29 11:54:45,0.336s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.041s,PASSED
+Statement - returnVal_App = deleteApp(6),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.002s,PASSED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls""",Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.005s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.003s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.004s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.002s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.001s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.001s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:54:45,0.001s,PASSED
+"Statement - For ([i = 0, i <= j, (i++)])",Chrome 67.0.3396.99,,2018-06-29 11:54:45,2018-06-29 11:56:07,1m - 22.140s,FAILED
+Statement - return done,Chrome 67.0.3396.99,,2018-06-29 11:56:07,2018-06-29 11:56:07,0.000s,PASSED
+"Statement - println(""App "" + returnVal_App)",Chrome 67.0.3396.99,,2018-06-29 11:56:07,2018-06-29 11:56:07,0.000s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:07,2018-06-29 11:56:10,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.356s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.076s,PASSED
+Statement - returnVal_WS = deleteWS(),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.000s,PASSED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls""",Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.002s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.012s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.000s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+Statement - id = hssfRow.getCell(6),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+"Statement - selectWS = ""//span[contains(text(),'"" + id + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+Statement - println(selectWS),Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+"Statement - ws = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty(""xpath"", EQUALS, selectWS, true)",Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:10,0.001s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:10,2018-06-29 11:56:13,3.012s,PASSED
+"Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(ws, 4, CONTINUE_ON_FAILURE)",Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:13,0.056s,PASSED
+"Statement - If (java.lang.String.valueOf(present) == ""false"")",Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:13,0.001s,PASSED
+Statement - Else,Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:13,0.002s,PASSED
+Statement - return done,Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:13,0.001s,PASSED
+"Statement - println(""WS "" + returnVal_WS)",Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:13,0.000s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_List_Grid_Simple,Chrome 67.0.3396.99,,2018-06-29 11:56:13,2018-06-29 11:56:47,33.462s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.191s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.517s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.000s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.000s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:14,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:14,2018-06-29 11:56:15,0.251s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:15,2018-06-29 11:56:15,0.206s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:56:15,2018-06-29 11:56:15,0.053s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:15,2018-06-29 11:56:19,4.470s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:19,2018-06-29 11:56:20,0.586s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:20,2018-06-29 11:56:20,0.192s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:20,2018-06-29 11:56:21,0.467s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:21,2018-06-29 11:56:21,0.369s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:21,2018-06-29 11:56:21,0.232s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:21,2018-06-29 11:56:22,0.569s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:22,2018-06-29 11:56:32,10.003s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:32,0.085s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:32,0.164s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:32,0.002s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:32,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:32,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:56:32,2018-06-29 11:56:33,0.779s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:56:33,2018-06-29 11:56:33,0.111s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:56:33,2018-06-29 11:56:33,0.164s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:33,2018-06-29 11:56:36,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:36,2018-06-29 11:56:36,0.185s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:36,2018-06-29 11:56:37,0.307s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:37,2018-06-29 11:56:37,0.463s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:37,2018-06-29 11:56:37,0.295s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:37,2018-06-29 11:56:40,3.004s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:40,2018-06-29 11:56:41,0.211s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:41,2018-06-29 11:56:41,0.483s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:41,2018-06-29 11:56:44,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:44,2018-06-29 11:56:45,0.401s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:45,2018-06-29 11:56:47,2.277s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_List_Grid_Property,Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:57:03,15.767s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.115s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.000s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.006s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:47,0.114s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:47,2018-06-29 11:56:48,0.249s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:56:48,2018-06-29 11:56:48,0.220s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:48,2018-06-29 11:56:50,1.943s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:50,2018-06-29 11:56:50,0.509s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:50,2018-06-29 11:56:51,0.191s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:51,2018-06-29 11:56:51,0.474s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:51,2018-06-29 11:56:51,0.311s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:51,2018-06-29 11:56:52,0.212s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.457s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.060s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.147s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.000s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:52,0.003s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:56:52,2018-06-29 11:56:53,1.144s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:56:53,2018-06-29 11:56:53,0.081s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:56:53,2018-06-29 11:56:54,0.082s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:54,2018-06-29 11:56:57,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:56:57,2018-06-29 11:56:57,0.146s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:57,2018-06-29 11:56:57,0.207s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:57,2018-06-29 11:56:57,0.234s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:56:57,2018-06-29 11:56:57,0.285s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:56:57,2018-06-29 11:57:00,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:00,2018-06-29 11:57:01,0.303s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:01,2018-06-29 11:57:03,1.838s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_List_Grid_Paging,Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:33,30.185s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.241s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.164s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.001s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.007s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:03,0.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:03,2018-06-29 11:57:04,0.190s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:04,2018-06-29 11:57:04,0.180s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:57:04,2018-06-29 11:57:04,0.344s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:04,2018-06-29 11:57:06,1.620s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:06,2018-06-29 11:57:06,0.425s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:06,2018-06-29 11:57:06,0.156s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:06,2018-06-29 11:57:07,0.372s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:07,2018-06-29 11:57:07,0.368s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:07,2018-06-29 11:57:07,0.213s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:07,2018-06-29 11:57:08,0.576s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:08,2018-06-29 11:57:18,10.003s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:18,0.064s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:18,0.115s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:18,0.002s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:18,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:18,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:57:18,2018-06-29 11:57:19,1.087s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:57:19,2018-06-29 11:57:19,0.080s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:57:19,2018-06-29 11:57:19,0.087s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:19,2018-06-29 11:57:22,3.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:22,2018-06-29 11:57:22,0.138s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:22,2018-06-29 11:57:23,0.230s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:23,2018-06-29 11:57:23,0.233s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:23,2018-06-29 11:57:23,0.348s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:23,2018-06-29 11:57:26,3.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:26,2018-06-29 11:57:26,0.249s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:26,2018-06-29 11:57:27,0.514s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:27,2018-06-29 11:57:30,3.008s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:30,2018-06-29 11:57:30,0.436s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:30,2018-06-29 11:57:33,2.329s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_List_Grid,Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:58:03,29.779s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.132s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.089s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.001s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.002s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.011s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:33,0.107s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:33,2018-06-29 11:57:34,0.168s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:57:34,2018-06-29 11:57:34,0.441s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:34,2018-06-29 11:57:36,1.622s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:36,2018-06-29 11:57:36,0.440s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:36,2018-06-29 11:57:36,0.179s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:36,2018-06-29 11:57:37,0.382s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:37,2018-06-29 11:57:37,0.238s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:37,2018-06-29 11:57:37,0.171s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:37,2018-06-29 11:57:38,0.530s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:38,2018-06-29 11:57:48,10.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:48,0.088s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:48,0.180s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:48,0.000s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:48,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:48,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:57:48,2018-06-29 11:57:49,0.822s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:57:49,2018-06-29 11:57:49,0.094s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:57:49,2018-06-29 11:57:49,0.173s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:49,2018-06-29 11:57:52,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:52,2018-06-29 11:57:52,0.146s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:52,2018-06-29 11:57:52,0.289s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:52,2018-06-29 11:57:53,0.269s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:57:53,2018-06-29 11:57:53,0.322s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:53,2018-06-29 11:57:56,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:57:56,2018-06-29 11:57:56,0.181s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:57:56,2018-06-29 11:57:57,0.473s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:57:57,2018-06-29 11:58:00,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:00,2018-06-29 11:58:00,0.454s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:00,2018-06-29 11:58:03,2.390s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_Group_Single,Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:43,40.805s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.189s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.105s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.000s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.000s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:03,0.020s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:03,2018-06-29 11:58:04,0.735s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:04,2018-06-29 11:58:04,0.314s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:58:04,2018-06-29 11:58:04,0.037s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:04,2018-06-29 11:58:06,1.759s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:06,2018-06-29 11:58:07,0.411s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:07,2018-06-29 11:58:07,0.154s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:07,2018-06-29 11:58:07,0.373s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:58:07,2018-06-29 11:58:07,0.317s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:07,2018-06-29 11:58:08,0.242s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:08,2018-06-29 11:58:08,0.573s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:08,2018-06-29 11:58:18,10.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:18,0.109s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:18,0.159s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:18,0.000s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:18,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:18,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:58:18,2018-06-29 11:58:20,1.189s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:58:20,2018-06-29 11:58:20,0.202s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:58:20,2018-06-29 11:58:20,0.218s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:20,2018-06-29 11:58:23,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:23,2018-06-29 11:58:23,0.167s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:58:23,2018-06-29 11:58:24,0.295s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:58:24,2018-06-29 11:58:24,0.280s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:58:24,2018-06-29 11:58:24,0.385s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:24,2018-06-29 11:58:27,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:27,2018-06-29 11:58:27,0.234s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:27,2018-06-29 11:58:28,0.563s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:28,2018-06-29 11:58:31,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:31,2018-06-29 11:58:31,0.252s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:31,2018-06-29 11:58:33,2.027s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:33,2018-06-29 11:58:33,0.156s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:33,2018-06-29 11:58:36,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:36,2018-06-29 11:58:37,0.286s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:37,2018-06-29 11:58:40,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:40,2018-06-29 11:58:40,0.484s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:40,2018-06-29 11:58:43,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:43,2018-06-29 11:58:43,0.153s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Create_Group_Multi,Chrome 67.0.3396.99,,2018-06-29 11:58:43,2018-06-29 11:59:34,50.815s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.072s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.098s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.118s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:44,0.081s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:44,2018-06-29 11:58:45,0.421s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 11:58:45,2018-06-29 11:58:45,0.038s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:45,2018-06-29 11:58:47,1.999s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:47,2018-06-29 11:58:47,0.415s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:47,2018-06-29 11:58:47,0.163s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:47,2018-06-29 11:58:48,0.485s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:58:48,2018-06-29 11:58:48,0.304s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:48,2018-06-29 11:58:48,0.202s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:58:48,2018-06-29 11:58:49,0.551s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:58:49,2018-06-29 11:58:59,10.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:58:59,0.062s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:58:59,0.154s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + ""ACCOUNT_TABLE"" + ""')]""",Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:58:59,0.001s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:58:59,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:58:59,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-06-29 11:58:59,2018-06-29 11:59:00,1.106s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:59:00,2018-06-29 11:59:00,0.093s,PASSED
+doubleClick,Chrome 67.0.3396.99,,2018-06-29 11:59:00,2018-06-29 11:59:00,0.096s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:00,2018-06-29 11:59:03,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:03,2018-06-29 11:59:03,0.216s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:59:03,2018-06-29 11:59:04,0.281s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:59:04,2018-06-29 11:59:04,0.504s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:59:04,2018-06-29 11:59:05,0.284s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:05,2018-06-29 11:59:08,3.004s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:08,2018-06-29 11:59:08,0.197s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 11:59:08,2018-06-29 11:59:08,0.475s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:08,2018-06-29 11:59:11,3.007s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:11,2018-06-29 11:59:11,0.266s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:11,2018-06-29 11:59:13,1.547s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:13,2018-06-29 11:59:13,0.207s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:13,2018-06-29 11:59:14,1.001s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:59:14,2018-06-29 11:59:14,0.170s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:14,2018-06-29 11:59:15,1.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:15,2018-06-29 11:59:16,0.247s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:16,2018-06-29 11:59:19,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:19,2018-06-29 11:59:19,0.303s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:19,2018-06-29 11:59:21,1.774s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:21,2018-06-29 11:59:21,0.181s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:21,2018-06-29 11:59:24,3.002s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 11:59:24,2018-06-29 11:59:24,0.245s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:24,2018-06-29 11:59:27,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:27,2018-06-29 11:59:27,0.291s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:27,2018-06-29 11:59:30,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:30,2018-06-29 11:59:31,0.451s,PASSED
+delay,Chrome 67.0.3396.99,,2018-06-29 11:59:31,2018-06-29 11:59:34,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 11:59:34,2018-06-29 11:59:34,0.268s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_App_Grid,Chrome 67.0.3396.99,,2018-06-29 11:59:34,2018-06-29 12:01:58,2m - 23.742s,PASSED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls""",Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.000s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.003s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.003s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.001s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.001s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.001s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:35,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-06-29 11:59:35,2018-06-29 11:59:39,4.636s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-06-29 11:59:39,2018-06-29 11:59:40,1.230s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-06-29 11:59:40,2018-06-29 12:00:02,21.518s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:00:02,2018-06-29 12:00:02,0.249s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:00:02,2018-06-29 12:00:02,0.162s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:00:02,2018-06-29 12:00:04,1.545s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 12:00:04,2018-06-29 12:00:04,0.192s,PASSED
+"Statement - For ([i = 0, i <= 5, (i++)])",Chrome 67.0.3396.99,,2018-06-29 12:00:04,2018-06-29 12:01:58,1m - 53.888s,PASSED
+,,,,,,
+Test Cases/Smoke Test/New_Grid_WS,Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:04:18,2m - 20.506s,FAILED
+"Statement - path = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls""",Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - fis = new java.io.FileInputStream(path),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.002s,PASSED
+Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.002s,PASSED
+Statement - sc = hssfWorkbook.getNumberOfSheets(),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - println(sc),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - hssfSheet = hssfWorkbook.getSheetAt(0),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - hssfRow = hssfSheet.getRow(1),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - WS_id = hssfRow.getCell(6),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+Statement - SubWS_id = hssfRow.getCell(7),Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:01:58,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-06-29 12:01:58,2018-06-29 12:02:03,4.562s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,,2018-06-29 12:02:03,2018-06-29 12:02:04,1.153s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-06-29 12:02:04,2018-06-29 12:02:26,21.601s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:26,2018-06-29 12:02:26,0.288s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:26,2018-06-29 12:02:26,0.191s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:26,2018-06-29 12:02:28,1.627s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 12:02:28,2018-06-29 12:02:28,0.143s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:28,2018-06-29 12:02:29,1.139s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:29,2018-06-29 12:02:29,0.164s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 12:02:29,2018-06-29 12:02:29,0.007s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:29,2018-06-29 12:02:31,1.671s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:31,2018-06-29 12:02:31,0.166s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:31,2018-06-29 12:02:31,0.128s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:31,2018-06-29 12:02:31,0.150s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:31,2018-06-29 12:02:31,0.248s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:31,2018-06-29 12:02:32,0.167s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:32,2018-06-29 12:02:32,0.133s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:32,2018-06-29 12:02:32,0.147s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:32,2018-06-29 12:02:32,0.243s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:32,2018-06-29 12:02:32,0.239s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:32,2018-06-29 12:02:33,0.239s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:33,2018-06-29 12:02:33,0.259s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 12:02:33,2018-06-29 12:02:34,0.627s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:34,2018-06-29 12:02:34,0.368s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:34,2018-06-29 12:02:34,0.296s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:34,2018-06-29 12:02:34,0.263s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:34,2018-06-29 12:02:35,0.216s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:02:35,2018-06-29 12:02:35,0.168s,PASSED
+setText,Chrome 67.0.3396.99,,2018-06-29 12:02:35,2018-06-29 12:02:35,0.248s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:35,2018-06-29 12:02:35,0.258s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:35,2018-06-29 12:02:36,0.246s,PASSED
+selectOptionByValue,Chrome 67.0.3396.99,,2018-06-29 12:02:36,2018-06-29 12:02:36,0.195s,PASSED
+"Statement - For ([i = 0, i <= 5, (i++)])",Chrome 67.0.3396.99,,2018-06-29 12:02:36,2018-06-29 12:04:10,1m - 34.323s,FAILED
+delay,Chrome 67.0.3396.99,,2018-06-29 12:04:10,2018-06-29 12:04:15,5.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:04:15,2018-06-29 12:04:16,0.349s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:04:16,2018-06-29 12:04:16,0.188s,PASSED
+click,Chrome 67.0.3396.99,,2018-06-29 12:04:16,2018-06-29 12:04:18,2.755s,PASSED

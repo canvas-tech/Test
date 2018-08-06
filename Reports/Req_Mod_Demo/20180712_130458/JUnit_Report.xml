@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Req_Mod_Demo" time="1616" tests="3" failures="2" errors="0">
+   <testsuite name="Req_Mod_Demo" tests="3" failures="2" errors="0" time="1616" timestamp="2018-07-12 13:05:00" hostname="arokia.raj - N9449.intellectdesign.com" id="Test Suites/Req_Mod_Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458"/>
+         <property name="logFiles" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\execution0.log"/>
+         <property name="attachments" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381226807.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381268892.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381304040.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381340279.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381376362.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381410435.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381446557.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381482618.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381518812.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381554778.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381590968.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381627149.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381663430.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381697358.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381733430.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381769669.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381805837.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381841923.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381878074.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381914227.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381950320.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381986486.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382022610.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382058753.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382106331.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382144899.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382257168.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382288881.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382300690.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382332434.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382341187.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382373003.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382410998.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382445862.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382480744.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382515599.png"/>
+         <property name="hostName" value="arokia.raj - N9449.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.29.24.220"/>
+         <property name="sessionId" value="8ef8ae3e7a34328a3fb71b19726ed1fd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Common Functions" classname="Test Cases/Smoke Test/Common Functions" status="PASSED">
+         <system-out><![CDATA[2018-07-12 13:05:01 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Common Functions: Test Cases/Smoke Test/Common Functions
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - digi = generateRandomInt(9999999): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - acc = generateRandomInt(999999999): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - random = new java.util.Random(): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - return random.nextInt(upperRange): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - accNo = java.lang.String.valueOf(acc): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(accNo): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - form_id = "F" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - view_id = "AV" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - app_id = "AA" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(app_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - subWS_id = "ASUB" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(subWS_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - WS_id = "AWS" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(WS_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - req_id = "AR" + digi: null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - filePath = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - file = new java.io.File(filePath): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(file): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - fileOut = new java.io.FileOutputStream(filePath): null
+
+2018-07-12 13:05:01 - [TEST_STEP][PASSED] - Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - st = workbook.createSheet("POI Worksheet"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - row = st.createRow(0): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell0 = row.createCell(0): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell0.setCellValue("FormID"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell1 = row.createCell(1): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell1.setCellValue("ViewID"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell2 = row.createCell(2): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell2.setCellValue("AppID"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell3 = row.createCell(3): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell3.setCellValue("SubWSID"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell4 = row.createCell(4): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell4.setCellValue("WSID"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell5 = row.createCell(5): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell5.setCellValue("ReqMod_id"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell6 = row.createCell(6): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell6.setCellValue("Acc_No"): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - row1 = st.createRow(1): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell01 = row1.createCell(0): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell01.setCellValue(form_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell11 = row1.createCell(1): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell11.setCellValue(view_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell21 = row1.createCell(2): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell21.setCellValue(app_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell31 = row1.createCell(3): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell31.setCellValue(subWS_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell41 = row1.createCell(4): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell41.setCellValue(WS_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell51 = row1.createCell(5): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell51.setCellValue(req_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell61 = row1.createCell(6): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - cell61.setCellValue(accNo): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - workbook.write(fileOut): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - f_id = row1.getCell(0): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - println(f_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - Map_TC1 = [:]: null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("formID", f_id): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("viewID", row1.getCell(1)): null
+
+2018-07-12 13:05:02 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("appID", row1.getCell(2)): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("subWSID", row1.getCell(3)): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("WSID", row1.getCell(4)): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("REQID", row1.getCell(5)): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - Map_TC1.put("AccNo", row1.getCell(6)): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - fileOut.flush(): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - fileOut.close(): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - return Map_TC1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/ReadExcel" classname="Test Cases/Smoke Test/ReadExcel" status="PASSED">
+         <system-out><![CDATA[2018-07-12 13:05:03 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/ReadExcel: Test Cases/Smoke Test/ReadExcel
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-12 13:05:03 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-12 13:05:04 - [TEST_STEP][PASSED] - Statement - return map: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New Test Request Moduler DEMO" classname="Test Cases/Smoke Test/New Test Request Moduler DEMO" status="PASSED">
+         <system-out><![CDATA[2018-07-12 13:05:04 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New Test Request Moduler DEMO: Test Cases/Smoke Test/New Test Request Moduler DEMO
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:05:05 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-12 13:05:05 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-12 13:05:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-12 13:05:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 13:05:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 13:05:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 13:05:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 13:05:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-12 13:05:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-12 13:05:34 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-07-12 13:05:37 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-12 13:05:37 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-12 13:05:37 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-12 13:05:37 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-12 13:05:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-12 13:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-12 13:05:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:05:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:05:39 - [TEST_STEP][NOT_RUN] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)): NOT_RUN: Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header))
+
+2018-07-12 13:05:39 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header))
+
+2018-07-12 13:05:39 - [TEST_STEP][NOT_RUN] - Statement - println(pageHeader): NOT_RUN: Statement - println(pageHeader)
+
+2018-07-12 13:05:39 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println(pageHeader)
+
+2018-07-12 13:05:39 - [TEST_STEP][NOT_RUN] - Statement - assert pageHeader == "WORKSPACE CANVAS LIST": NOT_RUN: Statement - assert pageHeader == "WORKSPACE CANVAS LIST"
+
+2018-07-12 13:05:39 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - assert pageHeader == "WORKSPACE CANVAS LIST"
+
+2018-07-12 13:05:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Create' is clicked on
+
+2018-07-12 13:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Create' is clicked on
+
+2018-07-12 13:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Request_Modular' is clicked on
+
+2018-07-12 13:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/span_Request_Modular' is clicked on
+
+2018-07-12 13:05:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:05:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:05:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id' is clicked on
+
+2018-07-12 13:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id' is clicked on
+
+2018-07-12 13:05:42 - [TEST_STEP][PASSED] - setText: Text 'AR2415160' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id'
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Text 'AR2415160' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_id'
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name' is clicked on
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - setText: Text 'AR2415160' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name'
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Text 'AR2415160' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_Req_Name'
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - service_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Service_Type", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - If (service_type == "HAL"): null
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - Else If (service_type == "Web Service"): null
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - println("Service Type is DATABASE"): null
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - request_type = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_type", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - If (request_type == "Admin"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/Req_Type_Admin' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - request_mode = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_mode", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - If (request_mode == "Private"): null
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - Statement - Else If (request_mode == "Public"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_mode_public' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key' is clicked on
+
+2018-07-12 13:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key' is clicked on
+
+2018-07-12 13:05:43 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key'
+
+2018-07-12 13:05:44 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/bundle_key'
+
+2018-07-12 13:05:44 - [TEST_STEP][PASSED] - Statement - req_category = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_category", 1): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:05:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LIBRARY' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_category' 
+
+2018-07-12 13:05:44 - [MESSAGE][PASSED] - All options with value 'LIBRARY' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_category' 
+
+2018-07-12 13:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc' is clicked on
+
+2018-07-12 13:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc' is clicked on
+
+2018-07-12 13:05:44 - [TEST_STEP][PASSED] - setText: Text 'This is a new request' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc'
+
+2018-07-12 13:05:44 - [MESSAGE][PASSED] - Text 'This is a new request' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/req_desc'
+
+2018-07-12 13:05:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/search_connection' is clicked on
+
+2018-07-12 13:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/search_connection' is clicked on
+
+2018-07-12 13:05:45 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:05:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - Statement - selectDB = "(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("DB_Name", 3) + "')])[2]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - Statement - println(selectDB): null
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectDB).addProperty("xpath", EQUALS, selectDB, true): null
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is visible
+
+2018-07-12 13:05:49 - [MESSAGE][PASSED] - Object '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is visible
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - doubleClick: Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-12 13:05:49 - [MESSAGE][PASSED] - Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - doubleClick: Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-12 13:05:49 - [MESSAGE][PASSED] - Object: '(//td[@data-item-id='CONNECTION_NAME']/span[contains(text(),'TEST_AUTO')])[2]' is double clicked on
+
+2018-07-12 13:05:49 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-12 13:05:55 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - Statement - For ([i = 1, i <= 3, (i++)]): All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' is visible
+
+2018-07-12 13:05:55 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' is visible
+
+2018-07-12 13:05:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' 
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[1]' 
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' is visible
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' is visible
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' 
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[2]' 
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - prdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[" + i + "]": null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - println(prdtDetails): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(prdtDetails).addProperty("xpath", EQUALS, prdtDetails, true): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' is visible
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' is visible
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_PRODUCT'])[3]' 
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - For ([j = 1, j <= 3, (j++)]): All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' is visible
+
+2018-07-12 13:05:56 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' is visible
+
+2018-07-12 13:05:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' 
+
+2018-07-12 13:05:57 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[1]' 
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' is visible
+
+2018-07-12 13:05:57 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' is visible
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' 
+
+2018-07-12 13:05:57 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[2]' 
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - subprdtDetails = "(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[" + j + "]": null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - println(subprdtDetails): null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - Statement - dynamicObject2 = new com.kms.katalon.core.testobject.TestObject(subprdtDetails).addProperty("xpath", EQUALS, subprdtDetails, true): null
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' is visible
+
+2018-07-12 13:05:57 - [MESSAGE][PASSED] - Object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' is visible
+
+2018-07-12 13:05:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-12 13:05:58 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object '(//select[@id='REQ_ENTITLEMENT_FRM-REQ_SUB_PRODUCT'])[3]' 
+
+2018-07-12 13:05:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'INIT' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_initiate' 
+
+2018-07-12 13:05:58 - [MESSAGE][PASSED] - All options with value 'INIT' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_initiate' 
+
+2018-07-12 13:05:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'APPROVE' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_approve' 
+
+2018-07-12 13:05:58 - [MESSAGE][PASSED] - All options with value 'APPROVE' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_approve' 
+
+2018-07-12 13:05:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VIEW' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_enquiry' 
+
+2018-07-12 13:05:59 - [MESSAGE][PASSED] - All options with value 'VIEW' are selected in object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/func_enquiry' 
+
+2018-07-12 13:05:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/addTable_button' is clicked on
+
+2018-07-12 13:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/addTable_button' is clicked on
+
+2018-07-12 13:05:59 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-12 13:06:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-12 13:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/select_Table' is clicked on
+
+2018-07-12 13:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/select_Table' is clicked on
+
+2018-07-12 13:06:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-12 13:06:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-12 13:06:14 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_tableName' is hovered
+
+2018-07-12 13:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_tableName' is hovered
+
+2018-07-12 13:06:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_contains' is clicked on
+
+2018-07-12 13:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_contains' is clicked on
+
+2018-07-12 13:06:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:06:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:06:16 - [TEST_STEP][PASSED] - setText: Text 'user_online_registration' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/input_tableName_contains'
+
+2018-07-12 13:06:17 - [MESSAGE][PASSED] - Text 'user_online_registration' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/input_tableName_contains'
+
+2018-07-12 13:06:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/table_search' is clicked on
+
+2018-07-12 13:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/table_search' is clicked on
+
+2018-07-12 13:06:17 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:06:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:06:21 - [TEST_STEP][PASSED] - Statement - resultTable = "(//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Table_Name", 3) + "')])[1]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:06:21 - [TEST_STEP][PASSED] - Statement - println(resultTable): null
+
+2018-07-12 13:06:21 - [TEST_STEP][PASSED] - Statement - dynamicObject3 = new com.kms.katalon.core.testobject.TestObject(resultTable).addProperty("xpath", EQUALS, resultTable, true): null
+
+2018-07-12 13:06:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'user_online_registration')])[1]' is visible
+
+2018-07-12 13:06:21 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'user_online_registration')])[1]' is visible
+
+2018-07-12 13:06:21 - [TEST_STEP][PASSED] - doubleClick: Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-12 13:06:22 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-12 13:06:22 - [TEST_STEP][PASSED] - doubleClick: Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-12 13:06:22 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'user_online_registration')])[1]' is double clicked on
+
+2018-07-12 13:06:22 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-12 13:06:37 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-07-12 13:06:37 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-07-12 13:06:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-07-12 13:06:37 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-07-12 13:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-07-12 13:06:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'ACCOUNT_ID' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:37 - [MESSAGE][PASSED] - Keys 'ACCOUNT_ID' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:37 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:06:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:06:41 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:41 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:41 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-07-12 13:06:41 - [TEST_STEP][PASSED] - Statement - If (request_mode == "Private"): null
+
+2018-07-12 13:06:41 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key' is focused
+
+2018-07-12 13:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key' is focused
+
+2018-07-12 13:06:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'ACCOUNT_ID' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:42 - [MESSAGE][PASSED] - Keys 'ACCOUNT_ID' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:42 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:06:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:06:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:46 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:06:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:06:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/business_key'
+
+2018-07-12 13:06:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:06:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_save' is clicked on
+
+2018-07-12 13:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_save' is clicked on
+
+2018-07-12 13:06:51 - [TEST_STEP][PASSED] - setText: Text '{}' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/json_textarea'
+
+2018-07-12 13:06:51 - [MESSAGE][PASSED] - Text '{}' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/json_textarea'
+
+2018-07-12 13:06:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:06:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/reqMod_save' is clicked on
+
+2018-07-12 13:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/reqMod_save' is clicked on
+
+2018-07-12 13:06:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:06:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId' is clicked on
+
+2018-07-12 13:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId' is clicked on
+
+2018-07-12 13:07:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-12 13:07:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-12 13:07:19 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pay' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:20 - [MESSAGE][PASSED] - Keys 'Pay' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:07:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:07:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:22 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:07:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:07:24 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:24 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/enter_workspaceId'
+
+2018-07-12 13:07:24 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/getLable' is: 'Workspace Id'
+
+2018-07-12 13:07:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/getLable' is: 'Workspace Id'
+
+2018-07-12 13:07:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:07:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_Save' is clicked on
+
+2018-07-12 13:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_Save' is clicked on
+
+2018-07-12 13:07:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:07:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_dialog' is clicked on
+
+2018-07-12 13:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_dialog' is clicked on
+
+2018-07-12 13:07:30 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-12 13:07:38 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-12 13:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_for_widget' is clicked on
+
+2018-07-12 13:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/WS_for_widget' is clicked on
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - Statement - selectReqWS = "//span[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Edit_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - Statement - println(selectReqWS): null
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - Statement - wdgt = new com.kms.katalon.core.testobject.TestObject(selectReqWS).addProperty("xpath", EQUALS, selectReqWS, true): null
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[contains(text(),'PAYMENT_WS')]' is visible
+
+2018-07-12 13:07:39 - [MESSAGE][PASSED] - Object '//span[contains(text(),'PAYMENT_WS')]' is visible
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - rightClick: Object: '//span[contains(text(),'PAYMENT_WS')]' is right clicked on
+
+2018-07-12 13:07:39 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'PAYMENT_WS')]' is right clicked on
+
+2018-07-12 13:07:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:07:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/edit_sub_WS' is clicked on
+
+2018-07-12 13:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/edit_sub_WS' is clicked on
+
+2018-07-12 13:07:42 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:07:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:07:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_childApp' is clicked on
+
+2018-07-12 13:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_childApp' is clicked on
+
+2018-07-12 13:07:46 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:07:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_filter' is clicked on
+
+2018-07-12 13:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_filter' is clicked on
+
+2018-07-12 13:07:50 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:07:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:07:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_appId' is hovered
+
+2018-07-12 13:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/click_appId' is hovered
+
+2018-07-12 13:07:54 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:07:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/RM_wdgt_contains' is clicked on
+
+2018-07-12 13:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/RM_wdgt_contains' is clicked on
+
+2018-07-12 13:07:59 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:03 - [TEST_STEP][PASSED] - setText: Text 'RM_ACTSUM_APP' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_search'
+
+2018-07-12 13:08:03 - [MESSAGE][PASSED] - Text 'RM_ACTSUM_APP' is set on object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/app_search'
+
+2018-07-12 13:08:03 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_search' is clicked on
+
+2018-07-12 13:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_search' is clicked on
+
+2018-07-12 13:08:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:11 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-12 13:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-12 13:08:12 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-12 13:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/add_approve_wdgt' is double clicked on
+
+2018-07-12 13:08:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:14 - [TEST_STEP][PASSED] - Statement - error_msg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Request Moduler/Page_Canvas World/error_msg), 5): Object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_msg' is present
+
+2018-07-12 13:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_msg' is present
+
+2018-07-12 13:08:14 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(error_msg) == "true"): Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-12 13:08:14 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-12 13:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/error_ok' is clicked on
+
+2018-07-12 13:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_submit' is clicked on
+
+2018-07-12 13:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/button_submit' is clicked on
+
+2018-07-12 13:08:18 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/layout_dialog_ok' is clicked on
+
+2018-07-12 13:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Request Moduler/Page_Canvas World/layout_dialog_ok' is clicked on
+
+2018-07-12 13:08:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:08:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Form_Def' is clicked on
+
+2018-07-12 13:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Form_Def' is clicked on
+
+2018-07-12 13:08:26 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + req_id + "_FORM')])[1]": null
+
+2018-07-12 13:08:26 - [TEST_STEP][PASSED] - Statement - println(selectReqWS): null
+
+2018-07-12 13:08:26 - [TEST_STEP][PASSED] - Statement - edit = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-12 13:08:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object '(//span[contains(text(),'AR2415160_FORM')])[1]' is visible
+
+2018-07-12 13:08:27 - [MESSAGE][PASSED] - Object '(//span[contains(text(),'AR2415160_FORM')])[1]' is visible
+
+2018-07-12 13:08:27 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'AR2415160_FORM')])[1]' is right clicked on
+
+2018-07-12 13:08:27 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'AR2415160_FORM')])[1]' is right clicked on
+
+2018-07-12 13:08:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/edit_form' is clicked on
+
+2018-07-12 13:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/edit_form' is clicked on
+
+2018-07-12 13:08:29 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-12 13:08:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-12 13:08:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/delete_subMenu' is clicked on
+
+2018-07-12 13:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/delete_subMenu' is clicked on
+
+2018-07-12 13:08:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-12 13:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-12 13:08:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/delete_form' is clicked on
+
+2018-07-12 13:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/delete_form' is clicked on
+
+2018-07-12 13:08:38 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-07-12 13:08:38 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-07-12 13:08:38 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-12 13:08:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-12 13:08:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_Form_Wiz' is clicked on
+
+2018-07-12 13:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_Form_Wiz' is clicked on
+
+2018-07-12 13:08:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Login_Form' is clicked on
+
+2018-07-12 13:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Login_Form' is clicked on
+
+2018-07-12 13:08:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Pers_detail' is clicked on
+
+2018-07-12 13:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Pers_detail' is clicked on
+
+2018-07-12 13:08:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/select_Bank_details' is clicked on
+
+2018-07-12 13:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/select_Bank_details' is clicked on
+
+2018-07-12 13:08:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-12 13:08:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-12 13:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/save_Wiz' is clicked on
+
+2018-07-12 13:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/save_Wiz' is clicked on
+
+2018-07-12 13:08:45 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-12 13:08:51 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-12 13:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/step_click' is clicked on
+
+2018-07-12 13:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/step_click' is clicked on
+
+2018-07-12 13:08:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:08:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:08:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/back_nav' is clicked on
+
+2018-07-12 13:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/back_nav' is clicked on
+
+2018-07-12 13:08:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:08:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:08:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/fwd_Nav' is clicked on
+
+2018-07-12 13:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/fwd_Nav' is clicked on
+
+2018-07-12 13:08:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:09:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:09:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/newForm_save' is clicked on
+
+2018-07-12 13:09:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/newForm_save' is clicked on
+
+2018-07-12 13:09:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:09:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:09:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on
+
+2018-07-12 13:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Req_Mod_Demo/click_ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Model House Req Mod Demo" classname="Test Cases/Smoke Test/Model House Req Mod Demo" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)"/>
+         <system-out><![CDATA[2018-07-12 13:09:06 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Model House Req Mod Demo: Test Cases/Smoke Test/Model House Req Mod Demo FAILED because (of) Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:09:06 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-12 13:09:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - acc_No = common["AccNo"]: null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - Statement - println(acc_No): null
+
+2018-07-12 13:09:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 13:09:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-12 13:09:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 13:09:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 13:09:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 13:09:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-07-12 13:09:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-07-12 13:09:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 13:09:13 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-12 13:09:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 13:09:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 13:09:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 13:09:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 13:09:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:09:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:09:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:09:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:09:39 - [TEST_STEP][PASSED] - setText: Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-12 13:09:39 - [MESSAGE][PASSED] - Text 'terrim' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-12 13:09:39 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-12 13:09:39 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-12 13:09:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-12 13:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:09:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), "title"): Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-12 13:09:41 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "Canvas Technology": null
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - selectWS = "//div[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_Mod_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-12 13:09:41 - [MESSAGE][PASSED] - Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-12 13:09:41 - [TEST_STEP][PASSED] - click: Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-12 13:09:42 - [MESSAGE][PASSED] - Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-12 13:09:42 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-12 13:09:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-12 13:09:52 - [TEST_STEP][PASSED] - Statement - selectRM = "//span[starts-with(@class,'workspace_label workspace_label-" + req_id + "')]": null
+
+2018-07-12 13:09:52 - [TEST_STEP][PASSED] - Statement - println(selectRM): null
+
+2018-07-12 13:09:52 - [TEST_STEP][PASSED] - Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(selectRM).addProperty("xpath", EQUALS, selectRM, true): null
+
+2018-07-12 13:09:52 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found
+
+2018-07-12 13:09:55 - [MESSAGE][WARNING] - Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found
+
+2018-07-12 13:09:55 - [TEST_STEP][FAILED] - click: Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)
+
+2018-07-12 13:10:27 - [MESSAGE][FAILED] - Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381226807.png]]
+
+2018-07-12 13:10:27 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-12 13:10:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-12 13:10:37 - [TEST_STEP][FAILED] - setText: Unable to set text '474164966' of object 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id' located by 'By.xpath: //input[@name='ACCOUNT_ID']' not found)
+
+2018-07-12 13:11:09 - [MESSAGE][FAILED] - Unable to set text '474164966' of object 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Demo/Page_Canvas World/acc_Id' located by 'By.xpath: //input[@name='ACCOUNT_ID']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381268892.png]]
+
+2018-07-12 13:11:09 - [TEST_STEP][FAILED] - Statement - For ([i = 17, i <= 19, (i++)]): Delayed 1 second(s)
+
+2018-07-12 13:11:09 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:11:09 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:11:09 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:11:09 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='USERNAME']' located by 'By.xpath: //input[@name='USERNAME']' not found
+
+2018-07-12 13:11:12 - [MESSAGE][WARNING] - Web element with id: '//input[@name='USERNAME']' located by 'By.xpath: //input[@name='USERNAME']' not found
+
+2018-07-12 13:11:12 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:11:12 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:11:12 - [TEST_STEP][FAILED] - setText: Unable to set text 'Sheepa' of object '//input[@name='USERNAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='USERNAME']' located by 'By.xpath: //input[@name='USERNAME']' not found)
+
+2018-07-12 13:11:44 - [MESSAGE][FAILED] - Unable to set text 'Sheepa' of object '//input[@name='USERNAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='USERNAME']' located by 'By.xpath: //input[@name='USERNAME']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381304040.png]]
+
+2018-07-12 13:11:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:11:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:11:45 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:11:45 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:11:45 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:11:45 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='PASSWORD1']' located by 'By.xpath: //input[@name='PASSWORD1']' not found
+
+2018-07-12 13:11:48 - [MESSAGE][WARNING] - Web element with id: '//input[@name='PASSWORD1']' located by 'By.xpath: //input[@name='PASSWORD1']' not found
+
+2018-07-12 13:11:48 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:11:48 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:11:48 - [TEST_STEP][FAILED] - setText: Unable to set text '12345' of object '//input[@name='PASSWORD1']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PASSWORD1']' located by 'By.xpath: //input[@name='PASSWORD1']' not found)
+
+2018-07-12 13:12:20 - [MESSAGE][FAILED] - Unable to set text '12345' of object '//input[@name='PASSWORD1']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PASSWORD1']' located by 'By.xpath: //input[@name='PASSWORD1']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381340279.png]]
+
+2018-07-12 13:12:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:12:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:12:21 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:12:21 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:12:21 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:12:21 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='CONFIRM_PASSWORD']' located by 'By.xpath: //input[@name='CONFIRM_PASSWORD']' not found
+
+2018-07-12 13:12:24 - [MESSAGE][WARNING] - Web element with id: '//input[@name='CONFIRM_PASSWORD']' located by 'By.xpath: //input[@name='CONFIRM_PASSWORD']' not found
+
+2018-07-12 13:12:24 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:12:24 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:12:24 - [TEST_STEP][FAILED] - setText: Unable to set text '12345' of object '//input[@name='CONFIRM_PASSWORD']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='CONFIRM_PASSWORD']' located by 'By.xpath: //input[@name='CONFIRM_PASSWORD']' not found)
+
+2018-07-12 13:12:56 - [MESSAGE][FAILED] - Unable to set text '12345' of object '//input[@name='CONFIRM_PASSWORD']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='CONFIRM_PASSWORD']' located by 'By.xpath: //input[@name='CONFIRM_PASSWORD']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381376362.png]]
+
+2018-07-12 13:12:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:12:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:12:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:12:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Req_Mod_Demo/mod_next' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Req_Mod_Demo/mod_next' located by 'By.xpath: //button[contains(text(),'NEXT')]' not found)
+
+2018-07-12 13:13:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Req_Mod_Demo/mod_next' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Req_Mod_Demo/mod_next' located by 'By.xpath: //button[contains(text(),'NEXT')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381410435.png]]
+
+2018-07-12 13:13:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:13:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:13:31 - [TEST_STEP][FAILED] - Statement - For ([i = 20, i <= 26, (i++)]): Delayed 1 second(s)
+
+2018-07-12 13:13:31 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:13:31 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:13:31 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:13:31 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='NAME']' located by 'By.xpath: //input[@name='NAME']' not found
+
+2018-07-12 13:13:34 - [MESSAGE][WARNING] - Web element with id: '//input[@name='NAME']' located by 'By.xpath: //input[@name='NAME']' not found
+
+2018-07-12 13:13:34 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:13:34 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:13:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'Sheepa' of object '//input[@name='NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NAME']' located by 'By.xpath: //input[@name='NAME']' not found)
+
+2018-07-12 13:14:06 - [MESSAGE][FAILED] - Unable to set text 'Sheepa' of object '//input[@name='NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NAME']' located by 'By.xpath: //input[@name='NAME']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381446557.png]]
+
+2018-07-12 13:14:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:14:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:14:07 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:14:07 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:14:07 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:14:07 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='EMAIL']' located by 'By.xpath: //input[@name='EMAIL']' not found
+
+2018-07-12 13:14:11 - [MESSAGE][WARNING] - Web element with id: '//input[@name='EMAIL']' located by 'By.xpath: //input[@name='EMAIL']' not found
+
+2018-07-12 13:14:11 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:14:11 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:14:11 - [TEST_STEP][FAILED] - setText: Unable to set text 'sheepa@gmail.com' of object '//input[@name='EMAIL']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='EMAIL']' located by 'By.xpath: //input[@name='EMAIL']' not found)
+
+2018-07-12 13:14:42 - [MESSAGE][FAILED] - Unable to set text 'sheepa@gmail.com' of object '//input[@name='EMAIL']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='EMAIL']' located by 'By.xpath: //input[@name='EMAIL']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381482618.png]]
+
+2018-07-12 13:14:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:14:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:14:43 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:14:43 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:14:43 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:14:43 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='PHONE']' located by 'By.xpath: //input[@name='PHONE']' not found
+
+2018-07-12 13:14:47 - [MESSAGE][WARNING] - Web element with id: '//input[@name='PHONE']' located by 'By.xpath: //input[@name='PHONE']' not found
+
+2018-07-12 13:14:47 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:14:47 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:14:47 - [TEST_STEP][FAILED] - setText: Unable to set text '12345678989' of object '//input[@name='PHONE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PHONE']' located by 'By.xpath: //input[@name='PHONE']' not found)
+
+2018-07-12 13:15:19 - [MESSAGE][FAILED] - Unable to set text '12345678989' of object '//input[@name='PHONE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PHONE']' located by 'By.xpath: //input[@name='PHONE']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381518812.png]]
+
+2018-07-12 13:15:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:15:20 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:15:20 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:15:20 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:15:20 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='GENDER']' located by 'By.xpath: //input[@name='GENDER']' not found
+
+2018-07-12 13:15:23 - [MESSAGE][WARNING] - Web element with id: '//input[@name='GENDER']' located by 'By.xpath: //input[@name='GENDER']' not found
+
+2018-07-12 13:15:23 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:15:23 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:15:23 - [TEST_STEP][FAILED] - setText: Unable to set text 'Female' of object '//input[@name='GENDER']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='GENDER']' located by 'By.xpath: //input[@name='GENDER']' not found)
+
+2018-07-12 13:15:55 - [MESSAGE][FAILED] - Unable to set text 'Female' of object '//input[@name='GENDER']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='GENDER']' located by 'By.xpath: //input[@name='GENDER']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381554778.png]]
+
+2018-07-12 13:15:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:15:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:15:56 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:15:56 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:15:56 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:15:56 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='ADDRESS']' located by 'By.xpath: //input[@name='ADDRESS']' not found
+
+2018-07-12 13:15:59 - [MESSAGE][WARNING] - Web element with id: '//input[@name='ADDRESS']' located by 'By.xpath: //input[@name='ADDRESS']' not found
+
+2018-07-12 13:15:59 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:15:59 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:15:59 - [TEST_STEP][FAILED] - setText: Unable to set text 'Chennai' of object '//input[@name='ADDRESS']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ADDRESS']' located by 'By.xpath: //input[@name='ADDRESS']' not found)
+
+2018-07-12 13:16:31 - [MESSAGE][FAILED] - Unable to set text 'Chennai' of object '//input[@name='ADDRESS']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ADDRESS']' located by 'By.xpath: //input[@name='ADDRESS']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381590968.png]]
+
+2018-07-12 13:16:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:16:32 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:16:32 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:16:32 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:16:32 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='ZIP_CODE']' located by 'By.xpath: //input[@name='ZIP_CODE']' not found
+
+2018-07-12 13:16:35 - [MESSAGE][WARNING] - Web element with id: '//input[@name='ZIP_CODE']' located by 'By.xpath: //input[@name='ZIP_CODE']' not found
+
+2018-07-12 13:16:35 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:16:35 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:16:35 - [TEST_STEP][FAILED] - setText: Unable to set text '123456' of object '//input[@name='ZIP_CODE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ZIP_CODE']' located by 'By.xpath: //input[@name='ZIP_CODE']' not found)
+
+2018-07-12 13:17:07 - [MESSAGE][FAILED] - Unable to set text '123456' of object '//input[@name='ZIP_CODE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ZIP_CODE']' located by 'By.xpath: //input[@name='ZIP_CODE']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381627149.png]]
+
+2018-07-12 13:17:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:17:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:17:08 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:17:08 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:17:08 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:17:08 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='COUNTRY']' located by 'By.xpath: //input[@name='COUNTRY']' not found
+
+2018-07-12 13:17:11 - [MESSAGE][WARNING] - Web element with id: '//input[@name='COUNTRY']' located by 'By.xpath: //input[@name='COUNTRY']' not found
+
+2018-07-12 13:17:11 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:17:11 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:17:11 - [TEST_STEP][FAILED] - setText: Unable to set text 'India' of object '//input[@name='COUNTRY']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='COUNTRY']' located by 'By.xpath: //input[@name='COUNTRY']' not found)
+
+2018-07-12 13:17:43 - [MESSAGE][FAILED] - Unable to set text 'India' of object '//input[@name='COUNTRY']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='COUNTRY']' located by 'By.xpath: //input[@name='COUNTRY']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381663430.png]]
+
+2018-07-12 13:17:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:17:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:17:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:17:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:17:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Req_Mod_Demo/mod_next' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Req_Mod_Demo/mod_next' located by 'By.xpath: //button[contains(text(),'NEXT')]' not found)
+
+2018-07-12 13:18:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Req_Mod_Demo/mod_next' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Req_Mod_Demo/mod_next' located by 'By.xpath: //button[contains(text(),'NEXT')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381697358.png]]
+
+2018-07-12 13:18:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:18:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:18:18 - [TEST_STEP][FAILED] - Statement - For ([i = 27, i <= 36, (i++)]): Delayed 1 second(s)
+
+2018-07-12 13:18:18 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:18:18 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:18:18 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:18:18 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='BANK_NAME']' located by 'By.xpath: //input[@name='BANK_NAME']' not found
+
+2018-07-12 13:18:21 - [MESSAGE][WARNING] - Web element with id: '//input[@name='BANK_NAME']' located by 'By.xpath: //input[@name='BANK_NAME']' not found
+
+2018-07-12 13:18:21 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:18:21 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:18:21 - [TEST_STEP][FAILED] - setText: Unable to set text 'HDFC' of object '//input[@name='BANK_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='BANK_NAME']' located by 'By.xpath: //input[@name='BANK_NAME']' not found)
+
+2018-07-12 13:18:53 - [MESSAGE][FAILED] - Unable to set text 'HDFC' of object '//input[@name='BANK_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='BANK_NAME']' located by 'By.xpath: //input[@name='BANK_NAME']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381733430.png]]
+
+2018-07-12 13:18:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:18:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:18:54 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:18:54 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:18:54 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:18:54 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='BRANCH_NAME']' located by 'By.xpath: //input[@name='BRANCH_NAME']' not found
+
+2018-07-12 13:18:58 - [MESSAGE][WARNING] - Web element with id: '//input[@name='BRANCH_NAME']' located by 'By.xpath: //input[@name='BRANCH_NAME']' not found
+
+2018-07-12 13:18:58 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:18:58 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:18:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'Chennai' of object '//input[@name='BRANCH_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='BRANCH_NAME']' located by 'By.xpath: //input[@name='BRANCH_NAME']' not found)
+
+2018-07-12 13:19:30 - [MESSAGE][FAILED] - Unable to set text 'Chennai' of object '//input[@name='BRANCH_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='BRANCH_NAME']' located by 'By.xpath: //input[@name='BRANCH_NAME']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381769669.png]]
+
+2018-07-12 13:19:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:19:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:19:31 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:19:31 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:19:31 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:19:31 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='IFSC_CODE']' located by 'By.xpath: //input[@name='IFSC_CODE']' not found
+
+2018-07-12 13:19:34 - [MESSAGE][WARNING] - Web element with id: '//input[@name='IFSC_CODE']' located by 'By.xpath: //input[@name='IFSC_CODE']' not found
+
+2018-07-12 13:19:34 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:19:34 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:19:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'HDFC12345' of object '//input[@name='IFSC_CODE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='IFSC_CODE']' located by 'By.xpath: //input[@name='IFSC_CODE']' not found)
+
+2018-07-12 13:20:06 - [MESSAGE][FAILED] - Unable to set text 'HDFC12345' of object '//input[@name='IFSC_CODE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='IFSC_CODE']' located by 'By.xpath: //input[@name='IFSC_CODE']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381805837.png]]
+
+2018-07-12 13:20:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:20:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:20:07 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:20:07 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:20:07 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:20:07 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='ADD_NOMINEE']' located by 'By.xpath: //input[@name='ADD_NOMINEE']' not found
+
+2018-07-12 13:20:10 - [MESSAGE][WARNING] - Web element with id: '//input[@name='ADD_NOMINEE']' located by 'By.xpath: //input[@name='ADD_NOMINEE']' not found
+
+2018-07-12 13:20:10 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:20:10 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:20:10 - [TEST_STEP][FAILED] - setText: Unable to set text 'Y' of object '//input[@name='ADD_NOMINEE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ADD_NOMINEE']' located by 'By.xpath: //input[@name='ADD_NOMINEE']' not found)
+
+2018-07-12 13:20:42 - [MESSAGE][FAILED] - Unable to set text 'Y' of object '//input[@name='ADD_NOMINEE']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='ADD_NOMINEE']' located by 'By.xpath: //input[@name='ADD_NOMINEE']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381841923.png]]
+
+2018-07-12 13:20:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:20:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:20:43 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:20:43 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:20:43 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:20:43 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='NOMINEE_NAME']' located by 'By.xpath: //input[@name='NOMINEE_NAME']' not found
+
+2018-07-12 13:20:46 - [MESSAGE][WARNING] - Web element with id: '//input[@name='NOMINEE_NAME']' located by 'By.xpath: //input[@name='NOMINEE_NAME']' not found
+
+2018-07-12 13:20:46 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:20:46 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:20:46 - [TEST_STEP][FAILED] - setText: Unable to set text 'Vishe' of object '//input[@name='NOMINEE_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NOMINEE_NAME']' located by 'By.xpath: //input[@name='NOMINEE_NAME']' not found)
+
+2018-07-12 13:21:18 - [MESSAGE][FAILED] - Unable to set text 'Vishe' of object '//input[@name='NOMINEE_NAME']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NOMINEE_NAME']' located by 'By.xpath: //input[@name='NOMINEE_NAME']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381878074.png]]
+
+2018-07-12 13:21:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:21:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:21:19 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:21:19 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:21:19 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:21:19 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='IS_NOMINEE_MINOR']' located by 'By.xpath: //input[@name='IS_NOMINEE_MINOR']' not found
+
+2018-07-12 13:21:22 - [MESSAGE][WARNING] - Web element with id: '//input[@name='IS_NOMINEE_MINOR']' located by 'By.xpath: //input[@name='IS_NOMINEE_MINOR']' not found
+
+2018-07-12 13:21:22 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:21:22 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:21:22 - [TEST_STEP][FAILED] - setText: Unable to set text 'N' of object '//input[@name='IS_NOMINEE_MINOR']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='IS_NOMINEE_MINOR']' located by 'By.xpath: //input[@name='IS_NOMINEE_MINOR']' not found)
+
+2018-07-12 13:21:54 - [MESSAGE][FAILED] - Unable to set text 'N' of object '//input[@name='IS_NOMINEE_MINOR']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='IS_NOMINEE_MINOR']' located by 'By.xpath: //input[@name='IS_NOMINEE_MINOR']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381914227.png]]
+
+2018-07-12 13:21:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:21:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:21:55 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:21:55 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:21:55 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:21:55 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='RELATIONSHIP']' located by 'By.xpath: //input[@name='RELATIONSHIP']' not found
+
+2018-07-12 13:21:58 - [MESSAGE][WARNING] - Web element with id: '//input[@name='RELATIONSHIP']' located by 'By.xpath: //input[@name='RELATIONSHIP']' not found
+
+2018-07-12 13:21:58 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:21:58 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:21:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'az' of object '//input[@name='RELATIONSHIP']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='RELATIONSHIP']' located by 'By.xpath: //input[@name='RELATIONSHIP']' not found)
+
+2018-07-12 13:22:30 - [MESSAGE][FAILED] - Unable to set text 'az' of object '//input[@name='RELATIONSHIP']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='RELATIONSHIP']' located by 'By.xpath: //input[@name='RELATIONSHIP']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381950320.png]]
+
+2018-07-12 13:22:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:22:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:22:31 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:22:31 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:22:31 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:22:31 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='NOMINEE_ADDRESS']' located by 'By.xpath: //input[@name='NOMINEE_ADDRESS']' not found
+
+2018-07-12 13:22:34 - [MESSAGE][WARNING] - Web element with id: '//input[@name='NOMINEE_ADDRESS']' located by 'By.xpath: //input[@name='NOMINEE_ADDRESS']' not found
+
+2018-07-12 13:22:34 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:22:34 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:22:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'Chennai' of object '//input[@name='NOMINEE_ADDRESS']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NOMINEE_ADDRESS']' located by 'By.xpath: //input[@name='NOMINEE_ADDRESS']' not found)
+
+2018-07-12 13:23:06 - [MESSAGE][FAILED] - Unable to set text 'Chennai' of object '//input[@name='NOMINEE_ADDRESS']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='NOMINEE_ADDRESS']' located by 'By.xpath: //input[@name='NOMINEE_ADDRESS']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531381986486.png]]
+
+2018-07-12 13:23:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:23:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:23:07 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:23:07 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:23:07 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:23:07 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='PANCARD']' located by 'By.xpath: //input[@name='PANCARD']' not found
+
+2018-07-12 13:23:11 - [MESSAGE][WARNING] - Web element with id: '//input[@name='PANCARD']' located by 'By.xpath: //input[@name='PANCARD']' not found
+
+2018-07-12 13:23:11 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:23:11 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:23:11 - [TEST_STEP][FAILED] - setText: Unable to set text '123344566' of object '//input[@name='PANCARD']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PANCARD']' located by 'By.xpath: //input[@name='PANCARD']' not found)
+
+2018-07-12 13:23:43 - [MESSAGE][FAILED] - Unable to set text '123344566' of object '//input[@name='PANCARD']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='PANCARD']' located by 'By.xpath: //input[@name='PANCARD']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382022610.png]]
+
+2018-07-12 13:23:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:23:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:23:44 - [TEST_STEP][PASSED] - Statement - enterVal = "//input[@name='" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 2).trim() + "']": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:23:44 - [TEST_STEP][PASSED] - Statement - println(enterVal): null
+
+2018-07-12 13:23:44 - [TEST_STEP][PASSED] - Statement - val = new com.kms.katalon.core.testobject.TestObject(enterVal).addProperty("xpath", EQUALS, enterVal, true): null
+
+2018-07-12 13:23:44 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//input[@name='SSN']' located by 'By.xpath: //input[@name='SSN']' not found
+
+2018-07-12 13:23:47 - [MESSAGE][WARNING] - Web element with id: '//input[@name='SSN']' located by 'By.xpath: //input[@name='SSN']' not found
+
+2018-07-12 13:23:47 - [TEST_STEP][PASSED] - Statement - dataVal = com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue(i, 3): Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:23:47 - [TEST_STEP][PASSED] - Statement - println(dataVal): null
+
+2018-07-12 13:23:47 - [TEST_STEP][FAILED] - setText: Unable to set text '1234' of object '//input[@name='SSN']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='SSN']' located by 'By.xpath: //input[@name='SSN']' not found)
+
+2018-07-12 13:24:19 - [MESSAGE][FAILED] - Unable to set text '1234' of object '//input[@name='SSN']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//input[@name='SSN']' located by 'By.xpath: //input[@name='SSN']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382058753.png]]
+
+2018-07-12 13:24:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-12 13:24:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-12 13:24:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:24:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:24:23 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' located by 'By.xpath: //div[@data-item-id='REQ_MODEL_INIT|SUBMIT_innerCont']' not found)
+
+2018-07-12 13:25:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/click_submit' located by 'By.xpath: //div[@data-item-id='REQ_MODEL_INIT|SUBMIT_innerCont']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382106331.png]]
+
+2018-07-12 13:25:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:25:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:25:10 - [TEST_STEP][PASSED] - Statement - readAccNo = "//span[@name='ACCOUNT_ID']": null
+
+2018-07-12 13:25:10 - [TEST_STEP][PASSED] - Statement - println(readAccNo): null
+
+2018-07-12 13:25:10 - [TEST_STEP][PASSED] - Statement - dO = new com.kms.katalon.core.testobject.TestObject(readAccNo).addProperty("xpath", EQUALS, readAccNo, true): null
+
+2018-07-12 13:25:10 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//span[@name='ACCOUNT_ID']' located by 'By.xpath: //span[@name='ACCOUNT_ID']' not found
+
+2018-07-12 13:25:13 - [MESSAGE][WARNING] - Web element with id: '//span[@name='ACCOUNT_ID']' located by 'By.xpath: //span[@name='ACCOUNT_ID']' not found
+
+2018-07-12 13:25:13 - [TEST_STEP][FAILED] - Statement - accNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dO): Unable to get text of object '//span[@name='ACCOUNT_ID']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[@name='ACCOUNT_ID']' located by 'By.xpath: //span[@name='ACCOUNT_ID']' not found)
+
+2018-07-12 13:25:45 - [MESSAGE][FAILED] - Unable to get text of object '//span[@name='ACCOUNT_ID']' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[@name='ACCOUNT_ID']' located by 'By.xpath: //span[@name='ACCOUNT_ID']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382144899.png]]
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(accNo): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - assert accNo == acc_No: null]]></system-out>
+         <system-err><![CDATA[2018-07-12 13:09:06 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Model House Req Mod Demo: Test Cases/Smoke Test/Model House Req Mod Demo FAILED because (of) Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Model House Req Mod Approve" classname="Test Cases/Smoke Test/Model House Req Mod Approve" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)"/>
+         <system-out><![CDATA[2018-07-12 13:25:45 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Model House Req Mod Approve: Test Cases/Smoke Test/Model House Req Mod Approve FAILED because (of) Unable to scroll to object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:25:45 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-12 13:25:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - ws_id = common["WSID"]: null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(ws_id): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - req_id = common["REQID"]: null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(req_id): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - acc_No = common["AccNo"]: null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - Statement - println(acc_No): null
+
+2018-07-12 13:25:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 13:25:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-12 13:25:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 13:25:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 13:25:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 13:25:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:26:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:26:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-12 13:26:13 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-12 13:26:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-12 13:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-12 13:26:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-12 13:26:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-12 13:26:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:26:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-07-12 13:26:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:26:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:26:39 - [TEST_STEP][PASSED] - setText: Text 'john' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-12 13:26:39 - [MESSAGE][PASSED] - Text 'john' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginID'
+
+2018-07-12 13:26:39 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-12 13:26:39 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Login/Page_Model House/input_loginPSW'
+
+2018-07-12 13:26:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-12 13:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Login/Page_Model House/input_commit' is clicked on
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-12 13:26:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), "title"): Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-12 13:26:41 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/Model House Home Page/Page_Canvas World/Home_Page_Title' is: 'Canvas Technology'
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - println(pageHeader): null
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - assert pageHeader == "Canvas Technology": null
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - selectWS = "//div[contains(text(),'" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Req_Mod_Test Data).getValue("Req_Mod_WS", 1) + "')]": Reading excel file with source file 'C:\Users\arokia.raj\Desktop\Req_Mod_Test Data.xls' and sheet name 'Login'
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-12 13:26:41 - [MESSAGE][PASSED] - Object '//div[contains(text(),'Payment')]' is visible
+
+2018-07-12 13:26:41 - [TEST_STEP][PASSED] - click: Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-12 13:26:42 - [MESSAGE][PASSED] - Object: '//div[contains(text(),'Payment')]' is clicked on
+
+2018-07-12 13:26:42 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-12 13:26:57 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-07-12 13:26:57 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' successfully
+
+2018-07-12 13:26:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' successfully
+
+2018-07-12 13:26:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' is clicked on
+
+2018-07-12 13:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House RM Test/Page_Canvas World/click_pending' is clicked on
+
+2018-07-12 13:26:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-12 13:27:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-12 13:27:02 - [TEST_STEP][PASSED] - Statement - listAcc = "//h4[contains(text(),'" + acc_No + "')]": null
+
+2018-07-12 13:27:02 - [TEST_STEP][PASSED] - Statement - println(listAcc): null
+
+2018-07-12 13:27:02 - [TEST_STEP][PASSED] - Statement - selectList = new com.kms.katalon.core.testobject.TestObject(listAcc).addProperty("xpath", EQUALS, listAcc, true): null
+
+2018-07-12 13:27:02 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found
+
+2018-07-12 13:27:05 - [MESSAGE][WARNING] - Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found
+
+2018-07-12 13:27:05 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)
+
+2018-07-12 13:27:37 - [MESSAGE][FAILED] - Unable to scroll to object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382257168.png]]
+
+2018-07-12 13:27:37 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)
+
+2018-07-12 13:28:09 - [MESSAGE][FAILED] - Unable to move mouse over object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382288881.png]]
+
+2018-07-12 13:28:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:28:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:28:12 - [TEST_STEP][PASSED] - Statement - approve = "(//h4[contains(text(),'" + acc_No + "')]/following::div[@class='pull-right buttons-action'])[1]": null
+
+2018-07-12 13:28:12 - [TEST_STEP][PASSED] - Statement - appButton = new com.kms.katalon.core.testobject.TestObject(approve).addProperty("xpath", EQUALS, approve, true): null
+
+2018-07-12 13:28:12 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found
+
+2018-07-12 13:28:15 - [MESSAGE][WARNING] - Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found
+
+2018-07-12 13:28:15 - [TEST_STEP][FAILED] - Statement - rmApprove = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(appButton, 5): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found
+
+2018-07-12 13:28:21 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382300690.png]]
+
+2018-07-12 13:28:21 - [TEST_STEP][PASSED] - Statement - println(rmApprove): null
+
+2018-07-12 13:28:21 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found)
+
+2018-07-12 13:28:52 - [MESSAGE][FAILED] - Unable to move mouse over object '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382332434.png]]
+
+2018-07-12 13:28:52 - [TEST_STEP][PASSED] - Statement - approveButton = "(//h4[contains(text(),'" + acc_No + "')]/following::div[@class='pull-right buttons-action'])[1]/button": null
+
+2018-07-12 13:28:52 - [TEST_STEP][PASSED] - Statement - authButton = new com.kms.katalon.core.testobject.TestObject(approveButton).addProperty("xpath", EQUALS, approveButton, true): null
+
+2018-07-12 13:28:52 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found
+
+2018-07-12 13:28:55 - [MESSAGE][WARNING] - Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found
+
+2018-07-12 13:28:55 - [TEST_STEP][FAILED] - Statement - auth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(authButton, 5): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found
+
+2018-07-12 13:29:01 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382341187.png]]
+
+2018-07-12 13:29:01 - [TEST_STEP][PASSED] - Statement - println(auth): null
+
+2018-07-12 13:29:01 - [TEST_STEP][FAILED] - click: Unable to click on object '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found)
+
+2018-07-12 13:29:33 - [MESSAGE][FAILED] - Unable to click on object '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '(//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' located by 'By.xpath: (//h4[contains(text(),'474164966')]/following::div[@class='pull-right buttons-action'])[1]/button' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382373003.png]]
+
+2018-07-12 13:29:33 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-07-12 13:29:39 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-07-12 13:29:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' located by 'By.xpath: //a[contains(text(),'Approve')]' not found)
+
+2018-07-12 13:30:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_button' located by 'By.xpath: //a[contains(text(),'Approve')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382410998.png]]
+
+2018-07-12 13:30:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:30:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:30:14 - [TEST_STEP][FAILED] - setText: Unable to set text 'Approved' of object 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments' located by 'By.xpath: //textarea[@name='REQ_APPROV_COMMENT']' not found)
+
+2018-07-12 13:30:46 - [MESSAGE][FAILED] - Unable to set text 'Approved' of object 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_comments' located by 'By.xpath: //textarea[@name='REQ_APPROV_COMMENT']' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382445862.png]]
+
+2018-07-12 13:30:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:30:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:30:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' located by 'By.xpath: //a[contains(text(),'Submit')]' not found)
+
+2018-07-12 13:31:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_submit' located by 'By.xpath: //a[contains(text(),'Submit')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382480744.png]]
+
+2018-07-12 13:31:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-12 13:31:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-12 13:31:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' located by 'By.xpath: //a[contains(text(),'Ok')]' not found)
+
+2018-07-12 13:31:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House RM Test/Page_Canvas World/approve_ok' located by 'By.xpath: //a[contains(text(),'Ok')]' not found)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Req_Mod_Demo\\20180712_130458\\1531382515599.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-12 13:25:45 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Model House Req Mod Approve: Test Cases/Smoke Test/Model House Req Mod Approve FAILED because (of) Unable to scroll to object '//h4[contains(text(),'474164966')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//h4[contains(text(),'474164966')]' located by 'By.xpath: //h4[contains(text(),'474164966')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 13:05:00 - [TEST_SUITE][FAILED] - Req_Mod_Demo: Test Cases/Smoke Test/Model House Req Mod Demo FAILED because (of) Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-12 13:05:00 - [TEST_SUITE][FAILED] - Req_Mod_Demo: Test Cases/Smoke Test/Model House Req Mod Demo FAILED because (of) Unable to click on object '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '//span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' located by 'By.xpath: //span[starts-with(@class,'workspace_label workspace_label-AR2415160')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,377 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Form_Suite,Chrome 67.0.3396.87,,2018-06-15 16:49:42,2018-06-15 16:53:13,3m - 31.065s,FAILED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/Common Functions,Chrome 67.0.3396.87,,2018-06-15 16:49:42,2018-06-15 16:49:44,1.961s,PASSED
+Statement - digi = generateRandomInt(9999999),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.002s,PASSED
+Statement - random = new java.util.Random(),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.003s,PASSED
+Statement - return random.nextInt(upperRange),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.001s,PASSED
+"Statement - form_id = ""F"" + digi",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.002s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.006s,PASSED
+"Statement - view_id = ""AV"" + digi",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.008s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - app_id = ""AA"" + digi",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - println(app_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - subWS_id = ""ASUB"" + digi",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - println(subWS_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - WS_id = ""AWS"" + digi",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.016s,PASSED
+Statement - println(WS_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - filePath = ""D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls""",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - file = new java.io.File(filePath),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - fis = new java.io.FileInputStream(file),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - fileOut = new java.io.FileOutputStream(filePath),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.016s,PASSED
+Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.109s,PASSED
+"Statement - st = workbook.createSheet(""POI Worksheet"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.307s,PASSED
+Statement - row = st.createRow(0),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.015s,PASSED
+Statement - cell0 = row.createCell(0),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.016s,PASSED
+"Statement - cell0.setCellValue(""FormID"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell1 = row.createCell(1),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - cell1.setCellValue(""ViewID"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell2 = row.createCell(2),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.015s,PASSED
+"Statement - cell2.setCellValue(""AppID"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell3 = row.createCell(3),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - cell3.setCellValue(""SubWSID"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell4 = row.createCell(4),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+"Statement - cell4.setCellValue(""WSID"")",Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - row1 = st.createRow(1),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell01 = row1.createCell(0),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell01.setCellValue(form_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell11 = row1.createCell(1),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.016s,PASSED
+Statement - cell11.setCellValue(view_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell21 = row1.createCell(2),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell21.setCellValue(app_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell31 = row1.createCell(3),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell31.setCellValue(subWS_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell41 = row1.createCell(4),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:43,0.000s,PASSED
+Statement - cell41.setCellValue(WS_id),Chrome 67.0.3396.87,,2018-06-15 16:49:43,2018-06-15 16:49:44,0.277s,PASSED
+Statement - workbook.write(fileOut),Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.047s,PASSED
+Statement - f_id = row1.getCell(0),Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+Statement - println(f_id),Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+Statement - Map_TC1 = [:],Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+"Statement - Map_TC1.put(""formID"", f_id)",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.017s,PASSED
+"Statement - Map_TC1.put(""viewID"", row1.getCell(1))",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+"Statement - Map_TC1.put(""appID"", row1.getCell(2))",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+"Statement - Map_TC1.put(""subWSID"", row1.getCell(3))",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+"Statement - Map_TC1.put(""WSID"", row1.getCell(4))",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+Statement - fileOut.flush(),Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.000s,PASSED
+Statement - fileOut.close(),Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.016s,PASSED
+Statement - return Map_TC1,Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:44,0.309s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/New_Create_Form,Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:51:19,1m - 35.340s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.87,,2018-06-15 16:49:44,2018-06-15 16:49:46,1.230s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.87,,2018-06-15 16:49:46,2018-06-15 16:49:46,0.001s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.87,,2018-06-15 16:49:46,2018-06-15 16:49:46,0.331s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-15 16:49:46,2018-06-15 16:49:51,4.648s,PASSED
+maximizeWindow,Chrome 67.0.3396.87,,2018-06-15 16:49:51,2018-06-15 16:49:52,1.150s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-15 16:49:52,2018-06-15 16:50:13,21.618s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 67.0.3396.87,,2018-06-15 16:50:13,2018-06-15 16:50:16,3.009s,PASSED
+"Statement - folder = ""D:\Sheepa\AutoIt\""",Chrome 67.0.3396.87,,2018-06-15 16:50:16,2018-06-15 16:50:16,0.001s,PASSED
+"Statement - exe = ""KAuth.exe""",Chrome 67.0.3396.87,,2018-06-15 16:50:16,2018-06-15 16:50:16,0.001s,PASSED
+"Statement - p = new java.lang.ProcessBuilder(cmd.exe, /C, start)",Chrome 67.0.3396.87,,2018-06-15 16:50:16,2018-06-15 16:50:16,0.004s,PASSED
+Statement - p.command(folder + exe),Chrome 67.0.3396.87,,2018-06-15 16:50:16,2018-06-15 16:50:16,0.001s,PASSED
+Statement - p.start(),Chrome 67.0.3396.87,,2018-06-15 16:50:16,2018-06-15 16:50:17,0.088s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 67.0.3396.87,,2018-06-15 16:50:17,2018-06-15 16:50:19,2.007s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:19,2018-06-15 16:50:19,0.289s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:19,2018-06-15 16:50:19,0.202s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:19,2018-06-15 16:50:24,5.069s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:50:24,2018-06-15 16:50:24,0.115s,PASSED
+Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)),Chrome 67.0.3396.87,,2018-06-15 16:50:24,2018-06-15 16:50:28,3.849s,PASSED
+Statement - println(pageHeader),Chrome 67.0.3396.87,,2018-06-15 16:50:28,2018-06-15 16:50:28,0.001s,PASSED
+"Statement - assert pageHeader == ""WORKSPACE CANVAS LIST""",Chrome 67.0.3396.87,,2018-06-15 16:50:28,2018-06-15 16:50:28,0.002s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:28,2018-06-15 16:50:28,0.283s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:28,2018-06-15 16:50:29,0.207s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:50:29,2018-06-15 16:50:37,8.011s,PASSED
+Statement - formHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/form_Title)),Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.084s,PASSED
+Statement - println(formHeader),Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.000s,PASSED
+"Statement - assert formHeader == ""CREATE / EDIT FORM""",Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.198s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.003s,NOT_RUN
+clearText,Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:37,0.003s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-15 16:50:37,2018-06-15 16:50:42,5.002s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:42,2018-06-15 16:50:42,0.424s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:50:42,2018-06-15 16:50:46,4.003s,PASSED
+switchToWindowIndex,Chrome 67.0.3396.87,,2018-06-15 16:50:46,2018-06-15 16:50:46,0.001s,NOT_RUN
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/error_PopUp), 10))",Chrome 67.0.3396.87,,2018-06-15 16:50:46,2018-06-15 16:50:52,5.488s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:52,2018-06-15 16:50:52,0.395s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:52,2018-06-15 16:50:52,0.243s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:52,2018-06-15 16:50:53,0.479s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:53,2018-06-15 16:50:53,0.216s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:53,2018-06-15 16:50:53,0.185s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:53,2018-06-15 16:50:54,0.204s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:54,2018-06-15 16:50:54,0.162s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:54,2018-06-15 16:50:54,0.296s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:54,2018-06-15 16:50:54,0.239s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:54,2018-06-15 16:50:54,0.229s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:54,2018-06-15 16:50:55,0.212s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:55,2018-06-15 16:50:55,0.193s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:55,2018-06-15 16:50:55,0.204s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:55,2018-06-15 16:50:55,0.294s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:55,2018-06-15 16:50:56,0.330s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:56,2018-06-15 16:50:56,0.321s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:56,2018-06-15 16:50:56,0.258s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:56,2018-06-15 16:50:57,0.391s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:57,2018-06-15 16:50:57,0.301s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:57,2018-06-15 16:50:57,0.488s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:57,2018-06-15 16:50:58,0.255s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:58,2018-06-15 16:50:58,0.260s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:58,2018-06-15 16:50:58,0.137s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:58,2018-06-15 16:50:59,0.462s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:59,2018-06-15 16:50:59,0.102s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:50:59,2018-06-15 16:50:59,0.446s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:59,2018-06-15 16:50:59,0.197s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:50:59,2018-06-15 16:51:00,0.281s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:00,2018-06-15 16:51:00,0.283s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:00,2018-06-15 16:51:00,0.253s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:00,2018-06-15 16:51:00,0.147s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:00,2018-06-15 16:51:01,0.500s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:01,2018-06-15 16:51:01,0.319s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:01,2018-06-15 16:51:01,0.260s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:01,2018-06-15 16:51:02,0.215s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:02,2018-06-15 16:51:02,0.537s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:02,2018-06-15 16:51:03,0.353s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:03,2018-06-15 16:51:03,0.332s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:03,2018-06-15 16:51:03,0.276s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:03,2018-06-15 16:51:04,0.621s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:04,2018-06-15 16:51:04,0.321s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:04,2018-06-15 16:51:04,0.304s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:04,2018-06-15 16:51:05,0.209s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:05,2018-06-15 16:51:05,0.570s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:05,2018-06-15 16:51:06,0.536s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:06,2018-06-15 16:51:06,0.219s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:06,2018-06-15 16:51:06,0.162s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:06,2018-06-15 16:51:07,0.623s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:07,2018-06-15 16:51:07,0.748s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:07,2018-06-15 16:51:08,0.213s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:08,2018-06-15 16:51:08,0.297s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:08,2018-06-15 16:51:08,0.436s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:08,2018-06-15 16:51:09,0.263s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:09,2018-06-15 16:51:09,0.211s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:09,2018-06-15 16:51:10,0.912s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:10,2018-06-15 16:51:11,0.729s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:11,2018-06-15 16:51:11,0.265s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:11,2018-06-15 16:51:11,0.153s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:11,2018-06-15 16:51:12,0.595s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:12,2018-06-15 16:51:17,5.002s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:17,2018-06-15 16:51:17,0.467s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:17,2018-06-15 16:51:19,2.343s,PASSED
+closeBrowser,Chrome 67.0.3396.87,,2018-06-15 16:51:19,2018-06-15 16:51:19,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Studio Smoke Test Cases/New_Create_View,Chrome 67.0.3396.87,,2018-06-15 16:51:19,2018-06-15 16:51:36,16.815s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.023s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.092s,PASSED
+"Statement - form_id = common[""formID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.023s,PASSED
+Statement - println(form_id),Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.000s,PASSED
+Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)),Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.055s,PASSED
+Statement - println(homePageHeader),Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.000s,PASSED
+"Statement - assert homePageHeader == ""WORKSPACE CANVAS LIST""",Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:20,0.496s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:20,2018-06-15 16:51:21,0.174s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:21,2018-06-15 16:51:21,0.012s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:21,2018-06-15 16:51:23,2.314s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:23,2018-06-15 16:51:24,0.694s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:24,2018-06-15 16:51:24,0.190s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:24,2018-06-15 16:51:25,0.777s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:25,2018-06-15 16:51:25,0.285s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:25,2018-06-15 16:51:25,0.170s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:25,2018-06-15 16:51:26,0.534s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:26,2018-06-15 16:51:26,0.167s,PASSED
+"Statement - selectForm = ""//span[starts-with(text(), '"" + form_id + ""')]""",Chrome 67.0.3396.87,,2018-06-15 16:51:26,2018-06-15 16:51:26,0.000s,PASSED
+Statement - println(selectForm),Chrome 67.0.3396.87,,2018-06-15 16:51:26,2018-06-15 16:51:26,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty(""xpath"", EQUALS, selectForm, true)",Chrome 67.0.3396.87,,2018-06-15 16:51:26,2018-06-15 16:51:26,0.010s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-15 16:51:26,2018-06-15 16:51:27,1.211s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:51:27,2018-06-15 16:51:27,0.238s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:51:27,2018-06-15 16:51:27,0.099s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:27,2018-06-15 16:51:30,3.002s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:30,2018-06-15 16:51:31,0.291s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:31,2018-06-15 16:51:31,0.354s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:31,2018-06-15 16:51:31,0.233s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:31,2018-06-15 16:51:34,3.001s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:34,2018-06-15 16:51:34,0.222s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:34,2018-06-15 16:51:36,1.757s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/New_Create_App,Chrome 67.0.3396.87,,2018-06-15 16:51:36,2018-06-15 16:51:51,15.192s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.87,,2018-06-15 16:51:36,2018-06-15 16:51:37,0.100s,PASSED
+"Statement - app_id = common[""appID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.000s,PASSED
+Statement - println(app_id),Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.001s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.000s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.103s,PASSED
+Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)),Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.045s,PASSED
+Statement - println(homePageHeader),Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.001s,PASSED
+"Statement - assert homePageHeader == ""WORKSPACE CANVAS LIST""",Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.001s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.320s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.167s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:37,0.012s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:37,2018-06-15 16:51:39,1.852s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:39,2018-06-15 16:51:40,0.661s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:40,2018-06-15 16:51:40,0.202s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:40,2018-06-15 16:51:41,0.720s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:41,2018-06-15 16:51:41,0.149s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:41,2018-06-15 16:51:41,0.491s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:41,2018-06-15 16:51:42,0.288s,PASSED
+"Statement - selectview = ""//span[starts-with(text(), '"" + view_id + ""')]""",Chrome 67.0.3396.87,,2018-06-15 16:51:42,2018-06-15 16:51:42,0.001s,PASSED
+Statement - println(selectview),Chrome 67.0.3396.87,,2018-06-15 16:51:42,2018-06-15 16:51:42,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty(""xpath"", EQUALS, selectview, true)",Chrome 67.0.3396.87,,2018-06-15 16:51:42,2018-06-15 16:51:42,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-15 16:51:42,2018-06-15 16:51:43,1.240s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:51:43,2018-06-15 16:51:43,0.422s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:51:43,2018-06-15 16:51:43,0.182s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:43,2018-06-15 16:51:46,3.001s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:46,2018-06-15 16:51:46,0.001s,NOT_RUN
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:51:46,2018-06-15 16:51:46,0.000s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:46,2018-06-15 16:51:49,3.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:49,2018-06-15 16:51:50,0.205s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:50,2018-06-15 16:51:51,1.740s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/New_Create_WS,Chrome 67.0.3396.87,,2018-06-15 16:51:51,2018-06-15 16:52:19,27.760s,PASSED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.098s,PASSED
+"Statement - app_id = common[""appID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.001s,PASSED
+Statement - println(app_id),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.001s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.000s,PASSED
+"Statement - subws_id = common[""subWSID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.000s,PASSED
+Statement - println(subws_id),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.001s,PASSED
+"Statement - ws_id = common[""WSID""]",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.000s,PASSED
+Statement - println(ws_id),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.029s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.025s,PASSED
+Statement - homePageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Form/Page_Canvas World/get_HomePage_Header)),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.066s,PASSED
+Statement - println(homePageHeader),Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.001s,PASSED
+"Statement - assert homePageHeader == ""WORKSPACE CANVAS LIST""",Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.001s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:52,0.249s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:52,2018-06-15 16:51:53,0.200s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:53,0.010s,PASSED
+Statement - wsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/WS_PageHeader)),Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:53,0.160s,NOT_RUN
+Statement - println(wsPageHeader),Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:53,0.003s,NOT_RUN
+"Statement - assert wsPageHeader == ""WORKSPACE DEFINITION""",Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:53,0.001s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:53,0.001s,NOT_RUN
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:53,2018-06-15 16:51:54,0.910s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:54,2018-06-15 16:51:54,0.272s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:54,2018-06-15 16:51:54,0.169s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:54,2018-06-15 16:51:54,0.381s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:54,2018-06-15 16:51:55,0.175s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:55,2018-06-15 16:51:55,0.241s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:55,2018-06-15 16:51:55,0.177s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:55,2018-06-15 16:51:55,0.278s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:55,2018-06-15 16:51:56,0.291s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:56,2018-06-15 16:51:56,0.287s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:56,2018-06-15 16:51:56,0.303s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:56,2018-06-15 16:51:56,0.301s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:51:56,2018-06-15 16:51:57,0.018s,PASSED
+Statement - subwsPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/subWS_PageHeader)),Chrome 67.0.3396.87,,2018-06-15 16:51:57,2018-06-15 16:51:57,0.001s,NOT_RUN
+Statement - println(subwsPageHeader),Chrome 67.0.3396.87,,2018-06-15 16:51:57,2018-06-15 16:51:57,0.001s,NOT_RUN
+"Statement - assert subwsPageHeader == ""SUB WORKSPACE DEFINITION""",Chrome 67.0.3396.87,,2018-06-15 16:51:57,2018-06-15 16:51:57,0.000s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-15 16:51:57,2018-06-15 16:51:57,0.325s,NOT_RUN
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:57,2018-06-15 16:51:58,0.739s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:58,2018-06-15 16:51:58,0.397s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:58,2018-06-15 16:51:58,0.210s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:58,2018-06-15 16:51:59,0.345s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:51:59,2018-06-15 16:51:59,0.196s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:51:59,2018-06-15 16:51:59,0.286s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:59,2018-06-15 16:51:59,0.340s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:51:59,2018-06-15 16:52:00,0.247s,PASSED
+selectOptionByValue,Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.208s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.191s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.060s,PASSED
+Statement - appLookPageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(New_Test_Create_Workspace/Page_Canvas World/App_LookUp)),Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.101s,NOT_RUN
+Statement - println(appLookPageHeader),Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.002s,NOT_RUN
+"Statement - assert appLookPageHeader == ""APP LOOKUP""",Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:00,0.001s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-15 16:52:00,2018-06-15 16:52:10,10.005s,PASSED
+"Statement - selectApp = ""//span[starts-with(text(), '"" + app_id + ""')]""",Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:10,0.000s,PASSED
+Statement - println(selectApp),Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:10,0.000s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty(""xpath"", EQUALS, selectApp, true)",Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:10,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:10,0.060s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:10,0.170s,PASSED
+doubleClick,Chrome 67.0.3396.87,,2018-06-15 16:52:10,2018-06-15 16:52:11,0.123s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:52:11,2018-06-15 16:52:16,5.001s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:52:16,2018-06-15 16:52:16,0.218s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:52:16,2018-06-15 16:52:16,0.158s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:52:16,2018-06-15 16:52:19,3.274s,PASSED
+,,,,,,
+Test Cases/Studio Smoke Test Cases/Model House Form App Test,Chrome 67.0.3396.87,,2018-06-15 16:52:19,2018-06-15 16:53:11,52.073s,FAILED
+"Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:])",Chrome 67.0.3396.87,,2018-06-15 16:52:19,2018-06-15 16:52:20,0.094s,PASSED
+"Statement - ws_id = common[""WSID""]",Chrome 67.0.3396.87,,2018-06-15 16:52:20,2018-06-15 16:52:20,0.001s,PASSED
+Statement - println(ws_id),Chrome 67.0.3396.87,,2018-06-15 16:52:20,2018-06-15 16:52:20,0.002s,PASSED
+"Statement - view_id = common[""viewID""]",Chrome 67.0.3396.87,,2018-06-15 16:52:20,2018-06-15 16:52:20,0.000s,PASSED
+Statement - println(view_id),Chrome 67.0.3396.87,,2018-06-15 16:52:20,2018-06-15 16:52:20,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.87,Opening the Browser.,2018-06-15 16:52:20,2018-06-15 16:52:24,4.489s,PASSED
+maximizeWindow,Chrome 67.0.3396.87,Maximize the browser.,2018-06-15 16:52:24,2018-06-15 16:52:25,1.135s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-15 16:52:25,2018-06-15 16:52:26,0.430s,PASSED
+closeBrowser,Chrome 67.0.3396.87,,2018-06-15 16:52:26,2018-06-15 16:52:26,0.732s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-15 16:52:26,2018-06-15 16:52:30,3.270s,PASSED
+maximizeWindow,Chrome 67.0.3396.87,Maximize the browser.,2018-06-15 16:52:30,2018-06-15 16:52:31,1.139s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,Verifiy that user able to launch Application.,2018-06-15 16:52:31,2018-06-15 16:52:52,21.550s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:52:52,2018-06-15 16:52:52,0.058s,PASSED
+setText,Chrome 67.0.3396.87,Verify that user able to enter the user name.,2018-06-15 16:52:52,2018-06-15 16:52:53,0.225s,PASSED
+setText,Chrome 67.0.3396.87,Verify that user able to enter the password.,2018-06-15 16:52:53,2018-06-15 16:52:53,0.161s,PASSED
+click,Chrome 67.0.3396.87,Verify that user able to click on the Login and able to open the application.,2018-06-15 16:52:53,2018-06-15 16:52:54,1.419s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.017s,PASSED
+"Statement - pageHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Home Page/Page_Canvas World/Home_Page_Title), ""title"")",Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.267s,PASSED
+Statement - println(pageHeader),Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.001s,PASSED
+"Statement - assert pageHeader == ""Canvas Technology""",Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.001s,PASSED
+"Statement - selectWS = ""//div[contains(text(),'"" + ws_id + ""')]""",Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.001s,PASSED
+Statement - println(selectWS),Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.001s,PASSED
+"Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty(""xpath"", EQUALS, selectWS, true)",Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:54,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-15 16:52:54,2018-06-15 16:52:55,0.313s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:55,0.237s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:55,0.048s,PASSED
+"Statement - selectview = ""//h3[contains(text(),'"" + view_id + ""')]""",Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:55,0.001s,PASSED
+Statement - println(selectview),Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:55,0.000s,PASSED
+"Statement - dynamicObject1 = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty(""xpath"", EQUALS, selectview, true)",Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:55,0.000s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-15 16:52:55,2018-06-15 16:52:56,1.110s,PASSED
+Statement - viewHeader = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(dynamicObject1),Chrome 67.0.3396.87,,2018-06-15 16:52:56,2018-06-15 16:52:56,0.057s,PASSED
+Statement - println(viewHeader),Chrome 67.0.3396.87,,2018-06-15 16:52:56,2018-06-15 16:52:56,0.001s,PASSED
+Statement - assert viewHeader == view_id,Chrome 67.0.3396.87,,2018-06-15 16:52:56,2018-06-15 16:52:56,0.001s,PASSED
+delay,Chrome 67.0.3396.87,,2018-06-15 16:52:56,2018-06-15 16:53:01,5.001s,PASSED
+takeScreenshot,Chrome 67.0.3396.87,,2018-06-15 16:53:01,2018-06-15 16:53:02,0.355s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.170s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.282s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.182s,PASSED
+"Statement - errormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), 5)",Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.055s,PASSED
+Statement - println(errormsg),Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.000s,PASSED
+"Statement - assert java.lang.String.valueOf(errormsg) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.000s,PASSED
+"Statement - errormsg_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), ""data-original-title"")",Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.044s,PASSED
+Statement - println(errormsg_text),Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.000s,PASSED
+"Statement - assert errormsg_text == ""A minimum of 6 characters is required for "" + com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test Data).getValue(""Text_Label"", 1) + "".""",Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.012s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:02,0.104s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:02,2018-06-15 16:53:03,0.190s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:03,0.257s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:03,0.066s,PASSED
+"Statement - errormsgMax = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), 5)",Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:03,0.035s,PASSED
+Statement - println(errormsgMax),Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:03,0.287s,PASSED
+"Statement - assert java.lang.String.valueOf(errormsgMax) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:03,0.000s,PASSED
+"Statement - errormsgMax_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), ""data-original-title"")",Chrome 67.0.3396.87,,2018-06-15 16:53:03,2018-06-15 16:53:04,0.034s,PASSED
+Statement - println(errormsgMax_text),Chrome 67.0.3396.87,,2018-06-15 16:53:04,2018-06-15 16:53:04,0.000s,PASSED
+"Statement - assert errormsgMax_text == com.kms.katalon.core.testdata.TestDataFactory.findTestData(Test Data).getValue(""Text_Label"", 1) + "" must not be greater than 12 characters.""",Chrome 67.0.3396.87,,2018-06-15 16:53:04,2018-06-15 16:53:04,0.398s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:04,2018-06-15 16:53:04,0.063s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:04,2018-06-15 16:53:04,0.453s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:04,2018-06-15 16:53:05,0.196s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:05,2018-06-15 16:53:05,0.119s,PASSED
+"Statement - errormsgmin = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/min_error_msg), 3)",Chrome 67.0.3396.87,,2018-06-15 16:53:05,2018-06-15 16:53:05,0.106s,PASSED
+Statement - println(errormsgmin),Chrome 67.0.3396.87,,2018-06-15 16:53:05,2018-06-15 16:53:05,0.001s,PASSED
+"Statement - assert java.lang.String.valueOf(errormsgmin) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:06,2018-06-15 16:53:06,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:06,2018-06-15 16:53:06,0.073s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:06,2018-06-15 16:53:06,0.052s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:06,2018-06-15 16:53:06,0.245s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:06,2018-06-15 16:53:07,0.322s,PASSED
+"Statement - noerrormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/max_error_msg), 3)",Chrome 67.0.3396.87,,2018-06-15 16:53:07,2018-06-15 16:53:07,0.030s,PASSED
+Statement - println(noerrormsg),Chrome 67.0.3396.87,,2018-06-15 16:53:07,2018-06-15 16:53:07,0.001s,PASSED
+"Statement - assert java.lang.String.valueOf(noerrormsg) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:07,2018-06-15 16:53:07,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:07,2018-06-15 16:53:07,0.065s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:07,2018-06-15 16:53:08,0.901s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:08,0.104s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:08,0.176s,PASSED
+"Statement - mandateField = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), 5)",Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:08,0.036s,PASSED
+Statement - println(mandateField),Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:08,0.001s,PASSED
+"Statement - assert java.lang.String.valueOf(mandateField) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:08,0.001s,PASSED
+"Statement - mandateField_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), ""data-original-title"")",Chrome 67.0.3396.87,,2018-06-15 16:53:08,2018-06-15 16:53:09,0.433s,PASSED
+Statement - println(mandateField_text),Chrome 67.0.3396.87,,2018-06-15 16:53:09,2018-06-15 16:53:09,0.000s,PASSED
+"Statement - assert mandateField_text == ""Please enter the password.""",Chrome 67.0.3396.87,,2018-06-15 16:53:09,2018-06-15 16:53:09,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:09,2018-06-15 16:53:09,0.487s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:09,2018-06-15 16:53:09,0.067s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-15 16:53:09,2018-06-15 16:53:10,0.521s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:10,2018-06-15 16:53:10,0.063s,PASSED
+"Statement - noPasserror = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Form App Test/Page_Canvas World/password_field_error), 3)",Chrome 67.0.3396.87,,2018-06-15 16:53:10,2018-06-15 16:53:10,0.322s,PASSED
+Statement - println(noPasserror),Chrome 67.0.3396.87,,2018-06-15 16:53:10,2018-06-15 16:53:10,0.000s,PASSED
+"Statement - assert java.lang.String.valueOf(noPasserror) == ""true""",Chrome 67.0.3396.87,,2018-06-15 16:53:10,2018-06-15 16:53:10,0.000s,PASSED
+click,Chrome 67.0.3396.87,,2018-06-15 16:53:10,2018-06-15 16:53:11,0.694s,FAILED
+closeBrowser,Chrome 67.0.3396.87,,2018-06-15 16:53:11,2018-06-15 16:53:11,0.000s,NOT_RUN

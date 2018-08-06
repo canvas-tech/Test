@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_clearfix_3</name>
+   <tag></tag>
+   <elementGuidId>ed7cfa9d-6c9d-4393-99d0-8f1b82b65d0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;div_3&quot;)/div[@class=&quot;panel panel-default AUTOMATION_FORM_APP ct-app ct-app-tm&quot;]/div[@class=&quot;panel-heading AUTOMATION_FORM_APP ct-app__header ct-app__header-tm ct-app__panel-header-bg&quot;]/div[@class=&quot;ct-app__header-container&quot;]/div[@class=&quot;clearfix&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>.//h3[@data-widgetid='AUTOMATION_FORM_APP']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>clearfix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;div_3&quot;)/div[@class=&quot;panel panel-default AUTOMATION_FORM_APP ct-app ct-app-tm&quot;]/div[@class=&quot;panel-heading AUTOMATION_FORM_APP ct-app__header ct-app__header-tm ct-app__panel-header-bg&quot;]/div[@class=&quot;ct-app__header-container&quot;]/div[@class=&quot;clearfix&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

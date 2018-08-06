@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Grid_Suite" time="831" tests="8" failures="1" errors="0">
+   <testsuite name="Grid_Suite" tests="8" failures="1" errors="0" time="831" timestamp="2018-07-06 12:26:23" hostname="arokia.raj - N9449.intellectdesign.com" id="Test Suites/Grid_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618"/>
+         <property name="logFiles" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\execution0.log"/>
+         <property name="attachments" value="D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860242917.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860265591.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860286204.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860306928.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860327649.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860348108.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860373823.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860395336.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860415859.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860436381.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860456849.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860477657.png, D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860504730.png"/>
+         <property name="hostName" value="arokia.raj - N9449.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.29.24.220"/>
+         <property name="sessionId" value="ebcf7979a9a12f7f6c99de759b97f099"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Delete Grid Views" classname="Test Cases/Smoke Test/Delete Grid Views" status="FAILED">
+         <failure type="FAILED" message="Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)"/>
+         <system-out><![CDATA[2018-07-06 12:26:24 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Delete Grid Views: Test Cases/Smoke Test/Delete Grid Views FAILED because (of) Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:26:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-06 12:26:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-06 12:26:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-06 12:26:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-06 12:26:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio' successfully
+
+2018-07-06 12:27:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio' successfully
+
+2018-07-06 12:27:07 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:27:07 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:27:07 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:27:08 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:27:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:27:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:27:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:27:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_view_def' is clicked on
+
+2018-07-06 12:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_view_def' is clicked on
+
+2018-07-06 12:27:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:27:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:27:12 - [TEST_STEP][PASSED] - Statement - returnVal_View = delete(5): null
+
+2018-07-06 12:27:12 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls": null
+
+2018-07-06 12:27:12 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:27:12 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:27:13 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i <= j, (i++)]): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:27:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:27:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:27:18 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:27:23 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860242917.png]]
+
+2018-07-06 12:27:23 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:27:23 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:27:23 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:27:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:27:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:27:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:27:27 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:27:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:27:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:27:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:27:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:27:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:27:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:27:41 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:27:45 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860265591.png]]
+
+2018-07-06 12:27:45 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:27:45 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:27:46 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A002')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:27:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:27:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:27:49 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:27:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:27:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:27:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:27:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:27:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:27:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:28:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:28:02 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:28:06 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860286204.png]]
+
+2018-07-06 12:28:06 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:28:06 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:06 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A003')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:10 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:28:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:28:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:28:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:28:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:28:22 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:28:27 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860306928.png]]
+
+2018-07-06 12:28:27 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:28:27 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:27 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A004')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:30 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:28:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:28:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:28:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:28:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:28:43 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:28:48 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860327649.png]]
+
+2018-07-06 12:28:48 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:28:48 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:48 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A005')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:28:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:28:51 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:28:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:28:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:28:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:28:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[contains(text(),'" + java.lang.String.valueOf(id) + "')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']": null
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:28:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:29:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:29:03 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+
+2018-07-06 12:29:08 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860348108.png]]
+
+2018-07-06 12:29:08 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:29:08 - [TEST_STEP][PASSED] - click: Object: '//span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:29:08 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A006')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is clicked on
+
+2018-07-06 12:29:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:29:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:29:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_view_button' is clicked on
+
+2018-07-06 12:29:11 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:29:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:29:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:29:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:29:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:29:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:29:19 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:29:19 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-07-06 12:29:19 - [TEST_STEP][PASSED] - Statement - println("View " + returnVal_View): null
+
+2018-07-06 12:29:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:29:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_app_def' is clicked on
+
+2018-07-06 12:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_app_def' is clicked on
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:29:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - returnVal_App = deleteApp(6): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls": null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:29:24 - [TEST_STEP][FAILED] - Statement - For ([i = 0, i <= j, (i++)]): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:29:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:29:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:29:29 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A001')])[1]' located by 'By.xpath: (//span[contains(text(),'A001')])[1]' is present after '4' second(s)
+
+2018-07-06 12:29:34 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A001')])[1]' located by 'By.xpath: (//span[contains(text(),'A001')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860373823.png]]
+
+2018-07-06 12:29:34 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:29:34 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A001')])[1]' is right clicked on
+
+2018-07-06 12:29:35 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A001')])[1]' is right clicked on
+
+2018-07-06 12:29:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:29:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:29:38 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:29:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:29:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:29:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:29:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:29:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:29:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:29:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:29:51 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A002')])[1]' located by 'By.xpath: (//span[contains(text(),'A002')])[1]' is present after '4' second(s)
+
+2018-07-06 12:29:55 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A002')])[1]' located by 'By.xpath: (//span[contains(text(),'A002')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860395336.png]]
+
+2018-07-06 12:29:55 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:29:55 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A002')])[1]' is right clicked on
+
+2018-07-06 12:29:55 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A002')])[1]' is right clicked on
+
+2018-07-06 12:29:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:29:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:29:59 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:30:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:30:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:30:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:30:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:30:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:30:11 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A003')])[1]' located by 'By.xpath: (//span[contains(text(),'A003')])[1]' is present after '4' second(s)
+
+2018-07-06 12:30:16 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A003')])[1]' located by 'By.xpath: (//span[contains(text(),'A003')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860415859.png]]
+
+2018-07-06 12:30:16 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:30:16 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A003')])[1]' is right clicked on
+
+2018-07-06 12:30:16 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A003')])[1]' is right clicked on
+
+2018-07-06 12:30:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:30:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:30:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:30:19 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:30:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:30:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:30:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:30:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:30:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:30:32 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A004')])[1]' located by 'By.xpath: (//span[contains(text(),'A004')])[1]' is present after '4' second(s)
+
+2018-07-06 12:30:36 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A004')])[1]' located by 'By.xpath: (//span[contains(text(),'A004')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860436381.png]]
+
+2018-07-06 12:30:36 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:30:36 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A004')])[1]' is right clicked on
+
+2018-07-06 12:30:36 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A004')])[1]' is right clicked on
+
+2018-07-06 12:30:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:30:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:30:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:30:40 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:30:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:30:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:30:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:30:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:30:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:30:52 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A005')])[1]' located by 'By.xpath: (//span[contains(text(),'A005')])[1]' is present after '4' second(s)
+
+2018-07-06 12:30:57 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A005')])[1]' located by 'By.xpath: (//span[contains(text(),'A005')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860456849.png]]
+
+2018-07-06 12:30:57 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:30:57 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A005')])[1]' is right clicked on
+
+2018-07-06 12:30:57 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A005')])[1]' is right clicked on
+
+2018-07-06 12:30:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:31:00 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:31:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:31:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:31:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:31:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:31:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:31:13 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A006')])[1]' located by 'By.xpath: (//span[contains(text(),'A006')])[1]' is present after '4' second(s)
+
+2018-07-06 12:31:18 - [MESSAGE][FAILED] - Web element with id: '(//span[contains(text(),'A006')])[1]' located by 'By.xpath: (//span[contains(text(),'A006')])[1]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860477657.png]]
+
+2018-07-06 12:31:18 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:31:18 - [TEST_STEP][PASSED] - rightClick: Object: '(//span[contains(text(),'A006')])[1]' is right clicked on
+
+2018-07-06 12:31:18 - [MESSAGE][PASSED] - Object: '(//span[contains(text(),'A006')])[1]' is right clicked on
+
+2018-07-06 12:31:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_app' is clicked on
+
+2018-07-06 12:31:21 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:31:25 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/dialogbx' is clicked on
+
+2018-07-06 12:31:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - Statement - selectForm = "(//span[contains(text(),'" + java.lang.String.valueOf(id) + "')])[1]": null
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:31:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:31:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(dynamicObject, 4, CONTINUE_ON_FAILURE): Web element with id: '(//span[contains(text(),'A007')])[1]' located by 'By.xpath: (//span[contains(text(),'A007')])[1]' is not present after '4' second(s)
+
+2018-07-06 12:31:34 - [MESSAGE][PASSED] - Web element with id: '(//span[contains(text(),'A007')])[1]' located by 'By.xpath: (//span[contains(text(),'A007')])[1]' is not present after '4' second(s)
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - println("No View exist"): null
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - Statement - println("App " + returnVal_App): null
+
+2018-07-06 12:31:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_WS_def' is clicked on
+
+2018-07-06 12:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_WS_def' is clicked on
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:31:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - returnVal_WS = deleteWS(): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls": null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(6): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - selectWS = "//span[contains(text(),'" + id + "')]": null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - println(selectWS): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - Statement - ws = new com.kms.katalon.core.testobject.TestObject(selectWS).addProperty("xpath", EQUALS, selectWS, true): null
+
+2018-07-06 12:31:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:40 - [TEST_STEP][FAILED] - Statement - present = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(ws, 4, CONTINUE_ON_FAILURE): Web element with id: '//span[contains(text(),'A007')]' located by 'By.xpath: //span[contains(text(),'A007')]' is present after '4' second(s)
+
+2018-07-06 12:31:45 - [MESSAGE][FAILED] - Web element with id: '//span[contains(text(),'A007')]' located by 'By.xpath: //span[contains(text(),'A007')]' is present after '4' second(s)
+[[ATTACHMENT|D:\\Sheepa\\Katalon\\Studio Smoke Test\\Studio Smoke Test\\Reports\\Grid_Suite\\20180706_122618\\1530860504730.png]]
+
+2018-07-06 12:31:45 - [TEST_STEP][PASSED] - Statement - If (java.lang.String.valueOf(present) == "false"): null
+
+2018-07-06 12:31:45 - [TEST_STEP][PASSED] - rightClick: Object: '//span[contains(text(),'A007')]' is right clicked on
+
+2018-07-06 12:31:45 - [MESSAGE][PASSED] - Object: '//span[contains(text(),'A007')]' is right clicked on
+
+2018-07-06 12:31:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_ws' is clicked on
+
+2018-07-06 12:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_ws' is clicked on
+
+2018-07-06 12:31:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:31:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:31:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_confirm' is clicked on
+
+2018-07-06 12:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/delete_confirm' is clicked on
+
+2018-07-06 12:31:51 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-06 12:31:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-06 12:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/deleted_ok' is clicked on
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - println("DELETED"): null
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - return done: null
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - println("WS " + returnVal_WS): null]]></system-out>
+         <system-err><![CDATA[2018-07-06 12:26:24 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Delete Grid Views: Test Cases/Smoke Test/Delete Grid Views FAILED because (of) Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_List_Grid_Simple" classname="Test Cases/Smoke Test/New_Create_List_Grid_Simple" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:31:56 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_List_Grid_Simple: Test Cases/Smoke Test/New_Create_List_Grid_Simple
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:31:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:31:56 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:31:56 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:31:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:31:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:02 - [TEST_STEP][PASSED] - setText: Text 'A001' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:02 - [MESSAGE][PASSED] - Text 'A001' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:02 - [TEST_STEP][PASSED] - setText: Text 'A001' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:03 - [MESSAGE][PASSED] - Text 'A001' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CLASSIC_GRID' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:03 - [MESSAGE][PASSED] - All options with value 'CLASSIC_GRID' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:03 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:04 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:04 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-06 12:32:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 12:32:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:32:14 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:32:15 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:32:15 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:32:15 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:32:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:32:16 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:32:16 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:16 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:16 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:17 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:32:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:32:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:32:20 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:32:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:32:20 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:32:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:32:21 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:32:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:32:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:32:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:32:24 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:32:25 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:32:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:32:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_List_Grid_Property" classname="Test Cases/Smoke Test/New_Create_List_Grid_Property" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:32:31 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_List_Grid_Property: Test Cases/Smoke Test/New_Create_List_Grid_Property
+
+2018-07-06 12:32:31 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:32:32 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:32:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:32:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:35 - [TEST_STEP][PASSED] - setText: Text 'A004' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:35 - [MESSAGE][PASSED] - Text 'A004' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:35 - [TEST_STEP][PASSED] - setText: Text 'A004' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:36 - [MESSAGE][PASSED] - Text 'A004' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PROPERTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:36 - [MESSAGE][PASSED] - All options with value 'PROPERTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:36 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:37 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:32:37 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:32:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:32:39 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:32:39 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:39 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:39 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:39 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:32:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:32:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:32:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:32:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:32:43 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:32:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:32:43 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:32:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:32:43 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:32:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:32:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:32:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:32:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_List_Grid_Paging" classname="Test Cases/Smoke Test/New_Create_List_Grid_Paging" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:32:49 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_List_Grid_Paging: Test Cases/Smoke Test/New_Create_List_Grid_Paging
+
+2018-07-06 12:32:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:32:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:32:50 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:32:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:32:52 - [TEST_STEP][PASSED] - setText: Text 'A003' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:53 - [MESSAGE][PASSED] - Text 'A003' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:32:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:32:53 - [TEST_STEP][PASSED] - setText: Text 'A003' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:53 - [MESSAGE][PASSED] - Text 'A003' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:32:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PAGING' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:54 - [MESSAGE][PASSED] - All options with value 'PAGING' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:32:54 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:54 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:32:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-06 12:33:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 12:33:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:33:05 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:33:05 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:33:05 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:33:05 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:33:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:33:06 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:33:06 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:06 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:06 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:06 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:33:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:33:09 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:33:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:33:10 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:33:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:33:10 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:33:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:33:13 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:33:14 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:33:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_List_Grid" classname="Test Cases/Smoke Test/New_Create_List_Grid" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:33:20 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_List_Grid: Test Cases/Smoke Test/New_Create_List_Grid
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:33:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:33:21 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:33:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:33:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:33:23 - [TEST_STEP][PASSED] - setText: Text 'A002' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:33:24 - [MESSAGE][PASSED] - Text 'A002' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:33:24 - [TEST_STEP][PASSED] - setText: Text 'A002' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:33:25 - [MESSAGE][PASSED] - Text 'A002' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:33:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LIST' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:33:25 - [MESSAGE][PASSED] - All options with value 'LIST' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:33:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:33:25 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:33:26 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:33:26 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-06 12:33:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:33:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:33:37 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:33:37 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:37 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:37 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:37 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:33:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:33:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:33:41 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:33:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:33:41 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:33:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:33:42 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:33:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:33:45 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:33:45 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:33:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:33:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:33:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:33:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_Group_Single" classname="Test Cases/Smoke Test/New_Create_Group_Single" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:33:51 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_Group_Single: Test Cases/Smoke Test/New_Create_Group_Single
+
+2018-07-06 12:33:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:33:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:33:51 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:33:52 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:33:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:33:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:33:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:33:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:33:54 - [TEST_STEP][PASSED] - setText: Text 'A005' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:33:55 - [MESSAGE][PASSED] - Text 'A005' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:33:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:33:55 - [TEST_STEP][PASSED] - setText: Text 'A005' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:33:55 - [MESSAGE][PASSED] - Text 'A005' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:33:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'GROUP' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:33:55 - [MESSAGE][PASSED] - All options with value 'GROUP' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:33:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:33:56 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:33:56 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:33:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-06 12:34:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 12:34:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:34:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:34:07 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:34:07 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:34:07 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:34:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:34:08 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:34:08 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:08 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:08 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:08 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:34:11 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:34:12 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:34:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:34:12 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:34:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:34:12 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:34:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:34:16 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:34:16 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:34:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/button_more' is clicked on
+
+2018-07-06 12:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/button_more' is clicked on
+
+2018-07-06 12:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:34:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:34:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:34:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Create_Group_Multi" classname="Test Cases/Smoke Test/New_Create_Group_Multi" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:34:32 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Create_Group_Multi: Test Cases/Smoke Test/New_Create_Group_Multi
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:34:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - common = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(Test Cases/Studio Smoke Test Cases/ReadExcel), [:]): Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:34:32 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/ReadExcel: Test Cases/Studio Smoke Test Cases/ReadExcel
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Data Input.xls": null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - fid = hssfRow.getCell(0): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - vid = hssfRow.getCell(1): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - aid = hssfRow.getCell(2): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - subid = hssfRow.getCell(3): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - wsid = hssfRow.getCell(4): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - reqid = hssfRow.getCell(5): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - accNo = hssfRow.getCell(6): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - println(vid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map = [:]: null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("formID", fid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("viewID", vid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("appID", aid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("subWSID", subid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("WSID", wsid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("REQID", reqid): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - map.put("AccNo", accNo): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - return map: null
+
+2018-07-06 12:34:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Studio Smoke Test Cases/ReadExcel' successfully
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - form_id = common["formID"]: null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - println(form_id): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - view_id = common["viewID"]: null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - Statement - println(view_id): null
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/span_View' is clicked on
+
+2018-07-06 12:34:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:34:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:34:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId' is clicked on
+
+2018-07-06 12:34:35 - [TEST_STEP][PASSED] - setText: Text 'A006' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:34:35 - [MESSAGE][PASSED] - Text 'A006' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ViewId'
+
+2018-07-06 12:34:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName' is clicked on
+
+2018-07-06 12:34:35 - [TEST_STEP][PASSED] - setText: Text 'A006' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:34:36 - [MESSAGE][PASSED] - Text 'A006' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/view_DisplayName'
+
+2018-07-06 12:34:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ADVGROUP' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:34:36 - [MESSAGE][PASSED] - All options with value 'ADVGROUP' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ViewType' 
+
+2018-07-06 12:34:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle' is clicked on
+
+2018-07-06 12:34:37 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:34:37 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_View/Page_Canvas World/enter_ResourceBundle'
+
+2018-07-06 12:34:37 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-06 12:34:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is visible
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_selectForm' is clicked on
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - Statement - selectForm = "//span[starts-with(text(), '" + "ACCOUNT_TABLE" + "')]": null
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - Statement - println(selectForm): null
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectForm).addProperty("xpath", EQUALS, selectForm, true): null
+
+2018-07-06 12:34:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:34:49 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is visible
+
+2018-07-06 12:34:49 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:49 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:49 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:49 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'ACCOUNT_TABLE')]' is double clicked on
+
+2018-07-06 12:34:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/click_default_ins_yes' is clicked on
+
+2018-07-06 12:34:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:34:52 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:34:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:34:53 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_SubProductCode' 
+
+2018-07-06 12:34:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:34:53 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/New_Test_Create_View/Page_Canvas World/select_FunctionCode' 
+
+2018-07-06 12:34:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:34:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:34:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/expand_gridConfig' is clicked on
+
+2018-07-06 12:34:56 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:34:57 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/enter_numberPerPage'
+
+2018-07-06 12:34:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/button_more' is clicked on
+
+2018-07-06 12:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/button_more' is clicked on
+
+2018-07-06 12:35:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:35:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:35:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-06 12:35:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-06 12:35:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'COUNT' are selected in object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/aggregate_using' 
+
+2018-07-06 12:35:03 - [MESSAGE][PASSED] - All options with value 'COUNT' are selected in object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/aggregate_using' 
+
+2018-07-06 12:35:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-07-06 12:35:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-07-06 12:35:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:35:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/currency_more' is clicked on
+
+2018-07-06 12:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/currency_more' is clicked on
+
+2018-07-06 12:35:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpable' is clicked on
+
+2018-07-06 12:35:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/is_grpd' is clicked on
+
+2018-07-06 12:35:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'COUNT' are selected in object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/aggregate_using' 
+
+2018-07-06 12:35:13 - [MESSAGE][PASSED] - All options with value 'COUNT' are selected in object 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/aggregate_using' 
+
+2018-07-06 12:35:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_List_Grid/Page_Canvas World/view_item_submit' is clicked on
+
+2018-07-06 12:35:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submit' is clicked on
+
+2018-07-06 12:35:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:35:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on
+
+2018-07-06 12:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_View/Page_Canvas World/view_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_App_Grid" classname="Test Cases/Smoke Test/New_App_Grid" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:35:23 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_App_Grid: Test Cases/Smoke Test/New_App_Grid
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls": null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:35:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-06 12:35:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-06 12:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-06 12:35:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-06 12:35:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-06 12:35:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-06 12:35:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-06 12:35:54 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:35:55 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:35:55 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:35:55 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:35:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:35:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:35:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:35:57 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i <= 5, (i++)]): Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:35:57 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:35:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:35:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:35:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:35:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:36:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:36:03 - [TEST_STEP][PASSED] - setText: Text 'A001' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:04 - [MESSAGE][PASSED] - Text 'A001' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:04 - [TEST_STEP][PASSED] - setText: Text 'A001' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:05 - [MESSAGE][PASSED] - Text 'A001' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:05 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:05 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:06 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:36:06 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:36:06 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:36:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A001')]' is visible
+
+2018-07-06 12:36:07 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A001')]' is visible
+
+2018-07-06 12:36:07 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:36:07 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:36:07 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:36:07 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:36:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:10 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:36:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:36:10 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:36:10 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:36:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:17 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:36:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:36:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:36:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:36:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:36:23 - [TEST_STEP][PASSED] - setText: Text 'A002' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:23 - [MESSAGE][PASSED] - Text 'A002' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:23 - [TEST_STEP][PASSED] - setText: Text 'A002' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:24 - [MESSAGE][PASSED] - Text 'A002' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:24 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:24 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:25 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:36:25 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:36:25 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:36:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A002')]' is visible
+
+2018-07-06 12:36:26 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A002')]' is visible
+
+2018-07-06 12:36:26 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:36:26 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:36:26 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:36:26 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:36:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:29 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:36:29 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:36:29 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:36:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:36 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:36:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:36:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:36:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:36:42 - [TEST_STEP][PASSED] - setText: Text 'A003' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:43 - [MESSAGE][PASSED] - Text 'A003' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:36:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:36:43 - [TEST_STEP][PASSED] - setText: Text 'A003' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:43 - [MESSAGE][PASSED] - Text 'A003' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:36:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:36:43 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:44 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:36:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:36:44 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:36:44 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:36:44 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:36:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A003')]' is visible
+
+2018-07-06 12:36:45 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A003')]' is visible
+
+2018-07-06 12:36:45 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:36:45 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:36:45 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:36:46 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:36:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:49 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:36:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:36:49 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:36:49 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:36:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:36:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:36:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:36:55 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:36:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:36:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:36:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:36:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:37:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:37:01 - [TEST_STEP][PASSED] - setText: Text 'A004' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:02 - [MESSAGE][PASSED] - Text 'A004' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:02 - [TEST_STEP][PASSED] - setText: Text 'A004' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:03 - [MESSAGE][PASSED] - Text 'A004' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:03 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:37:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A004')]' is visible
+
+2018-07-06 12:37:05 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A004')]' is visible
+
+2018-07-06 12:37:05 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:37:05 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:37:05 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:37:05 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:37:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:08 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:37:08 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:37:08 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:37:08 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:37:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:37:14 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:37:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:37:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:37:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:37:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:37:21 - [TEST_STEP][PASSED] - setText: Text 'A005' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:21 - [MESSAGE][PASSED] - Text 'A005' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:21 - [TEST_STEP][PASSED] - setText: Text 'A005' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:22 - [MESSAGE][PASSED] - Text 'A005' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:22 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:37:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A005')]' is visible
+
+2018-07-06 12:37:24 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A005')]' is visible
+
+2018-07-06 12:37:24 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:37:24 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:37:24 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:37:24 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:37:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:37:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:37:27 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:37:27 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:37:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:37:33 - [TEST_STEP][PASSED] - Statement - id = hssfRow.getCell(i): null
+
+2018-07-06 12:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:37:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/span_App' is clicked on
+
+2018-07-06 12:37:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:37:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:37:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:37:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:37:40 - [TEST_STEP][PASSED] - setText: Text 'A006' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:40 - [MESSAGE][PASSED] - Text 'A006' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppId'
+
+2018-07-06 12:37:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName' is clicked on
+
+2018-07-06 12:37:40 - [TEST_STEP][PASSED] - setText: Text 'A006' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:41 - [MESSAGE][PASSED] - Text 'A006' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppDisplayName'
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey' is clicked on
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:41 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_AppBundleKey'
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/enter_View_Link_App' is clicked on
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - Statement - selectview = "//span[starts-with(text(), '" + java.lang.String.valueOf(id) + "')]": null
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - Statement - println(selectview): null
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectview).addProperty("xpath", EQUALS, selectview, true): null
+
+2018-07-06 12:37:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A006')]' is visible
+
+2018-07-06 12:37:43 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A006')]' is visible
+
+2018-07-06 12:37:43 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:37:43 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:37:43 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:37:43 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:37:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:46 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-07-06 12:37:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-07-06 12:37:46 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-07-06 12:37:46 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-07-06 12:37:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_Submit' is clicked on
+
+2018-07-06 12:37:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-06 12:37:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-06 12:37:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on
+
+2018-07-06 12:37:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_App/Page_Canvas World/app_submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/New_Grid_WS" classname="Test Cases/Smoke Test/New_Grid_WS" status="PASSED">
+         <system-out><![CDATA[2018-07-06 12:37:52 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/New_Grid_WS: Test Cases/Smoke Test/New_Grid_WS
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - path = "D:\Sheepa\Katalon\Studio Smoke Test\Studio Smoke Test\Data Files\Grid_view_id.xls": null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - fis = new java.io.FileInputStream(path): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - hssfWorkbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(fis): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - sc = hssfWorkbook.getNumberOfSheets(): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - println(sc): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - hssfSheet = hssfWorkbook.getSheetAt(0): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - hssfRow = hssfSheet.getRow(1): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - WS_id = hssfRow.getCell(6): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - Statement - SubWS_id = hssfRow.getCell(7): null
+
+2018-07-06 12:37:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-06 12:37:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-06 12:37:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-06 12:37:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-06 12:37:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-06 12:37:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-06 12:38:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-07-06 12:38:20 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:38:20 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginID'
+
+2018-07-06 12:38:20 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:38:20 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_loginPSW'
+
+2018-07-06 12:38:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-07-06 12:38:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:38:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Form/Page_Canvas World/span_Create' is clicked on
+
+2018-07-06 12:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/span_Workspace' is clicked on
+
+2018-07-06 12:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/span_Workspace' is clicked on
+
+2018-07-06 12:38:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:38:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId' is clicked on
+
+2018-07-06 12:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId' is clicked on
+
+2018-07-06 12:38:26 - [TEST_STEP][PASSED] - setText: Text 'A007' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId'
+
+2018-07-06 12:38:26 - [MESSAGE][PASSED] - Text 'A007' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WSId'
+
+2018-07-06 12:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name' is clicked on
+
+2018-07-06 12:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name' is clicked on
+
+2018-07-06 12:38:26 - [TEST_STEP][PASSED] - setText: Text 'A007' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name'
+
+2018-07-06 12:38:26 - [MESSAGE][PASSED] - Text 'A007' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_Name'
+
+2018-07-06 12:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle' is clicked on
+
+2018-07-06 12:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle' is clicked on
+
+2018-07-06 12:38:26 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle'
+
+2018-07-06 12:38:27 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_WS_ResourceBundle'
+
+2018-07-06 12:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position' is clicked on
+
+2018-07-06 12:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position' is clicked on
+
+2018-07-06 12:38:27 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position'
+
+2018-07-06 12:38:27 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Position'
+
+2018-07-06 12:38:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:38:27 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_ProductCode' 
+
+2018-07-06 12:38:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Prdt_SubCode' 
+
+2018-07-06 12:38:28 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/enter_Prdt_SubCode' 
+
+2018-07-06 12:38:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_Layout' 
+
+2018-07-06 12:38:28 - [MESSAGE][PASSED] - All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/select_Layout' 
+
+2018-07-06 12:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/create_SubWS' is clicked on
+
+2018-07-06 12:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/create_SubWS' is clicked on
+
+2018-07-06 12:38:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:38:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID' is clicked on
+
+2018-07-06 12:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID' is clicked on
+
+2018-07-06 12:38:29 - [TEST_STEP][PASSED] - setText: Text 'A008' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID'
+
+2018-07-06 12:38:29 - [MESSAGE][PASSED] - Text 'A008' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_ID'
+
+2018-07-06 12:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name' is clicked on
+
+2018-07-06 12:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name' is clicked on
+
+2018-07-06 12:38:29 - [TEST_STEP][PASSED] - setText: Text 'A008' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name'
+
+2018-07-06 12:38:30 - [MESSAGE][PASSED] - Text 'A008' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Name'
+
+2018-07-06 12:38:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB' is clicked on
+
+2018-07-06 12:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB' is clicked on
+
+2018-07-06 12:38:30 - [TEST_STEP][PASSED] - setText: Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB'
+
+2018-07-06 12:38:30 - [MESSAGE][PASSED] - Text 'common' is set on object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_RB'
+
+2018-07-06 12:38:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_ProductCode' 
+
+2018-07-06 12:38:31 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_ProductCode' 
+
+2018-07-06 12:38:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_subPrdtCode' 
+
+2018-07-06 12:38:31 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_subPrdtCode' 
+
+2018-07-06 12:38:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_Layout' 
+
+2018-07-06 12:38:31 - [MESSAGE][PASSED] - All options with value 'STACK' are selected in object 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/subWS_Layout' 
+
+2018-07-06 12:38:31 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i <= 5, (i++)]): Delayed 5 second(s)
+
+2018-07-06 12:38:31 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:38:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:38:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:38:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:38:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:38:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:38:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A001')]' is visible
+
+2018-07-06 12:38:42 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A001')]' is visible
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:38:42 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:38:42 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A001')]' is double clicked on
+
+2018-07-06 12:38:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:38:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:38:47 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:38:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:38:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:38:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:38:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:38:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:38:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:38:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A002')]' is visible
+
+2018-07-06 12:38:57 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A002')]' is visible
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:38:57 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:38:57 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:38:58 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A002')]' is double clicked on
+
+2018-07-06 12:38:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:03 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:39:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:39:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:39:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A003')]' is visible
+
+2018-07-06 12:39:13 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A003')]' is visible
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:39:13 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:39:13 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A003')]' is double clicked on
+
+2018-07-06 12:39:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:18 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:39:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:39:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:39:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:28 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:39:28 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:39:28 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:39:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A004')]' is visible
+
+2018-07-06 12:39:28 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A004')]' is visible
+
+2018-07-06 12:39:28 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:39:29 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:39:29 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:39:29 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A004')]' is double clicked on
+
+2018-07-06 12:39:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:34 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:39:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:39:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:39:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A005')]' is visible
+
+2018-07-06 12:39:44 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A005')]' is visible
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:39:44 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:39:44 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A005')]' is double clicked on
+
+2018-07-06 12:39:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:49 - [TEST_STEP][PASSED] - Statement - app_id = hssfRow.getCell(i): null
+
+2018-07-06 12:39:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:39:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:39:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/add_ChildApp' is clicked on
+
+2018-07-06 12:39:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-06 12:39:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-06 12:39:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:40:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - Statement - selectApp = "//span[starts-with(text(), '" + java.lang.String.valueOf(app_id) + "')]": null
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - Statement - println(selectApp): null
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - Statement - dynamicObject = new com.kms.katalon.core.testobject.TestObject(selectApp).addProperty("xpath", EQUALS, selectApp, true): null
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object '//span[starts-with(text(), 'A006')]' is visible
+
+2018-07-06 12:40:00 - [MESSAGE][PASSED] - Object '//span[starts-with(text(), 'A006')]' is visible
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:40:00 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - doubleClick: Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:40:00 - [MESSAGE][PASSED] - Object: '//span[starts-with(text(), 'A006')]' is double clicked on
+
+2018-07-06 12:40:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:40:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:40:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-06 12:40:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-06 12:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Submit' is clicked on
+
+2018-07-06 12:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/SubWS_Submit' is clicked on
+
+2018-07-06 12:40:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-07-06 12:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-07-06 12:40:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submission' is clicked on
+
+2018-07-06 12:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/New_Test_Create_Workspace/Page_Canvas World/WS_Submission' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-06 12:26:23 - [TEST_SUITE][FAILED] - Grid_Suite: Test Cases/Smoke Test/Delete Grid Views FAILED because (of) Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)]]></system-out>
+      <system-err><![CDATA[2018-07-06 12:26:23 - [TEST_SUITE][FAILED] - Grid_Suite: Test Cases/Smoke Test/Delete Grid Views FAILED because (of) Web element with id: '//span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' located by 'By.xpath: //span[contains(text(),'A001')]/preceding::td[2]/span/input[@data-item-id='ct_rowSelector']' is present after '4' second(s)]]></system-err>
+   </testsuite>
+</testsuites>

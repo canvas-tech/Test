@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test Suite" time="1553" tests="16" failures="2" errors="0">
+   <testsuite name="Smoke Test Suite" tests="16" failures="2" errors="0" time="1553" timestamp="2018-04-26 15:29:10" hostname="mugunthan.devan - N9287.intellectdesign.com" id="Test Suites/Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907"/>
+         <property name="logFiles" value="D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\execution0.log"/>
+         <property name="attachments" value="D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737115684.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737147765.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737179439.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737211177.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737242814.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737276264.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737310101.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737341732.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737373277.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737405004.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737438543.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737472057.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737505677.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737539265.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737570813.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737602267.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737636010.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737667626.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737699135.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737824066.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737855972.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737887791.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737919648.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737951641.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738008496.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738040440.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738072298.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738104137.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738136008.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738167903.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738199871.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738231721.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738263597.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738295324.png, D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738299592.png"/>
+         <property name="hostName" value="mugunthan.devan - N9287.intellectdesign.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.117"/>
+         <property name="hostAddress" value="172.29.24.97"/>
+         <property name="sessionId" value="c75cdedf6c8d44f6e0d31e0c455f9b58"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Login" classname="Test Cases/Studio Smoke Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:29:10 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Login: Test Cases/Studio Smoke Test Cases/Login
+
+2018-04-26 15:29:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-26 15:29:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-26 15:29:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-26 15:29:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 15:29:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-04-26 15:29:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/expertctstudio/' successfully
+
+2018-04-26 15:29:39 - [TEST_STEP][PASSED] - setText: Text 'CTSTUD1' is set on object 'Object Repository/Studio Login/Page_Expert CT Studio/input_loginID'
+
+2018-04-26 15:29:39 - [MESSAGE][PASSED] - Text 'CTSTUD1' is set on object 'Object Repository/Studio Login/Page_Expert CT Studio/input_loginID'
+
+2018-04-26 15:29:39 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/Studio Login/Page_Expert CT Studio/input_loginPSW'
+
+2018-04-26 15:29:39 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/Studio Login/Page_Expert CT Studio/input_loginPSW'
+
+2018-04-26 15:29:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Studio Login/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-04-26 15:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Studio Login/Page_Expert CT Studio/input_commit' is clicked on
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create New Connection" classname="Test Cases/Studio Smoke Test Cases/Create New Connection" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:30:02 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create New Connection: Test Cases/Studio Smoke Test Cases/Create New Connection
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:02 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:30:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:30:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Connection/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Connection/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Connection/Page_Canvas World/span_Create New Connection' is clicked on
+
+2018-04-26 15:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Connection/Page_Canvas World/span_Create New Connection' is clicked on
+
+2018-04-26 15:30:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:30:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:30:05 - [TEST_STEP][PASSED] - setText: Text 'TEST_AUTOMATION_CONN' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_CONNECTION_NAME'
+
+2018-04-26 15:30:06 - [MESSAGE][PASSED] - Text 'TEST_AUTOMATION_CONN' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_CONNECTION_NAME'
+
+2018-04-26 15:30:06 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'oracle12c' are selected in object 'Object Repository/Create Connection/Page_Canvas World/select_Select DB2MS SqlMy SqlO'  using regular expression
+
+2018-04-26 15:30:06 - [MESSAGE][PASSED] - All options with value 'oracle12c' are selected in object 'Object Repository/Create Connection/Page_Canvas World/select_Select DB2MS SqlMy SqlO'  using regular expression
+
+2018-04-26 15:30:06 - [TEST_STEP][PASSED] - setText: Text 'localhost' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_HOST_NAME'
+
+2018-04-26 15:30:06 - [MESSAGE][PASSED] - Text 'localhost' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_HOST_NAME'
+
+2018-04-26 15:30:06 - [TEST_STEP][PASSED] - setText: Text '1521' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_PORT'
+
+2018-04-26 15:30:07 - [MESSAGE][PASSED] - Text '1521' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_PORT'
+
+2018-04-26 15:30:07 - [TEST_STEP][PASSED] - setText: Text 'pdborcl.intellectdesign.com' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_SID'
+
+2018-04-26 15:30:07 - [MESSAGE][PASSED] - Text 'pdborcl.intellectdesign.com' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_SID'
+
+2018-04-26 15:30:07 - [TEST_STEP][PASSED] - setText: Text 'MODEL_7688' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_USER_NAME'
+
+2018-04-26 15:30:07 - [MESSAGE][PASSED] - Text 'MODEL_7688' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_USER_NAME'
+
+2018-04-26 15:30:07 - [TEST_STEP][PASSED] - setText: Text 'MODEL_7688' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_USER_PASSWORD'
+
+2018-04-26 15:30:08 - [MESSAGE][PASSED] - Text 'MODEL_7688' is set on object 'Object Repository/Create Connection/Page_Canvas World/input_USER_PASSWORD'
+
+2018-04-26 15:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Connection/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Connection/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:30:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Connection/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Connection/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:08 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:30:08 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Data Source" classname="Test Cases/Studio Smoke Test Cases/Create Data Source" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:30:08 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Data Source: Test Cases/Studio Smoke Test Cases/Create Data Source
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:09 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_CONNECTIONS' is clicked on
+
+2018-04-26 15:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_CONNECTIONS' is clicked on
+
+2018-04-26 15:30:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Create Data Source/Page_Canvas World/span_ct-app__tools flaticon-fi' is present
+
+2018-04-26 15:30:10 - [MESSAGE][PASSED] - Object 'Object Repository/Create Data Source/Page_Canvas World/span_ct-app__tools flaticon-fi' is present
+
+2018-04-26 15:30:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:30:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Connection Name' is clicked on
+
+2018-04-26 15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Connection Name' is clicked on
+
+2018-04-26 15:30:10 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:10 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:30:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:30:13 - [TEST_STEP][PASSED] - setText: Text 'TEST_AUTOMATION_CONN' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:30:14 - [MESSAGE][PASSED] - Text 'TEST_AUTOMATION_CONN' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:30:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:30:14 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/Create Data Source/Page_Canvas World/span_TEST_AUTOMATION_CONN' is right clicked on
+
+2018-04-26 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/span_TEST_AUTOMATION_CONN' is right clicked on
+
+2018-04-26 15:30:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Manage Data Sources' is clicked on
+
+2018-04-26 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Manage Data Sources' is clicked on
+
+2018-04-26 15:30:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:30:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:30:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Create Data Source' is clicked on
+
+2018-04-26 15:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Create Data Source' is clicked on
+
+2018-04-26 15:30:18 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:18 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:30:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:30:20 - [TEST_STEP][PASSED] - setText: Text 'TEST_AUTO_DATASOURCE01' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_DATA_SOURCE_NAME'
+
+2018-04-26 15:30:20 - [MESSAGE][PASSED] - Text 'TEST_AUTO_DATASOURCE01' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_DATA_SOURCE_NAME'
+
+2018-04-26 15:30:20 - [TEST_STEP][PASSED] - setText: Text 'ACCOUNT_SUMMARY_DATA' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_TABLE_NAMES'
+
+2018-04-26 15:30:21 - [MESSAGE][PASSED] - Text 'ACCOUNT_SUMMARY_DATA' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_TABLE_NAMES'
+
+2018-04-26 15:30:21 - [TEST_STEP][PASSED] - setText: Text '*' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_COLUMN_IDS'
+
+2018-04-26 15:30:21 - [MESSAGE][PASSED] - Text '*' is set on object 'Object Repository/Create Data Source/Page_Canvas World/input_COLUMN_IDS'
+
+2018-04-26 15:30:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:30:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:30:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Data Source/Page_Canvas World/button_flaticon-close flaticon' is clicked on
+
+2018-04-26 15:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Data Source/Page_Canvas World/button_flaticon-close flaticon' is clicked on
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Simple Grid View" classname="Test Cases/Studio Smoke Test Cases/Create Simple Grid View" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:30:22 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Simple Grid View: Test Cases/Studio Smoke Test Cases/Create Simple Grid View
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:22 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:30:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:30:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:30:23 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:30:26 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:30:26 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:30:28 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:30:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CLASSIC_GRID' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:30:28 - [MESSAGE][PASSED] - All options with value 'CLASSIC_GRID' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:30:28 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:30:29 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Simple Grid View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:30:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:30:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:30:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:30:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:30:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:30:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Data Source Name' is clicked on
+
+2018-04-26 15:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Data Source Name' is clicked on
+
+2018-04-26 15:30:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:30:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:30:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'TEST_AUTO_DATASOURCE01' sent to object: 'Object Repository/Create Simple Grid View/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:30:37 - [MESSAGE][PASSED] - Keys 'TEST_AUTO_DATASOURCE01' sent to object: 'Object Repository/Create Simple Grid View/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:30:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:30:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:30:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:30:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:30:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:30:43 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:43 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/default_instruction_Y' is clicked on
+
+2018-04-26 15:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/default_instruction_Y' is clicked on
+
+2018-04-26 15:30:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:30:43 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:30:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:30:44 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:30:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:30:44 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/Create Simple Grid View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Simple Grid View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Chart View" classname="Test Cases/Studio Smoke Test Cases/Create Chart View" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:30:46 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Chart View: Test Cases/Studio Smoke Test Cases/Create Chart View
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:30:46 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:30:46 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:30:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:30:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:30:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:30:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:30:52 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:30:54 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:30:54 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:30:56 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:30:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CHART' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:30:56 - [MESSAGE][PASSED] - All options with value 'CHART' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:30:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'BAR' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select Angular GaugeAre'  using regular expression
+
+2018-04-26 15:30:57 - [MESSAGE][PASSED] - All options with value 'BAR' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select Angular GaugeAre'  using regular expression
+
+2018-04-26 15:30:57 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:30:57 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:30:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_DIMENSION' is clicked on
+
+2018-04-26 15:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_DIMENSION' is clicked on
+
+2018-04-26 15:30:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:30:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:30:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:30:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:31:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Data Source Name' is clicked on
+
+2018-04-26 15:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Data Source Name' is clicked on
+
+2018-04-26 15:31:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:31:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:31:03 - [TEST_STEP][PASSED] - setText: Text 'TEST_AUTO_DATASOURCE01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:31:03 - [MESSAGE][PASSED] - Text 'TEST_AUTO_DATASOURCE01' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:31:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:31:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Chart View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:31:04 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Chart View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/span_TEST_AUTO_DATASOURCE01' is double clicked on
+
+2018-04-26 15:31:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:31:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:31:09 - [TEST_STEP][PASSED] - setText: Text 'com.intellectdesign.modelhouse.views.CTAccSummaryViewsInstruction' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_INSTRUCTION_CLASS'
+
+2018-04-26 15:31:13 - [MESSAGE][PASSED] - Text 'com.intellectdesign.modelhouse.views.CTAccSummaryViewsInstruction' is set on object 'Object Repository/Create Chart View/Page_Canvas World/input_INSTRUCTION_CLASS'
+
+2018-04-26 15:31:13 - [TEST_STEP][NOT_RUN] - waitForElementVisible: NOT_RUN: waitForElementVisible
+
+2018-04-26 15:31:13 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible
+
+2018-04-26 15:31:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:13 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:13 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:14 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/Create Chart View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/button_More1' is clicked on
+
+2018-04-26 15:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/button_More1' is clicked on
+
+2018-04-26 15:31:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:31:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_AXIS_IND' is clicked on
+
+2018-04-26 15:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_AXIS_IND' is clicked on
+
+2018-04-26 15:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit1' is clicked on
+
+2018-04-26 15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit1' is clicked on
+
+2018-04-26 15:31:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/button_More2' is clicked on
+
+2018-04-26 15:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/button_More2' is clicked on
+
+2018-04-26 15:31:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:31:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_AXIS_IND_1' is clicked on
+
+2018-04-26 15:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/input_CHART_AXIS_IND_1' is clicked on
+
+2018-04-26 15:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit2' is clicked on
+
+2018-04-26 15:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit2' is clicked on
+
+2018-04-26 15:31:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:31:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:31:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:31:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Chart View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Form View" classname="Test Cases/Studio Smoke Test Cases/Create Form View" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:31:33 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Form View: Test Cases/Studio Smoke Test Cases/Create Form View
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:33 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:31:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:31:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:31:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:31:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:31:38 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:31:41 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:31:41 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:31:43 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:31:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'FORM' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:31:43 - [MESSAGE][PASSED] - All options with value 'FORM' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:31:43 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:31:44 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Form View/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:31:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:31:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:31:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:31:46 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Form View/Page_Canvas World/span_INITIAL_FORM' is double clicked on
+
+2018-04-26 15:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/span_INITIAL_FORM' is double clicked on
+
+2018-04-26 15:31:46 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Form View/Page_Canvas World/span_INITIAL_FORM' is double clicked on
+
+2018-04-26 15:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/span_INITIAL_FORM' is double clicked on
+
+2018-04-26 15:31:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:46 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:47 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:47 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/Create Form View/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form View/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create App Shortcut View" classname="Test Cases/Studio Smoke Test Cases/Create App Shortcut View" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:31:49 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create App Shortcut View: Test Cases/Studio Smoke Test Cases/Create App Shortcut View
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:31:49 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-04-26 15:31:49 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-04-26 15:31:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/span_Create  New View' is clicked on
+
+2018-04-26 15:31:50 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:31:53 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_ID'
+
+2018-04-26 15:31:53 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:31:54 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_DISPLAY_NM'
+
+2018-04-26 15:31:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'APP' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:31:55 - [MESSAGE][PASSED] - All options with value 'APP' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select Advertisements V'  using regular expression
+
+2018-04-26 15:31:55 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:31:55 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create AppShortcut view/Page_Canvas World/input_VIEW_BUNDLE_KEY'
+
+2018-04-26 15:31:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:31:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:31:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VSBLTY' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:56 - [MESSAGE][PASSED] - All options with value 'VSBLTY' are selected in object 'Object Repository/Create AppShortcut view/Page_Canvas World/select_Select APPROVEINITVIEWV'  using regular expression
+
+2018-04-26 15:31:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:31:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create AppShortcut view/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/App Creation for Grid" classname="Test Cases/Studio Smoke Test Cases/App Creation for Grid" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:31:58 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/App Creation for Grid: Test Cases/Studio Smoke Test Cases/App Creation for Grid
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:31:58 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:31:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:31:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:31:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:31:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:32:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:32:02 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_WIDGET_ID (1)'
+
+2018-04-26 15:32:03 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_WIDGET_ID (1)'
+
+2018-04-26 15:32:03 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:04 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:04 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:04 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:07 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:08 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_VIEW' is set on object 'Object Repository/APP for Grid/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:08 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Grid/Page_Canvas World/span_AUTOMATION_GRID_VIEW' is double clicked on
+
+2018-04-26 15:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/span_AUTOMATION_GRID_VIEW' is double clicked on
+
+2018-04-26 15:32:09 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Grid/Page_Canvas World/span_AUTOMATION_GRID_VIEW' is double clicked on
+
+2018-04-26 15:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/span_AUTOMATION_GRID_VIEW' is double clicked on
+
+2018-04-26 15:32:09 - [TEST_STEP][NOT_RUN] - Statement - WebUIKeywords.clickUsingJS(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APP for Grid/Page_Canvas World/a_Submit), 30): NOT_RUN: Statement - WebUIKeywords.clickUsingJS(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APP for Grid/Page_Canvas World/a_Submit), 30)
+
+2018-04-26 15:32:09 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - WebUIKeywords.clickUsingJS(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APP for Grid/Page_Canvas World/a_Submit), 30)
+
+2018-04-26 15:32:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:32:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:14 - [TEST_STEP][NOT_RUN] - waitForElementVisible: NOT_RUN: waitForElementVisible
+
+2018-04-26 15:32:14 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible
+
+2018-04-26 15:32:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Grid/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Grid/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/App Creation for Chart" classname="Test Cases/Studio Smoke Test Cases/App Creation for Chart" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:32:16 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/App Creation for Chart: Test Cases/Studio Smoke Test Cases/App Creation for Chart
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:16 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:32:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:32:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:32:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:32:20 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:32:21 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:32:21 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:22 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:22 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:23 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:32:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:32:27 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:27 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_VIEW01' is set on object 'Object Repository/APP for Chart/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Chart/Page_Canvas World/span_AUTO_CHART_VIEW01' is double clicked on
+
+2018-04-26 15:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/span_AUTO_CHART_VIEW01' is double clicked on
+
+2018-04-26 15:32:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Chart/Page_Canvas World/span_AUTO_CHART_VIEW01' is double clicked on
+
+2018-04-26 15:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/span_AUTO_CHART_VIEW01' is double clicked on
+
+2018-04-26 15:32:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Chart/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Chart/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/APP Creation for Form" classname="Test Cases/Studio Smoke Test Cases/APP Creation for Form" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:32:34 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/APP Creation for Form: Test Cases/Studio Smoke Test Cases/APP Creation for Form
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:34 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:32:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:32:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:32:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:37 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:32:38 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:32:38 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:39 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:32:39 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:40 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:32:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:32:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:32:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:43 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:44 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORMVIEW01' is set on object 'Object Repository/APP for Form/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:32:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:32:44 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Form/Page_Canvas World/span_TEST_AUTO_FORMVIEW01' is double clicked on
+
+2018-04-26 15:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/span_TEST_AUTO_FORMVIEW01' is double clicked on
+
+2018-04-26 15:32:45 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Form/Page_Canvas World/span_TEST_AUTO_FORMVIEW01' is double clicked on
+
+2018-04-26 15:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/span_TEST_AUTO_FORMVIEW01' is double clicked on
+
+2018-04-26 15:32:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:32:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Form/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Form/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:32:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:32:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:32:53 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:32:53 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create New FORM Definition" classname="Test Cases/Studio Smoke Test Cases/Create New FORM Definition" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:32:53 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create New FORM Definition: Test Cases/Studio Smoke Test Cases/Create New FORM Definition
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:32:54 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:32:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_Create New Form' is clicked on
+
+2018-04-26 15:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_Create New Form' is clicked on
+
+2018-04-26 15:32:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:32:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i' is clicked on
+
+2018-04-26 15:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i' is clicked on
+
+2018-04-26 15:32:57 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:32:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:32:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:33:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:33:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:01 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-04-26 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-04-26 15:33:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'AUTOMATION TEST FORM' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:01 - [MESSAGE][PASSED] - Keys 'AUTOMATION TEST FORM' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_1' is clicked on
+
+2018-04-26 15:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_1' is clicked on
+
+2018-04-26 15:33:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:01 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-04-26 15:33:01 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-04-26 15:33:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'FIRST NAME' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:02 - [MESSAGE][PASSED] - Keys 'FIRST NAME' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_2' is clicked on
+
+2018-04-26 15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_2' is clicked on
+
+2018-04-26 15:33:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:02 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-04-26 15:33:02 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-04-26 15:33:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'ADDRESS' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:02 - [MESSAGE][PASSED] - Keys 'ADDRESS' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_3' is clicked on
+
+2018-04-26 15:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_designer-item-icon form-i_3' is clicked on
+
+2018-04-26 15:33:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is visible
+
+2018-04-26 15:33:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/span_2' is clicked on
+
+2018-04-26 15:33:03 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-04-26 15:33:03 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-04-26 15:33:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'SUBMIT' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:03 - [MESSAGE][PASSED] - Keys 'SUBMIT' sent to object: 'Object Repository/Create Form Definition/Page_Canvas World/input_input-text'
+
+2018-04-26 15:33:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/input_designer-btn save-btn' is clicked on
+
+2018-04-26 15:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/input_designer-btn save-btn' is clicked on
+
+2018-04-26 15:33:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Form Definition/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Form Definition/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/APP Creation for Shortcut" classname="Test Cases/Studio Smoke Test Cases/APP Creation for Shortcut" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:33:05 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/APP Creation for Shortcut: Test Cases/Studio Smoke Test Cases/APP Creation for Shortcut
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:05 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:33:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_Create New App' is clicked on
+
+2018-04-26 15:33:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:08 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:33:09 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_WIDGET_ID'
+
+2018-04-26 15:33:09 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:33:10 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_WGT_DISPLAY_NM'
+
+2018-04-26 15:33:10 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:33:11 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_BUNDLE_KEY'
+
+2018-04-26 15:33:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:33:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_View ID' is clicked on
+
+2018-04-26 15:33:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:14 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:33:15 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHRTCUT_VIEW01' is set on object 'Object Repository/APP for Shortcut/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:33:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:33:15 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_TEST_AUTO_APPSHRTCUT01' is double clicked on
+
+2018-04-26 15:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_TEST_AUTO_APPSHRTCUT01' is double clicked on
+
+2018-04-26 15:33:16 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_TEST_AUTO_APPSHRTCUT01' is double clicked on
+
+2018-04-26 15:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/span_TEST_AUTO_APPSHRTCUT01' is double clicked on
+
+2018-04-26 15:33:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:33:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/APP for Shortcut/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Workspace Shortcut" classname="Test Cases/Studio Smoke Test Cases/Create Workspace Shortcut" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:33:25 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Workspace Shortcut: Test Cases/Studio Smoke Test Cases/Create Workspace Shortcut
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:25 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:33:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:33:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_Create Shortcuts' is clicked on
+
+2018-04-26 15:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_Create Shortcuts' is clicked on
+
+2018-04-26 15:33:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:33:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:33:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/workspace search lookup' is clicked on
+
+2018-04-26 15:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/workspace search lookup' is clicked on
+
+2018-04-26 15:33:30 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:33:30 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:33:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:32 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_PAYMENT_WS' is double clicked on
+
+2018-04-26 15:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_PAYMENT_WS' is double clicked on
+
+2018-04-26 15:33:33 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_PAYMENT_WS' is double clicked on
+
+2018-04-26 15:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/span_PAYMENT_WS' is double clicked on
+
+2018-04-26 15:33:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create SHORTCUTS/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:33:33 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create SHORTCUTS/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:33:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create SHORTCUTS/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:33:33 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create SHORTCUTS/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:33:33 - [TEST_STEP][PASSED] - setText: Text 'PAYMENT_WS_SHORTCUT' is set on object 'Object Repository/Create SHORTCUTS/Page_Canvas World/input_APP_ID'
+
+2018-04-26 15:33:34 - [MESSAGE][PASSED] - Text 'PAYMENT_WS_SHORTCUT' is set on object 'Object Repository/Create SHORTCUTS/Page_Canvas World/input_APP_ID'
+
+2018-04-26 15:33:34 - [TEST_STEP][PASSED] - setText: Text 'PAYMENT_WS_SHORTCUT' is set on object 'Object Repository/Create SHORTCUTS/Page_Canvas World/input_APP_DISPLAY_NM_KEY'
+
+2018-04-26 15:33:34 - [MESSAGE][PASSED] - Text 'PAYMENT_WS_SHORTCUT' is set on object 'Object Repository/Create SHORTCUTS/Page_Canvas World/input_APP_DISPLAY_NM_KEY'
+
+2018-04-26 15:33:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/a_Save' is clicked on
+
+2018-04-26 15:33:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create SHORTCUTS/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:36 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:33:36 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Template" classname="Test Cases/Studio Smoke Test Cases/Create Template" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:33:36 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Template: Test Cases/Studio Smoke Test Cases/Create Template
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Template/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Template/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Template/Page_Canvas World/span_Create New Template' is clicked on
+
+2018-04-26 15:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Template/Page_Canvas World/span_Create New Template' is clicked on
+
+2018-04-26 15:33:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:39 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_TEMPLATE' is set on object 'Object Repository/Create Template/Page_Canvas World/input_TEMPLATE_ID'
+
+2018-04-26 15:33:39 - [MESSAGE][PASSED] - Text 'AUTOMATION_TEMPLATE' is set on object 'Object Repository/Create Template/Page_Canvas World/input_TEMPLATE_ID'
+
+2018-04-26 15:33:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:33:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:33:41 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_TEMPLATE' is set on object 'Object Repository/Create Template/Page_Canvas World/input_TEMPLATE_DESC'
+
+2018-04-26 15:33:42 - [MESSAGE][PASSED] - Text 'AUTOMATION_TEMPLATE' is set on object 'Object Repository/Create Template/Page_Canvas World/input_TEMPLATE_DESC'
+
+2018-04-26 15:33:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Template/Page_Canvas World/label_Yes' is clicked on
+
+2018-04-26 15:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Template/Page_Canvas World/label_Yes' is clicked on
+
+2018-04-26 15:33:42 - [TEST_STEP][PASSED] - setText: Text 'templates/html/index.html' is set on object 'Object Repository/Create Template/Page_Canvas World/textarea_TEMPLATE_CONFIG'
+
+2018-04-26 15:33:42 - [MESSAGE][PASSED] - Text 'templates/html/index.html' is set on object 'Object Repository/Create Template/Page_Canvas World/textarea_TEMPLATE_CONFIG'
+
+2018-04-26 15:33:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Template/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Template/Page_Canvas World/a_Submit' is clicked on
+
+2018-04-26 15:33:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Template/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Template/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Request Modeler" classname="Test Cases/Studio Smoke Test Cases/Create Request Modeler" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:33:44 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Request Modeler: Test Cases/Studio Smoke Test Cases/Create Request Modeler
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:33:44 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:33:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:33:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:33:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:33:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:33:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_Create  New Request' is clicked on
+
+2018-04-26 15:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_Create  New Request' is clicked on
+
+2018-04-26 15:33:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:33:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:33:51 - [TEST_STEP][PASSED] - setText: Text 'AUTO_REQMOD01' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_REQ_ID'
+
+2018-04-26 15:33:51 - [MESSAGE][PASSED] - Text 'AUTO_REQMOD01' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_REQ_ID'
+
+2018-04-26 15:33:51 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_REQUESTMODELER' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_REQ_DISPLAY_NM'
+
+2018-04-26 15:33:52 - [MESSAGE][PASSED] - Text 'AUTOMATION_REQUESTMODELER' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_REQ_DISPLAY_NM'
+
+2018-04-26 15:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/label_Admin' is clicked on
+
+2018-04-26 15:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/label_Admin' is clicked on
+
+2018-04-26 15:33:52 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_BUNDLE'
+
+2018-04-26 15:33:52 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/input_BUNDLE'
+
+2018-04-26 15:33:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/label_Public' is clicked on
+
+2018-04-26 15:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/label_Public' is clicked on
+
+2018-04-26 15:33:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'LIBRARY' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_Select LibraryService R'  using regular expression
+
+2018-04-26 15:33:53 - [MESSAGE][PASSED] - All options with value 'LIBRARY' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_Select LibraryService R'  using regular expression
+
+2018-04-26 15:33:53 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION REQUEST MODELER' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/textarea_REQ_DESC'
+
+2018-04-26 15:33:53 - [MESSAGE][PASSED] - Text 'AUTOMATION REQUEST MODELER' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/textarea_REQ_DESC'
+
+2018-04-26 15:33:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/i_flaticon-magnifying-glass2' is clicked on
+
+2018-04-26 15:33:53 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_TEST_AUTOMATION_CONN' is double clicked on
+
+2018-04-26 15:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_TEST_AUTOMATION_CONN' is double clicked on
+
+2018-04-26 15:33:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_TEST_AUTOMATION_CONN' is double clicked on
+
+2018-04-26 15:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_TEST_AUTOMATION_CONN' is double clicked on
+
+2018-04-26 15:33:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_Init'  using regular expression
+
+2018-04-26 15:33:55 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_Init'  using regular expression
+
+2018-04-26 15:33:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_init'  using regular expression
+
+2018-04-26 15:33:55 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_init'  using regular expression
+
+2018-04-26 15:33:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'INIT' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_INIT'  using regular expression
+
+2018-04-26 15:33:56 - [MESSAGE][PASSED] - All options with value 'INIT' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_INIT'  using regular expression
+
+2018-04-26 15:33:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_Approve'  using regular expression
+
+2018-04-26 15:33:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_Approve'  using regular expression
+
+2018-04-26 15:33:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_approve'  using regular expression
+
+2018-04-26 15:33:56 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_approve'  using regular expression
+
+2018-04-26 15:33:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'APPROVE' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_Approve'  using regular expression
+
+2018-04-26 15:33:57 - [MESSAGE][PASSED] - All options with value 'APPROVE' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_Approve'  using regular expression
+
+2018-04-26 15:33:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_View'  using regular expression
+
+2018-04-26 15:33:57 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_Cuser_View'  using regular expression
+
+2018-04-26 15:33:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_view'  using regular expression
+
+2018-04-26 15:33:57 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/Select_SP_view'  using regular expression
+
+2018-04-26 15:33:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'VIEW' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_view'  using regular expression
+
+2018-04-26 15:33:58 - [MESSAGE][PASSED] - All options with value 'VIEW' are selected in object 'Object Repository/Create Request Modeler/Page_Canvas World/select_function_view'  using regular expression
+
+2018-04-26 15:33:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/button_Add Table' is clicked on
+
+2018-04-26 15:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/button_Add Table' is clicked on
+
+2018-04-26 15:33:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table_Filter icon' is clicked on
+
+2018-04-26 15:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table_Filter icon' is clicked on
+
+2018-04-26 15:34:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table_Filter_tablenameSelect' is clicked on
+
+2018-04-26 15:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table_Filter_tablenameSelect' is clicked on
+
+2018-04-26 15:34:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:03 - [TEST_STEP][PASSED] - setText: Text 'USER_ONLINE_REGISTRATION' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/Table_search textbox'
+
+2018-04-26 15:34:03 - [MESSAGE][PASSED] - Text 'USER_ONLINE_REGISTRATION' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/Table_search textbox'
+
+2018-04-26 15:34:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table Search' is clicked on
+
+2018-04-26 15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/Table Search' is clicked on
+
+2018-04-26 15:34:06 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_USER_ONLINE_REGISTER' is double clicked on
+
+2018-04-26 15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_USER_ONLINE_REGISTER' is double clicked on
+
+2018-04-26 15:34:06 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_USER_ONLINE_REGISTER' is double clicked on
+
+2018-04-26 15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/span_USER_ONLINE_REGISTER' is double clicked on
+
+2018-04-26 15:34:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:34:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:34:11 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:11 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2018-04-26 15:34:11 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2018-04-26 15:34:11 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-04-26 15:34:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' successfully
+
+2018-04-26 15:34:14 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-04-26 15:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-04-26 15:34:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'BANK_NAME' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:14 - [MESSAGE][PASSED] - Keys 'BANK_NAME' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:34:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:34:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:17 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:18 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-04-26 15:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn' is focused
+
+2018-04-26 15:34:18 - [TEST_STEP][PASSED] - sendKeys: Keys 'IFSC_CODE' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:18 - [MESSAGE][PASSED] - Keys 'IFSC_CODE' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:34:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:34:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:21 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/SummaryColumn'
+
+2018-04-26 15:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_SAVE_TableSelect' is clicked on
+
+2018-04-26 15:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_SAVE_TableSelect' is clicked on
+
+2018-04-26 15:34:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:24 - [TEST_STEP][PASSED] - setText: Text '{}' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/textarea_VALID_JSON_RULE'
+
+2018-04-26 15:34:24 - [MESSAGE][PASSED] - Text '{}' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/textarea_VALID_JSON_RULE'
+
+2018-04-26 15:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_SAVE' is clicked on
+
+2018-04-26 15:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_SAVE' is clicked on
+
+2018-04-26 15:34:24 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-04-26 15:34:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-04-26 15:34:28 - [TEST_STEP][PASSED] - setText: Text 'PAYMENT_WS' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:29 - [MESSAGE][PASSED] - Text 'PAYMENT_WS' is set on object 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:31 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:31 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:31 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceId_Searchtextbox'
+
+2018-04-26 15:34:31 - [TEST_STEP][NOT_RUN] - selectOptionByIndex: NOT_RUN: selectOptionByIndex
+
+2018-04-26 15:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByIndex
+
+2018-04-26 15:34:31 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:34:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:34:36 - [TEST_STEP][NOT_RUN] - selectOptionByIndex: NOT_RUN: selectOptionByIndex
+
+2018-04-26 15:34:36 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByIndex
+
+2018-04-26 15:34:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceMenuSavebutton' is clicked on
+
+2018-04-26 15:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/WorkspaceMenuSavebutton' is clicked on
+
+2018-04-26 15:34:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:38 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Create Request Modeler/Page_Canvas World/SuccessPopupMessage' are matched.
+
+2018-04-26 15:34:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create Request Modeler/Page_Canvas World/SuccessPopupMessage' are matched.
+
+2018-04-26 15:34:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:34:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:34:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Request Modeler/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Workspace Designer" classname="Test Cases/Studio Smoke Test Cases/Create Workspace Designer" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)"/>
+         <system-out><![CDATA[2018-04-26 15:34:41 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/Create Workspace Designer: Test Cases/Studio Smoke Test Cases/Create Workspace Designer FAILED because (of) Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:34:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:34:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:34:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:34:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Workspace designer' is clicked on
+
+2018-04-26 15:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Workspace designer' is clicked on
+
+2018-04-26 15:34:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:34:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:34:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_Create new' is clicked on
+
+2018-04-26 15:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_Create new' is clicked on
+
+2018-04-26 15:34:44 - [TEST_STEP][FAILED] - setText: Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)
+
+2018-04-26 15:35:16 - [MESSAGE][FAILED] - Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737115684.png]]
+
+2018-04-26 15:35:16 - [TEST_STEP][FAILED] - setText: Unable to set text 'COMMON' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_bundleKey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_bundleKey' located by 'By.xpath: //input[@id = 'inputresbws' and @type = 'text' and @name = 'bundleKey']' not found)
+
+2018-04-26 15:35:48 - [MESSAGE][FAILED] - Unable to set text 'COMMON' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_bundleKey' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_bundleKey' located by 'By.xpath: //input[@id = 'inputresbws' and @type = 'text' and @name = 'bundleKey']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737147765.png]]
+
+2018-04-26 15:35:48 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select             CFF'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select             CFF' located by 'By.xpath: //select[@name = 'workspaceProduct' and (text() = '
+            Select
+             CFF
+             PYMT
+             ACCSER
+             CUSER
+             LQDY
+        ' or . = '
+            Select
+             CFF
+             PYMT
+             ACCSER
+             CUSER
+             LQDY
+        ')]' not found)
+
+2018-04-26 15:36:19 - [MESSAGE][FAILED] - Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select             CFF'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select             CFF' located by 'By.xpath: //select[@name = 'workspaceProduct' and (text() = '
+            Select
+             CFF
+             PYMT
+             ACCSER
+             CUSER
+             LQDY
+        ' or . = '
+            Select
+             CFF
+             PYMT
+             ACCSER
+             CUSER
+             LQDY
+        ')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737179439.png]]
+
+2018-04-26 15:36:19 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_SelectCUSER'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_SelectCUSER' located by 'By.xpath: //select[@name = 'workspaceSubProduct' and (text() = '
+			
+        SelectCUSER' or . = '
+			
+        SelectCUSER')]' not found)
+
+2018-04-26 15:36:51 - [MESSAGE][FAILED] - Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_SelectCUSER'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_SelectCUSER' located by 'By.xpath: //select[@name = 'workspaceSubProduct' and (text() = '
+			
+        SelectCUSER' or . = '
+			
+        SelectCUSER')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737211177.png]]
+
+2018-04-26 15:36:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' located by 'By.xpath: //span[(text() = 'Proceed' or . = 'Proceed')]' not found)
+
+2018-04-26 15:37:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' located by 'By.xpath: //span[(text() = 'Proceed' or . = 'Proceed')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737242814.png]]
+
+2018-04-26 15:37:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:37:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:37:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-addapp-s' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-addapp-s' located by 'By.xpath: id("FOOTER_DIV")/div[@class="modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max wsdesigner-mainbndl in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="ct-modal-content__container"]/div[@class="container-fluid ws-fullcntnt-bundle"]/div[@class="ws-designer-bundle"]/div[@class="ws-deisnger-area"]/div[@class="add-new-sws text-center"]/div[@class="btn-group"]/button[@class="wsfontbtns btn-addapp-sws"]' not found)
+
+2018-04-26 15:37:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-addapp-s' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-addapp-s' located by 'By.xpath: id("FOOTER_DIV")/div[@class="modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max wsdesigner-mainbndl in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="ct-modal-content__container"]/div[@class="container-fluid ws-fullcntnt-bundle"]/div[@class="ws-designer-bundle"]/div[@class="ws-deisnger-area"]/div[@class="add-new-sws text-center"]/div[@class="btn-group"]/button[@class="wsfontbtns btn-addapp-sws"]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737276264.png]]
+
+2018-04-26 15:37:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:37:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:37:58 - [TEST_STEP][FAILED] - setText: Unable to set text 'AUTOMATION_SWS' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_subWorkspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_subWorkspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtsws' and @type = 'text' and @name = 'subWorkspaceDisplayName']' not found)
+
+2018-04-26 15:38:30 - [MESSAGE][FAILED] - Unable to set text 'AUTOMATION_SWS' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_subWorkspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_subWorkspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtsws' and @type = 'text' and @name = 'subWorkspaceDisplayName']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737310101.png]]
+
+2018-04-26 15:38:30 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select' located by 'By.xpath: //select[@name = 'subWorkspaceProduct' and (text() = '
+            Select
+             	 	
+             		 CFF
+             
+             	 	
+             		 PYMT
+             
+             	 	
+             		 ACCSER
+             
+             	 	
+             		 CUSER
+             
+             	 	
+             		 LQDY
+             
+        ' or . = '
+            Select
+             	 	
+             		 CFF
+             
+             	 	
+             		 PYMT
+             
+             	 	
+             		 ACCSER
+             
+             	 	
+             		 CUSER
+             
+             	 	
+             		 LQDY
+             
+        ')]' not found)
+
+2018-04-26 15:39:02 - [MESSAGE][FAILED] - Unable to select option by value 'CUSER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/select_Select' located by 'By.xpath: //select[@name = 'subWorkspaceProduct' and (text() = '
+            Select
+             	 	
+             		 CFF
+             
+             	 	
+             		 PYMT
+             
+             	 	
+             		 ACCSER
+             
+             	 	
+             		 CUSER
+             
+             	 	
+             		 LQDY
+             
+        ' or . = '
+            Select
+             	 	
+             		 CFF
+             
+             	 	
+             		 PYMT
+             
+             	 	
+             		 ACCSER
+             
+             	 	
+             		 CUSER
+             
+             	 	
+             		 LQDY
+             
+        ')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737341732.png]]
+
+2018-04-26 15:39:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' located by 'By.xpath: //span[(text() = 'Proceed' or . = 'Proceed')]' not found)
+
+2018-04-26 15:39:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Proceed' located by 'By.xpath: //span[(text() = 'Proceed' or . = 'Proceed')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737373277.png]]
+
+2018-04-26 15:39:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-lookup-s' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-lookup-s' located by 'By.xpath: id("FOOTER_DIV")/div[@class="modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max wsdesigner-mainbndl in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="ct-modal-content__container"]/div[@class="container-fluid ws-fullcntnt-bundle"]/div[@class="ws-designer-bundle"]/div[@class="ws-deisnger-area"]/div[@class="subws-container"]/button[@class="wsfontbtns btn-lookup-sws"]' not found)
+
+2018-04-26 15:40:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-lookup-s' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-lookup-s' located by 'By.xpath: id("FOOTER_DIV")/div[@class="modal fade modal-fullscreen force-fullscreen ct-modal ct-modal__max wsdesigner-mainbndl in"]/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="ct-modal-content__container"]/div[@class="container-fluid ws-fullcntnt-bundle"]/div[@class="ws-designer-bundle"]/div[@class="ws-deisnger-area"]/div[@class="subws-container"]/button[@class="wsfontbtns btn-lookup-sws"]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737405004.png]]
+
+2018-04-26 15:40:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:40:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:40:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_CHART_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_CHART_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_CHART_APP
+				' or . = '
+							
+							AUTOMATION_CHART_APP
+				')]' not found)
+
+2018-04-26 15:40:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_CHART_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_CHART_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_CHART_APP
+				' or . = '
+							
+							AUTOMATION_CHART_APP
+				')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737438543.png]]
+
+2018-04-26 15:40:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:40:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:40:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_SHORTCUT_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_SHORTCUT_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_SHORTCUT_APP
+				' or . = '
+							
+							AUTOMATION_SHORTCUT_APP
+				')]' not found)
+
+2018-04-26 15:41:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_SHORTCUT_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_SHORTCUT_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_SHORTCUT_APP
+				' or . = '
+							
+							AUTOMATION_SHORTCUT_APP
+				')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737472057.png]]
+
+2018-04-26 15:41:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:41:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:41:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_GRID_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_GRID_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_GRID_APP
+				' or . = '
+							
+							AUTOMATION_GRID_APP
+				')]' not found)
+
+2018-04-26 15:41:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_GRID_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_GRID_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_GRID_APP
+				' or . = '
+							
+							AUTOMATION_GRID_APP
+				')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737505677.png]]
+
+2018-04-26 15:41:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:41:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:41:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_FORM_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_FORM_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_FORM_APP
+				' or . = '
+							
+							AUTOMATION_FORM_APP
+				')]' not found)
+
+2018-04-26 15:42:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_FORM_APP' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/label_AUTOMATION_FORM_APP' located by 'By.xpath: //label[(text() = '
+							
+							AUTOMATION_FORM_APP
+				' or . = '
+							
+							AUTOMATION_FORM_APP
+				')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737539265.png]]
+
+2018-04-26 15:42:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Add' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Add' located by 'By.xpath: //span[(text() = 'Add' or . = 'Add')]' not found)
+
+2018-04-26 15:42:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Add' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/span_Add' located by 'By.xpath: //span[(text() = 'Add' or . = 'Add')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737570813.png]]
+
+2018-04-26 15:42:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-sws-save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-sws-save' located by 'By.xpath: //span[@class='animhover pull-right']//button[@class='wsfontbtns btn-sws-save']' not found)
+
+2018-04-26 15:43:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-sws-save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/button_wsfontbtns btn-sws-save' located by 'By.xpath: //span[@class='animhover pull-right']//button[@class='wsfontbtns btn-sws-save']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737602267.png]]
+
+2018-04-26 15:43:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:43:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:43:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)
+
+2018-04-26 15:43:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' located by 'By.xpath: //a[(text() = 'Ok' or . = 'Ok')]' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737636010.png]]
+
+2018-04-26 15:43:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/WorkspaceDesigner_closeicon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/WorkspaceDesigner_closeicon' located by 'By.xpath: //button[@class='flaticon-close flaticon-modal-close']' not found)
+
+2018-04-26 15:44:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/WorkspaceDesigner_closeicon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/WorkspaceDesigner_closeicon' located by 'By.xpath: //button[@class='flaticon-close flaticon-modal-close']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737667626.png]]
+
+2018-04-26 15:44:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/WSD_closedialog_OKbutton' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/WSD_closedialog_OKbutton' located by 'By.xpath: .//a[@data-item-id='dialogBtnOk']' not found)
+
+2018-04-26 15:44:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Workspace Designer/Page_Canvas World/WSD_closedialog_OKbutton' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/WSD_closedialog_OKbutton' located by 'By.xpath: .//a[@data-item-id='dialogBtnOk']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737699135.png]]
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[2018-04-26 15:34:41 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/Create Workspace Designer: Test Cases/Studio Smoke Test Cases/Create Workspace Designer FAILED because (of) Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/Create Workspace" classname="Test Cases/Studio Smoke Test Cases/Create Workspace" status="PASSED">
+         <system-out><![CDATA[2018-04-26 15:44:59 - [TEST_CASE][PASSED] - Test Cases/Studio Smoke Test Cases/Create Workspace: Test Cases/Studio Smoke Test Cases/Create Workspace
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-04-26 15:44:59 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:44:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:44:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_Initiate' is clicked on
+
+2018-04-26 15:44:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_Create New Canvas' is clicked on
+
+2018-04-26 15:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_Create New Canvas' is clicked on
+
+2018-04-26 15:44:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:45:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:45:01 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_WORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_ID'
+
+2018-04-26 15:45:02 - [MESSAGE][PASSED] - Text 'AUTOMATION_WORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_ID'
+
+2018-04-26 15:45:02 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_WORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_NM_KEY'
+
+2018-04-26 15:45:03 - [MESSAGE][PASSED] - Text 'AUTOMATION_WORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_NM_KEY'
+
+2018-04-26 15:45:03 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_RB'
+
+2018-04-26 15:45:03 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_RB'
+
+2018-04-26 15:45:03 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_POSITION'
+
+2018-04-26 15:45:03 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_WS_POSITION'
+
+2018-04-26 15:45:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:45:03 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CFFPYMTACCSERCUS'  using regular expression
+
+2018-04-26 15:45:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:45:04 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CUSER'  using regular expression
+
+2018-04-26 15:45:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'STACK' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select L-MENUR-MENUSTAC'  using regular expression
+
+2018-04-26 15:45:04 - [MESSAGE][PASSED] - All options with value 'STACK' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select L-MENUR-MENUSTAC'  using regular expression
+
+2018-04-26 15:45:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Create a Sub Workspace' is clicked on
+
+2018-04-26 15:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Create a Sub Workspace' is clicked on
+
+2018-04-26 15:45:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:45:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:45:07 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SUBWORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_ID'
+
+2018-04-26 15:45:08 - [MESSAGE][PASSED] - Text 'AUTOMATION_SUBWORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_ID'
+
+2018-04-26 15:45:08 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SUBWORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_NM_KEY'
+
+2018-04-26 15:45:08 - [MESSAGE][PASSED] - Text 'AUTOMATION_SUBWORKSPACE' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_NM_KEY'
+
+2018-04-26 15:45:08 - [TEST_STEP][PASSED] - setText: Text 'COMMON' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_RB'
+
+2018-04-26 15:45:09 - [MESSAGE][PASSED] - Text 'COMMON' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_SUBWS_RB'
+
+2018-04-26 15:45:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CFFPYMTACCSERCUS_1'  using regular expression
+
+2018-04-26 15:45:09 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CFFPYMTACCSERCUS_1'  using regular expression
+
+2018-04-26 15:45:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CUSER_1'  using regular expression
+
+2018-04-26 15:45:09 - [MESSAGE][PASSED] - All options with value 'CUSER' are selected in object 'Object Repository/Create Workspace/Page_Canvas World/select_Select CUSER_1'  using regular expression
+
+2018-04-26 15:45:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:45:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:45:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:45:14 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:14 - [MESSAGE][PASSED] - Text 'AUTOMATION_GRID_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:14 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_GRID_APP' is double clicked on
+
+2018-04-26 15:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_GRID_APP' is double clicked on
+
+2018-04-26 15:45:15 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_GRID_APP' is double clicked on
+
+2018-04-26 15:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_GRID_APP' is double clicked on
+
+2018-04-26 15:45:15 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:15 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:15 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-26 15:45:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-26 15:45:25 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clickable
+
+2018-04-26 15:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clickable
+
+2018-04-26 15:45:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:27 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:28 - [MESSAGE][PASSED] - Text 'AUTOMATION_CHART_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_CHART_APP' is double clicked on
+
+2018-04-26 15:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_CHART_APP' is double clicked on
+
+2018-04-26 15:45:28 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_CHART_APP' is double clicked on
+
+2018-04-26 15:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_CHART_APP' is double clicked on
+
+2018-04-26 15:45:28 - [TEST_STEP][NOT_RUN] - verifyElementClickable: NOT_RUN: verifyElementClickable
+
+2018-04-26 15:45:28 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementClickable
+
+2018-04-26 15:45:28 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:28 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:28 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:28 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:28 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-26 15:45:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-26 15:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:40 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:41 - [MESSAGE][PASSED] - Text 'AUTOMATION_FORM_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:41 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_FORM_APP' is double clicked on
+
+2018-04-26 15:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_FORM_APP' is double clicked on
+
+2018-04-26 15:45:42 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_FORM_APP' is double clicked on
+
+2018-04-26 15:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_FORM_APP' is double clicked on
+
+2018-04-26 15:45:42 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:42 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:42 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:42 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:42 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-26 15:45:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-26 15:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_Add Child App' is clicked on
+
+2018-04-26 15:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_ct-app__tools flaticon-fi' is clicked on
+
+2018-04-26 15:45:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/a_App ID' is clicked on
+
+2018-04-26 15:45:53 - [TEST_STEP][PASSED] - setText: Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:54 - [MESSAGE][PASSED] - Text 'AUTOMATION_SHORTCUT_APP' is set on object 'Object Repository/Create Workspace/Page_Canvas World/input_string_contains'
+
+2018-04-26 15:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/button_SEARCH' is clicked on
+
+2018-04-26 15:45:54 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_SHORTCUT_APP' is double clicked on
+
+2018-04-26 15:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_SHORTCUT_APP' is double clicked on
+
+2018-04-26 15:45:55 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_SHORTCUT_APP' is double clicked on
+
+2018-04-26 15:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/span_AUTOMATION_SHORTCUT_APP' is double clicked on
+
+2018-04-26 15:45:55 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:55 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-04-26 15:45:55 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:55 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2018-04-26 15:45:55 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2018-04-26 15:45:55 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2018-04-26 15:45:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-26 15:46:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-26 15:46:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/sws_Submit' is clicked on
+
+2018-04-26 15:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/sws_Submit' is clicked on
+
+2018-04-26 15:46:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-26 15:46:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-26 15:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-04-26 15:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace/Page_Canvas World/WS_Submit' is clicked on
+
+2018-04-26 15:46:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:46:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Workspace Designer/Page_Canvas World/a_Ok' is clicked on
+
+2018-04-26 15:46:13 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:46:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:46:13 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-04-26 15:46:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-04-26 15:46:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-26 15:46:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation" classname="Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default' located by 'By.xpath: //div[@class='col-md-12 ct-al__wslink-txt ct-al__wslink-txt-tm ct-al-card__wslink-txt ct-al-card__wslink-txt-tm'][contains(text(),'AUTO_WS_DESIGNER')]' not found"/>
+         <system-out><![CDATA[2018-04-26 15:46:15 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation: Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default' located by 'By.xpath: //div[@class='col-md-12 ct-al__wslink-txt ct-al__wslink-txt-tm ct-al-card__wslink-txt ct-al-card__wslink-txt-tm'][contains(text(),'AUTO_WS_DESIGNER')]' not found
+
+2018-04-26 15:46:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-26 15:46:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-26 15:46:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-04-26 15:46:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/cacheReset.jsp' successfully
+
+2018-04-26 15:46:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:46:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:46:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-26 15:46:24 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-26 15:46:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-26 15:46:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-26 15:46:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-26 15:46:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 15:46:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-04-26 15:46:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8082/ctmodelhouse/' successfully
+
+2018-04-26 15:46:29 - [TEST_STEP][PASSED] - setText: Text 'terrim' is set on object 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_ctLoginID'
+
+2018-04-26 15:46:29 - [MESSAGE][PASSED] - Text 'terrim' is set on object 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_ctLoginID'
+
+2018-04-26 15:46:29 - [TEST_STEP][PASSED] - setText: Text 'canvas' is set on object 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_loginPSW'
+
+2018-04-26 15:46:30 - [MESSAGE][PASSED] - Text 'canvas' is set on object 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_loginPSW'
+
+2018-04-26 15:46:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_commit' is clicked on
+
+2018-04-26 15:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Welcome to Canvas Technology/input_commit' is clicked on
+
+2018-04-26 15:46:32 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default), "AUTO_WS_DESIGNER")): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default' located by 'By.xpath: //div[@class='col-md-12 ct-al__wslink-txt ct-al__wslink-txt-tm ct-al-card__wslink-txt ct-al-card__wslink-txt-tm'][contains(text(),'AUTO_WS_DESIGNER')]' not found
+
+2018-04-26 15:47:04 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default' located by 'By.xpath: //div[@class='col-md-12 ct-al__wslink-txt ct-al__wslink-txt-tm ct-al-card__wslink-txt ct-al-card__wslink-txt-tm'][contains(text(),'AUTO_WS_DESIGNER')]' not found
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737824066.png]]
+
+2018-04-26 15:47:04 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2018-04-26 15:47:04 - [TEST_STEP][PASSED] - Statement - println("Workspace is not displayed in the Modelhouse"): null
+
+2018-04-26 15:47:04 - [TEST_STEP][FAILED] - verifyElementText: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_CHART_APP']' not found
+
+2018-04-26 15:47:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_CHART_APP']' not found
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737855972.png]]
+
+2018-04-26 15:47:36 - [TEST_STEP][FAILED] - verifyElementText: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_1' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_SHORTCUT_APP']' not found
+
+2018-04-26 15:48:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_1' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_SHORTCUT_APP']' not found
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737887791.png]]
+
+2018-04-26 15:48:08 - [TEST_STEP][FAILED] - verifyElementText: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_2' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_GRID_APP']' not found
+
+2018-04-26 15:48:40 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_2' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_GRID_APP']' not found
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737919648.png]]
+
+2018-04-26 15:48:40 - [TEST_STEP][FAILED] - verifyElementText: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_3' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_FORM_APP']' not found
+
+2018-04-26 15:49:12 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_clearfix_3' located by 'By.xpath: .//h3[@data-widgetid='AUTOMATION_FORM_APP']' not found
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524737951641.png]]
+
+2018-04-26 15:49:12 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-04-26 15:49:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-04-26 15:49:22 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 500, y = 500
+
+2018-04-26 15:49:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 500
+
+2018-04-26 15:49:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:49:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:49:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Canvas Technology/Logo icon' is clicked on
+
+2018-04-26 15:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Canvas Technology/Logo icon' is clicked on
+
+2018-04-26 15:49:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:49:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:49:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Canvas Technology/PaymentWorkspace' is clicked on
+
+2018-04-26 15:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Canvas Technology/PaymentWorkspace' is clicked on
+
+2018-04-26 15:49:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:49:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:49:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Canvas Technology/RequestModelerMenu' is clicked on
+
+2018-04-26 15:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Canvas Technology/RequestModelerMenu' is clicked on
+
+2018-04-26 15:49:28 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-04-26 15:49:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-04-26 15:49:32 - [TEST_STEP][PASSED] - setText: Text 'MUGUN' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Username'
+
+2018-04-26 15:49:34 - [MESSAGE][PASSED] - Text 'MUGUN' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Username'
+
+2018-04-26 15:49:34 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Password'
+
+2018-04-26 15:49:34 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Password'
+
+2018-04-26 15:49:34 - [TEST_STEP][PASSED] - setText: Text 'TEST123' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Confirmpassword'
+
+2018-04-26 15:49:35 - [MESSAGE][PASSED] - Text 'TEST123' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Confirmpassword'
+
+2018-04-26 15:49:35 - [TEST_STEP][PASSED] - setText: Text 'TESTACC12345' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/AccountId'
+
+2018-04-26 15:49:35 - [MESSAGE][PASSED] - Text 'TESTACC12345' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/AccountId'
+
+2018-04-26 15:49:35 - [TEST_STEP][PASSED] - setText: Text 'MUGUNTHAN' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Namefield'
+
+2018-04-26 15:49:35 - [MESSAGE][PASSED] - Text 'MUGUNTHAN' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Namefield'
+
+2018-04-26 15:49:35 - [TEST_STEP][PASSED] - setText: Text 'TEST@GMAIL.COM' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Emailfield'
+
+2018-04-26 15:49:36 - [MESSAGE][PASSED] - Text 'TEST@GMAIL.COM' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Emailfield'
+
+2018-04-26 15:49:36 - [TEST_STEP][PASSED] - setText: Text '0987654321' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Phone'
+
+2018-04-26 15:49:36 - [MESSAGE][PASSED] - Text '0987654321' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Phone'
+
+2018-04-26 15:49:36 - [TEST_STEP][PASSED] - setText: Text 'MALE' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Gender'
+
+2018-04-26 15:49:36 - [MESSAGE][PASSED] - Text 'MALE' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Gender'
+
+2018-04-26 15:49:36 - [TEST_STEP][PASSED] - setText: Text 'CHENNAI' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Address'
+
+2018-04-26 15:49:37 - [MESSAGE][PASSED] - Text 'CHENNAI' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Address'
+
+2018-04-26 15:49:37 - [TEST_STEP][FAILED] - setText: Unable to set text '654321' of object 'Object Repository/Model House Application/Page_Canvas Technology/zipcode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/zipcode' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-ZIP_CODE']' not found)
+
+2018-04-26 15:50:08 - [MESSAGE][FAILED] - Unable to set text '654321' of object 'Object Repository/Model House Application/Page_Canvas Technology/zipcode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/zipcode' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-ZIP_CODE']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738008496.png]]
+
+2018-04-26 15:50:08 - [TEST_STEP][FAILED] - setText: Unable to set text 'INDIA' of object 'Object Repository/Model House Application/Page_Canvas Technology/Country' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Country' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-COUNTRY']' not found)
+
+2018-04-26 15:50:40 - [MESSAGE][FAILED] - Unable to set text 'INDIA' of object 'Object Repository/Model House Application/Page_Canvas Technology/Country' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Country' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-COUNTRY']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738040440.png]]
+
+2018-04-26 15:50:40 - [TEST_STEP][FAILED] - setText: Unable to set text 'HDFC' of object 'Object Repository/Model House Application/Page_Canvas Technology/Bankname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Bankname' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-BANK_NAME']' not found)
+
+2018-04-26 15:51:12 - [MESSAGE][FAILED] - Unable to set text 'HDFC' of object 'Object Repository/Model House Application/Page_Canvas Technology/Bankname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Bankname' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-BANK_NAME']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738072298.png]]
+
+2018-04-26 15:51:12 - [TEST_STEP][FAILED] - setText: Unable to set text 'OMR' of object 'Object Repository/Model House Application/Page_Canvas Technology/Branchname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Branchname' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-BRANCH_NAME']' not found)
+
+2018-04-26 15:51:44 - [MESSAGE][FAILED] - Unable to set text 'OMR' of object 'Object Repository/Model House Application/Page_Canvas Technology/Branchname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Branchname' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-BRANCH_NAME']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738104137.png]]
+
+2018-04-26 15:51:44 - [TEST_STEP][FAILED] - setText: Unable to set text 'OMR12345' of object 'Object Repository/Model House Application/Page_Canvas Technology/IfscCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/IfscCode' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-IFSC_CODE']' not found)
+
+2018-04-26 15:52:16 - [MESSAGE][FAILED] - Unable to set text 'OMR12345' of object 'Object Repository/Model House Application/Page_Canvas Technology/IfscCode' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/IfscCode' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-IFSC_CODE']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738136008.png]]
+
+2018-04-26 15:52:16 - [TEST_STEP][FAILED] - setText: Unable to set text 'YES' of object 'Object Repository/Model House Application/Page_Canvas Technology/AddNominee' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/AddNominee' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-ADD_NOMINEE']' not found)
+
+2018-04-26 15:52:48 - [MESSAGE][FAILED] - Unable to set text 'YES' of object 'Object Repository/Model House Application/Page_Canvas Technology/AddNominee' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/AddNominee' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-ADD_NOMINEE']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738167903.png]]
+
+2018-04-26 15:52:48 - [TEST_STEP][FAILED] - setText: Unable to set text 'TESTNOMINEE' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineename' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineename' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-NOMINEE_NAME']' not found)
+
+2018-04-26 15:53:20 - [MESSAGE][FAILED] - Unable to set text 'TESTNOMINEE' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineename' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineename' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-NOMINEE_NAME']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738199871.png]]
+
+2018-04-26 15:53:20 - [TEST_STEP][FAILED] - setText: Unable to set text 'NO' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeminor' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeminor' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-IS_NOMINEE_MINOR']' not found)
+
+2018-04-26 15:53:52 - [MESSAGE][FAILED] - Unable to set text 'NO' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeminor' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeminor' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-IS_NOMINEE_MINOR']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738231721.png]]
+
+2018-04-26 15:53:52 - [TEST_STEP][FAILED] - setText: Unable to set text 'FATHER' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineerelationship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineerelationship' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-RELATIONSHIP']' not found)
+
+2018-04-26 15:54:23 - [MESSAGE][FAILED] - Unable to set text 'FATHER' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineerelationship' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineerelationship' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-RELATIONSHIP']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738263597.png]]
+
+2018-04-26 15:54:23 - [TEST_STEP][FAILED] - setText: Unable to set text 'CHENNAI' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeaddress' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeaddress' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-NOMINEE_ADDRESS']' not found)
+
+2018-04-26 15:54:55 - [MESSAGE][FAILED] - Unable to set text 'CHENNAI' of object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeaddress' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/Nomineeaddress' located by 'By.xpath: .//input[@id='AUTO_REQMOD01_FORM-NOMINEE_ADDRESS']' not found)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738295324.png]]
+
+2018-04-26 15:54:55 - [TEST_STEP][PASSED] - setText: Text 'PAN9876543' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineepancard'
+
+2018-04-26 15:54:55 - [MESSAGE][PASSED] - Text 'PAN9876543' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/Nomineepancard'
+
+2018-04-26 15:54:55 - [TEST_STEP][PASSED] - setText: Text 'FRR43RTY65EW' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/NomineeSSN'
+
+2018-04-26 15:54:56 - [MESSAGE][PASSED] - Text 'FRR43RTY65EW' is set on object 'Object Repository/Model House Application/Page_Canvas Technology/NomineeSSN'
+
+2018-04-26 15:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Canvas Technology/InitSubmit' is clicked on
+
+2018-04-26 15:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Canvas Technology/InitSubmit' is clicked on
+
+2018-04-26 15:54:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-26 15:54:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-26 15:54:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 500, y = 500
+
+2018-04-26 15:54:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 500
+
+2018-04-26 15:54:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Model House Application/Page_Canvas Technology/InitSubmitConfirmation' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a data-item-id="REQ_MODEL_INIT|SUBMIT" data-item-type="formCont_button" class="btn btn-default ct_btn ct-left-btn REQ_MODEL_INIT|SUBMIT">...</a> is not clickable at point (87, 567). Other element would receive the click: <div data-modal-id="modalId-2" data-dialog-type="modal-Dialog" class="modal fade  ct-modal ct-modal__max in" data-backdrop="static" data-keyboard="" data-item-id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-fullscreenind="false">...</div>
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9287', ip: '172.29.24.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MUGUNT~1.DEV\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: c75cdedf6c8d44f6e0d31e0c455f9b58)
+
+2018-04-26 15:54:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Model House Application/Page_Canvas Technology/InitSubmitConfirmation' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a data-item-id="REQ_MODEL_INIT|SUBMIT" data-item-type="formCont_button" class="btn btn-default ct_btn ct-left-btn REQ_MODEL_INIT|SUBMIT">...</a> is not clickable at point (87, 567). Other element would receive the click: <div data-modal-id="modalId-2" data-dialog-type="modal-Dialog" class="modal fade  ct-modal ct-modal__max in" data-backdrop="static" data-keyboard="" data-item-id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-fullscreenind="false">...</div>
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'N9287', ip: '172.29.24.97', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\MUGUNT~1.DEV\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: c75cdedf6c8d44f6e0d31e0c455f9b58)
+[[ATTACHMENT|D:\\KATALON_STUDIO\\Studio Smoke Test\\Reports\\Smoke Test Suite\\20180426_152907\\1524738299592.png]]
+
+2018-04-26 15:54:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 15:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 15:55:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Model House Application/Page_Canvas Technology/Confirmation OK button' is clicked on
+
+2018-04-26 15:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Model House Application/Page_Canvas Technology/Confirmation OK button' is clicked on
+
+2018-04-26 15:55:02 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-04-26 15:55:02 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[2018-04-26 15:46:15 - [TEST_CASE][FAILED] - Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation: Test Cases/Studio Smoke Test Cases/ModelHouse Application Validation FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Model House Application/Page_Canvas Technology/div_col-md-12 flaticon-default' located by 'By.xpath: //div[@class='col-md-12 ct-al__wslink-txt ct-al__wslink-txt-tm ct-al-card__wslink-txt ct-al-card__wslink-txt-tm'][contains(text(),'AUTO_WS_DESIGNER')]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-26 15:29:10 - [TEST_SUITE][FAILED] - Smoke Test Suite: Test Cases/Studio Smoke Test Cases/Create Workspace Designer FAILED because (of) Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-26 15:29:10 - [TEST_SUITE][FAILED] - Smoke Test Suite: Test Cases/Studio Smoke Test Cases/Create Workspace Designer FAILED because (of) Unable to set text 'AUTO_WS_DESIGNER' of object 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Workspace Designer/Page_Canvas World/input_workspaceDisplayName' located by 'By.xpath: //input[@id = 'inputtxtws' and @type = 'text' and @name = 'workspaceDisplayName']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

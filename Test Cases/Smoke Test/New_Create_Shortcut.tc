@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New_Create_Shortcut</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6007aac5-c85e-426e-b0ef-027a25ad1ea4</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7b37a71c-2385-4e6e-a844-666a6cf15e57</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>
