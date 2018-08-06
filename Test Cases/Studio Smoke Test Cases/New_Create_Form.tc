@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New_Create_Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>990098f1-0d6d-46c6-9774-b1ad552c5e73</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b80a8f72-9d1b-4976-88a8-9b62757d6d05</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>
